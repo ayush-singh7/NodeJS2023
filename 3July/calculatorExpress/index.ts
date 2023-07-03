@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import bodyParser from 'body-parser';
 import express from "express";
 import { Division, Exponent, Log, Modulo, Multiply, Subtract, Sum } from "./controllers/calculator";
+import { middleware } from "./middlewares/demo";
 
 dotenv.config();
 
@@ -10,19 +11,34 @@ const app:Application = express();
 
 const port = process.env.PORT;
 
-app.post('/sum',bodyParser.json(), Sum);
+app.use(bodyParser.json())
+app.post('/sum', Sum);
 
-app.post('/subtract',bodyParser.json(), Subtract);
+app.post('/subtract', Subtract);
 
-app.post('/multiply',bodyParser.json(), Multiply);
+app.post('/multiply', Multiply);
 
-app.post('/division',bodyParser.json() ,Division);
+app.post('/division', Division);
 
-app.post('/modulo',bodyParser.json() ,Modulo);
+app.post('/modulo',Modulo);
 
-app.post('/exponent',bodyParser.json() ,Exponent);
+app.post('/exponent' ,Exponent);
 
-app.post('/log',bodyParser.json() ,Log);
+app.post('/log' ,Log);
+
+
+
+
+// Harish Sir Task
+app.post('/middle',[middleware.sentenceCase, middleware.emptyStringCheck],(req:any,res:any)=>{
+
+  try{
+    res.send(req.body);
+  }catch(e){
+    console.log(e,"ERRROROR");  
+  }
+  
+})
 
 
 app.listen(port, () => {
