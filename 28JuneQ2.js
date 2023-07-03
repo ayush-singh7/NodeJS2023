@@ -3,6 +3,12 @@
 // use let and const avoid var
 
 
+console.log(digit);
+var digit = 10;
+
+console.log(digit2);
+let digit2 = 20;
+
 
 if(1){
     var x = 'ayush';
