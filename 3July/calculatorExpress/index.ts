@@ -12,6 +12,7 @@ const app:Application = express();
 const port = process.env.PORT;
 
 app.use(bodyParser.json())
+
 app.post('/sum', Sum);
 
 app.post('/subtract', Subtract);
