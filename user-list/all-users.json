@@ -1,0 +1,29 @@
+[
+    {
+        "first_name": "mnm",
+        "last_name": "ma",
+        "email": "jack@gmail.com",
+        "dob": "2009-01-01",
+        "gender": "M",
+        "password": "aush2asdf",
+        "id": "25433b7e-1f2f-4c44-b1a9-a093ee1634a1"
+    },
+    {
+        "first_name": "SUnil",
+        "last_name": "Chetri",
+        "email": "leo@gmail.com",
+        "dob": "1987-12-12",
+        "gender": "M",
+        "password": "aush2asdf",
+        "id": "e46fbc85-dd5c-48c7-bff5-7bdd8afafc17"
+    },
+    {
+        "first_name": "Leo",
+        "last_name": "Messi",
+        "email": "leo@gmail.com",
+        "dob": "1987-12-12",
+        "gender": "F",
+        "password": "aush2asdf",
+        "id": "fe70a37c-3635-4671-8bd3-bbe649d5b641"
+    }
+]
