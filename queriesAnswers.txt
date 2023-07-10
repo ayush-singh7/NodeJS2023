@@ -1,0 +1,5 @@
+1.Find all the comments for the photo with ID = 3, along with the username of the comment author
+SELECT c.contents,u.username FROM comments c JOIN users u on u.id=c.user_id WHERE c.photo_id=3;
+
+2.Find the average number of comments per photo
+SELECT (SELECT COUNT(contents) FROM comments)/COUNT(photo_id) as avg_comment_per_photo FROM comments GROUP BY photo_id;
