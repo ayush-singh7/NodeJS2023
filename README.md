@@ -1,26 +1,32 @@
 # NodeJS2023
 DOCUMENTATION:
+
 // REQUIREMENT 1
+
 // ENDPOINT: /register
+
 // METHOD: POST 
+
 // payload:
 // {
 //     "email":"jackma@gmail.com",
 //     "password": "jack123",
 //     "username":"jackie"
-
 // }
 
 
 // REQUIREMENT 2
 
 // ENDPOINT: /login
+
 // METHOD: POST 
+
 // payload:
 // {
 //     "email":"jackma@gmail.com",
 //     "password": "jack123",
 // }
+
 // RESPONSE: jwt token
 
 
@@ -28,8 +34,11 @@ DOCUMENTATION:
 //AFTER HERE ALL ROUTES are authenticated using x-access-token
 
 // REQUIREMENT 3
+
 // ENDPOINT: /create-chat
+
 // METHOD: POST
+
 // payload: 
 // {
 //     "participant_1":"jack@gmail.com",
@@ -38,8 +47,11 @@ DOCUMENTATION:
 
 
 // REQUIREMENT 4
+
 // ENDPOINT: /send-message
+
 // METHOD: POST
+
 // payload: 
 // {
 //     "to_email":"ayush@gmail.com",
@@ -48,14 +60,20 @@ DOCUMENTATION:
 // }
 
 // REQUIREMENT 5
+
 // ENDPOINT: /rooms
+
 // METHOD: DELETE
+
 // queryparams: room_id:B52
 
 
 // REQUIREMENT 5
+
 // ENDPOINT: /chats
+
 // METHOD: GET
+
 // query params:{
 // page: 1, size:5
 // }
