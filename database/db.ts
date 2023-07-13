@@ -11,9 +11,12 @@ async function connectDB() {
 
     await sequelize.authenticate();
     console.log("✅ Connection has been established successfully.");
+    await sequelize.sync();
+    console.log("CONNECTION has been synced");
+    
   } catch (error) {
     console.error("Unable to connect to the database:", error);
   }
 }
 
-export { connectDB, sequelize, Sequelize, DataTypes };
+export { connectDB, sequelize,  DataTypes };

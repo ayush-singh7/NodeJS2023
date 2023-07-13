@@ -17,5 +17,7 @@ export const verifyToken = (req:Request, res:Response, next:any) => {
       return res.status(401).send("Invalid Token");
     }
     return next();
-  };
   
+    
+  
+  };

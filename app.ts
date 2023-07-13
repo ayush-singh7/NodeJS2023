@@ -7,7 +7,7 @@ app.use(express.json())
 
 
 app.listen(4100,()=>{
-    console.log("listening at 3800");   
+    console.log("listening at 4100");   
     routes(app); 
     connectDB()
 })

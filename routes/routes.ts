@@ -1,7 +1,7 @@
 import { Application } from "express";
 import { Login, RegisterUser } from "../controllers/onboarding";
 import { verifyToken } from "../middlewares/authorisation";
-import { FetchChat } from "../controllers/chat-controllers";
+import { CreateChat, DeleteChat, FetchChat, SendChat } from "../controllers/chat-controllers";
 
 export default function routes(app:Application){
 
@@ -10,10 +10,12 @@ export default function routes(app:Application){
     
     app.post("/register", RegisterUser);
 
-    app.get("/rooms", verifyToken, FetchChat)
+    app.get("/chats", verifyToken, FetchChat)
 
-    // app.post("/read", Read);
+    app.post("/send-message",verifyToken ,SendChat);
 
-    // app.delete("/delete/:id",Delete)
+    app.post("/create-chat",verifyToken,CreateChat);
+
+    app.delete("/rooms",verifyToken,DeleteChat)
 
 }
