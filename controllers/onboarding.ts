@@ -1,6 +1,8 @@
 import { Request, Response } from "express";
 import jwt from 'jsonwebtoken';
 import dotenv from "dotenv"
+import UserModel from "../models/note-model";
+// import { Sequelize } from "sequelize";
 dotenv.config()
 
 const key = 'ayush';
@@ -20,12 +22,29 @@ export const Login = (req:Request,res:Response)=>{
 
 export const RegisterUser = async(req:Request,res:Response) =>{
     try{
-        
+        const {email, password, username, room_id } = req.body;
         // const { error } = await registerSchema.validateAsync(req.body);
+        
 
-        let uuid = self.crypto.randomUUID();
-        req.body.id = uuid;
+        // req.body.id = uuid;
 
+         UserModel.create({
+            id:99,
+            email:email,
+            password:password,
+            username:username,
+            room_id:room_id
+        }).then((res)=>{
+            console.log(res,"GOOD");
+            
+        }).catch((err)=>{
+            console.log(err,"BAD");
+            
+        })
+
+
+
+        
         
         
         
@@ -34,5 +53,8 @@ export const RegisterUser = async(req:Request,res:Response) =>{
         res.send(details);
     }
     
-
 }
+
+
+
+

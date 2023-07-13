@@ -6,7 +6,7 @@ const app:Application = express()
 app.use(express.json())
 
 
-app.listen(3800,()=>{
+app.listen(4100,()=>{
     console.log("listening at 3800");   
     routes(app); 
     connectDB()

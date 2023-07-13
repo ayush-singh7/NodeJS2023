@@ -1,5 +1,5 @@
 import { Application } from "express";
-import { Login } from "../controllers/onboarding";
+import { Login, RegisterUser } from "../controllers/onboarding";
 import { verifyToken } from "../middlewares/authorisation";
 import { FetchChat } from "../controllers/chat-controllers";
 
@@ -7,10 +7,10 @@ export default function routes(app:Application){
 
 
     app.post('/login',Login)
+    
+    app.post("/register", RegisterUser);
 
-    app.get("/get", verifyToken, FetchChat)
-
-    // app.post("/merge", Merge);
+    app.get("/rooms", verifyToken, FetchChat)
 
     // app.post("/read", Read);
 

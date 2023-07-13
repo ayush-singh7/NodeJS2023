@@ -1,37 +1,33 @@
 import { Request, Response } from "express";
+import {  DataTypes } from "sequelize";
+import { sequelize } from "../database/db";
 import UserModel from "../models/note-model";
-import { Sequelize, DataTypes } from "sequelize";
-
-const sequelize = new Sequelize("sqlite::memory:");
+// import { developmentConfig } from "../config";
 
 export const FetchChat =  async (req:Request,res:Response)=>{
 
+    console.log(req.query,"APARAMS");
     
-    // try{
-    //     const User = sequelize.define("users", {
-    //         id: {
-    //             type:DataTypes.INTEGER,    
-    //              primaryKey: true
-    //             },
-    //         username: DataTypes.TEXT,
-    //         email: DataTypes.TEXT,
-    //         password: DataTypes.TEXT,
-    //         room_id: DataTypes.TEXT,
-            
-    //       });
-          
-    //     const ans = await User.findAll({  });
-    //     console.log(ans,"HEEYYYYYYYYYYYYYYYYYYYYY");
+    try{
+        await sequelize.authenticate();
 
+        
+        const ans = await UserModel.findAll();
+        console.log(ans,"HEEYYYYYYYYYYYYYYYYYYYYY");
+
+    }catch(e){
+        console.log(e,"AAAAAAAAAAAAAAAAAAAAAAAA");
+        
+    }
+
+    // try{
+
+    //     const result = await sequelize.query(`SELECT * FROM messages WHERE room_id = '${req.query.room_id}'`);
+    //     // console.log(result[0],"------------------RESULT----------------")
+    //     res.status(200).send(result[0]);
     // }catch(e){
-    //     console.log(e,"AAAAAAAAAAAAAAAAAAAAAAAA");
+    //     console.log(e,"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
         
     // }
-
-    
-
-
-
-
     
 } 
