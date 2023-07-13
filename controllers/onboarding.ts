@@ -29,12 +29,12 @@ export const RegisterUser = async(req:Request,res:Response) =>{
         // req.body.id = uuid;
 
          UserModel.create({
-            id:99,
             email:email,
             password:password,
             username:username,
             room_id:room_id
         }).then((res)=>{
+            
             console.log(res,"GOOD");
             
         }).catch((err)=>{
