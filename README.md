@@ -68,7 +68,7 @@ DOCUMENTATION:
 // queryparams: room_id:B52
 
 
-// REQUIREMENT 5
+// REQUIREMENT 6
 
 // ENDPOINT: /chats
 
