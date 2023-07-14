@@ -1,26 +1,22 @@
 import { Request, Response } from "express";
 import { sequelize } from "../database/db";
 import { MessagesModel, RoomModel, UserModel } from "../models/user-model";
+import jwt from "jsonwebtoken";
+import * as crypto from "crypto";
 
-
-
+// { message_content:"GOOD NIGHT", room_id:"A2", sender_id:"3"}
 export const SendChat = async (req: Request, res: Response) => {
 
     try {
-        const { to_email, from_email, message_content } = req.body;
-        let to_data = await UserModel.findOne({ where: { email: to_email } }); // get the to_user from db
+        const token = req.body.token || req.query.token || req.headers["authorization"]
+        const from_data:any = jwt.verify(token, 'ayush');
 
-        let from_data = await UserModel.findOne({ where: { email: from_email } }) // get the from_data db
-
-        let [room_data, other_data] = await sequelize.query(`SELECT room_id FROM rooms WHERE participant_1='${to_data?.dataValues.id}' AND participant_2='${from_data?.dataValues.id}' OR participant_1='${from_data?.dataValues.id}' AND participant_2='${to_data?.dataValues.id}' `)
-        //@ts-ignore
-        let room_id = room_data[0].room_id
-        console.log(room_id);
-
+        const {  room_id, message_content } = req.body;
+        
         let messageObj = {
-            sender_id: from_data?.dataValues.id,
             message_content: message_content,
-            room_id: room_id
+            room_id: room_id,
+            sender_id:from_data.id
         }
 
         await MessagesModel.create(messageObj)
@@ -30,37 +26,39 @@ export const SendChat = async (req: Request, res: Response) => {
     }
 }
 
+// {to_id: 3} payload
+
 export const CreateChat = async (req: Request, res: Response) => {
 
-    try {
+    const token = req.body.token || req.query.token || req.headers["authorization"]
+    const from_data:any = jwt.verify(token, 'ayush');
+    try{
+        let from_id = from_data.id;
+        const {to_id} = req.body;
 
-        const { participant_1, participant_2 } = req.body;
-        let participant_1_data = await UserModel.findOne({ where: { email: participant_1 } }); // get the to_user from db
-        let participant_2_data = await UserModel.findOne({ where: { email: participant_2 } }) // get the from_data db
 
-        let [room_data, other_data] = await sequelize.query(`SELECT room_id FROM rooms WHERE participant_1='${participant_1_data?.dataValues.id}' AND participant_2='${participant_2_data?.dataValues.id}' OR participant_1='${participant_2_data?.dataValues.id}' AND participant_2='${participant_1_data?.dataValues.id}' `)
-        
-        // @ts-ignore
-        if(room_data.length >0){
-        // @ts-ignore
-            res.status(200).send({chat_room_code:room_data[0].room_id})
+        let [room_data, other_data]:any = await sequelize.query(`SELECT room_id FROM rooms WHERE participant_1='${to_id}' AND participant_2='${from_id}' OR participant_1='${from_id}' AND participant_2='${to_id}' `)
+        console.log(room_data,'----------------------------------------');
+        if(room_data.length > 0){
+            res.status(200).send(room_data);
+
         }else{
-            let newRoomID = `B${participant_1_data?.dataValues.id}${participant_2_data?.dataValues.id}`
+            let new_room_id = crypto.randomUUID();
             let newRoomObj = {
-                participant_1:participant_1_data?.dataValues.id, 
-                participant_2:participant_2_data?.dataValues.id,
-                room_id:newRoomID
+                participant_1:to_id, 
+                participant_2:from_id,
+                room_id:new_room_id.substring(0,8)
             }
-            console.log(newRoomObj,'NRO');
             
             await RoomModel.create(newRoomObj)
-            res.status(200).send(`${newRoomID} has been created for the participants ${participant_1} and ${participant_2}`)
+            res.status(200).send(`${new_room_id} has been created for the participants`)
+
         }
+
+    }catch(e:any){
+        console.log(e,"-----------");
         
-
-
-    } catch (e) {
-        res.status(404).send(e);
+        res.send(e)
     }
 
 }
@@ -68,6 +66,7 @@ export const CreateChat = async (req: Request, res: Response) => {
 export const DeleteChat = async(req:Request, res:Response)=>{
 
     try{
+        
         const {room_id} = req.query;
         
         let deleteData = await MessagesModel.destroy({
@@ -89,18 +88,15 @@ export const FetchChat = async (req: Request, res: Response) => {
         const { page, size } = req.query;
         const { limit, offset } = getPagination(Number(page), Number(size));
 
-        let messages = await MessagesModel.findAndCountAll({limit,offset})
+        let messages = await MessagesModel.findAndCountAll({ limit,offset})
         res.status(200).send(messages)
     }catch(e){
-        console.log(e,"eeeeeeeeeeeeeeeeeeeeeeeeeeeeee");
         res.status(400).send(e);
-
     }
 }
 
-
 const getPagination = (page:any, size:Number) => {
-    const limit = size ? +size : 3;
+    const limit = size ?  +(size) : 3;
     const offset = page ? page * limit : 0;
   
     return { limit, offset };
