@@ -1,49 +1,44 @@
-import mongoose, {Schema, Mongoose } from "mongoose";
+import mongoose, { Schema, Mongoose } from "mongoose";
 
 const userSchema = new mongoose.Schema({
-    userName:String,
-    email:String,
-    followerCount:Number,
-    followingCount:Number,
-    postCount:Number,
-    firstName:String,
-    lastName:String,
-    bio:String,
-    profilePic:String,
-    posts: [{ type: Schema.Types.ObjectId, ref: 'post' }]
-
+    userName: String,
+    email: String,
+    followerCount: Number,
+    followingCount: Number,
+    postCount: Number,
+    firstName: String,
+    lastName: String,
+    bio: String,
+    profilePic: String,
+    password:String
+    // posts: [{type:Schema.Types.ObjectId, ref:'PostModel'}]
+    // stories: [{ type: Schema.Types.ObjectId, ref: 'Story' }]
 
 });
-
 export const UserModel = mongoose.model('user', userSchema);
 
+
 const postSchema = new mongoose.Schema({
-    name:{
-        type:String,
+    name: {
+        type: String,
     },
-    idk:{
-        type:'ObjectId', ref:'UserModel'
-    }  
+    user_id: {
+        type: mongoose.Types.ObjectId,
+        ref:'UserModel'
+    },
+    likeCount:{
+        type:Number
+    }
+
 
 })
-
-export const PostModel = mongoose.model('post',postSchema)
-
+export const PostModel = mongoose.model('post', postSchema)
 
 
-const personSchema = new Schema({
-    _id: Schema.Types.ObjectId,
-    name: String,
-    age: Number,
-    stories: [{ type: Schema.Types.ObjectId, ref: 'Story' }]
-  });
-  
-  const storySchema = new Schema({
-    author: { type: Schema.Types.ObjectId, ref: 'Person' },
-    title: String,
-    fans: [{ type: Schema.Types.ObjectId, ref: 'Person' }]
-  });
-  
- export const Story = mongoose.model('Story', storySchema);
-
- export const Person = mongoose.model('Person', personSchema);
+const actionSchema = new mongoose.Schema({
+    actionType: String,
+    commentMessage:String,
+    doneBy:mongoose.Schema.ObjectId,
+    commentLikeCount:Number
+})
+export const ActionsModel = mongoose.model('action',actionSchema)

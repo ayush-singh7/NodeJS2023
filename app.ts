@@ -5,10 +5,9 @@ import { connect } from "./db/connection";
 
 const app:Application = express()
 
+app.use(express.json())
+
 routes(app);
-
-
-
 
 app.listen(4500,()=>{
     console.log("RUNNNG at 4500");
