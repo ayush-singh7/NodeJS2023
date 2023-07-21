@@ -19,18 +19,30 @@ export const UserModel = mongoose.model('user', userSchema);
 
 
 const postSchema = new mongoose.Schema({
-    name: {
+    caption: {
         type: String,
     },
-    user_id: {
+    userId: {
         type: mongoose.Types.ObjectId,
         ref:'UserModel'
     },
     likeCount:{
-        type:Number
+        type:Number,
+        default:0
+    },
+    commentCount:{
+        type:Number,
+        default:0
+    },
+    latestComment:{
+        type:String
+    },
+    lastLikeUserName:{
+        type:String
+    },
+    imageUrl:{
+        type:String,
     }
-
-
 })
 export const PostModel = mongoose.model('post', postSchema)
 
@@ -39,6 +51,7 @@ const actionSchema = new mongoose.Schema({
     actionType: String,
     commentMessage:String,
     doneBy:mongoose.Schema.ObjectId,
+    postId:mongoose.Schema.ObjectId,
     commentLikeCount:Number
 })
 export const ActionsModel = mongoose.model('action',actionSchema)

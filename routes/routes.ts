@@ -1,20 +1,25 @@
 import { Application } from "express";
-import { Action, HomeScreen, Login, MakePost, Signup, Test } from "../controllers/homescreen";
+import { Action, CreatePost, HomeScreen, UserPosts } from "../controllers/homescreen";
+import { Authorisation } from "../middlewares/authorisation";
+import { Login, Signup } from "../controllers/onboarding";
 
 export const routes = (app: Application) => {
 
-    app.post('/create-user', HomeScreen)
-
-    app.post('/create-post', MakePost)
-
-    app.post('/test', Test)
-
-    app.post('/action',Action);
 
     app.post('/signup',Signup);
 
     app.post('/login',Login);
 
+    app.post('/post',Authorisation ,CreatePost)
 
+    app.post('/action',Authorisation,Action);
+    
+    app.get('/followers',Authorisation, UserPosts)
     
 }
+
+
+
+// routes we need 
+//  onboarding, add-post, action on post, reply to comment type action,
+//  delete post, counter for like/dislike

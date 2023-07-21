@@ -1,11 +1,11 @@
 import { Request, Response, response } from "express";
 import {  ActionsModel, PostModel, UserModel } from "../db/user-model";
 import mongoose from "mongoose";
-import jwt from "jsonwebtoken"
+
 export const HomeScreen = async(req:Request, res:Response)=>{
     try{
         let ans = await UserModel.create({
-            userName:'ayush.was.here',
+            userName:'ayushwashere',
             email:'ayush@fface7@gmail.com',
             followerCount:190,
             followingCount:300,
@@ -24,41 +24,44 @@ export const HomeScreen = async(req:Request, res:Response)=>{
 
 }
 
-export const MakePost = async(req:Request, res:Response)=>{
-    try{
-        
-        const {user_id }= req.body;
-
-        let ans = await PostModel.create({
-            name:'POST x',
-            user_id:user_id
+export const CreatePost = async(req:Request, res:Response)=>{
+    try{      
+        const {caption } = req.body;
+        let postDetails = await PostModel.create({
+            userId:req.body.tokenData.id,
+            caption: caption,
+            imageUrl:'https://picsum.photos/200'
         })
-        res.send(ans)
+        
+        res.send(postDetails);
+    
     }catch(e){
         console.log(e);
         res.send(e)
     }
 }
 
-export const Test = async(req:Request, res:Response)=>{
+export const UserPosts = async(req:Request, res:Response)=>{
     try{
-      const {user_id} = req.body;
-      let userID = new mongoose.Types.ObjectId(user_id);
-    //   let ans = await UserModel.aggregate([
-    //         {
-    //             $match: {_id:userID}
-    //         } , 
-    //         {
-    //             $lookup: {
-    //                    from: "posts",
-    //                    localField: "_id",
-    //                    foreignField: "user_id",
-    //                    as: "MY_POSTS"
-    //                  }
-    //         }
-    //       ])
+      const {id} = req.body.tokenData;
+      let userID = new mongoose.Types.ObjectId(id);
+      console.log("HEREEEEEEEEEEEEEEEEEEEEEEEEEE");
+      
+      let ans = await UserModel.aggregate([
+            {
+                $match: {_id:userID}
+            } , 
+            {
+                $lookup: {
+                       from: "posts",
+                       localField: "_id",
+                       foreignField: "userId",
+                       as: "MY_POSTS"
+                }
+            }
+          ])
 
-    // res.send(story);
+        res.send(ans);
 
           
     }catch(e){
@@ -68,63 +71,32 @@ export const Test = async(req:Request, res:Response)=>{
 }
 
 
-export const Signup = async(req:Request, res:Response)=>{
-    try{
-        const {userName , email,firstName,lastName, password}= req.body;
-        let ans =  await UserModel.create({
-            email:email,
-            firstName:firstName,
-            lastName:lastName,
-            password:password,
-            userName:userName
-        })
-        res.send(ans);
 
-    }catch(e){
-        res.send(e);
-    }
-}
-
-export const Login = async(req:Request, res:Response)=>{
-    try{
-        const {userName, password} = req.body;
-
-        let user = await UserModel.findOne({userName:userName,password:password})
-        if(user){
-            console.log('11111111111111111111111111111111111111');
-            
-            
-              let token  = jwt.sign(req.body, 'privateKey');
-
-
-            console.log(token,"())))))))))))))))))");
-            res.send(token)
-
-        }
-
-    }catch(e){
-
-    }
-}
-
-
+// like/dislike should be handled and one user can have one like only
 export const Action = async(req:Request, res:Response)=>{
 
     try{
 
         // const userData = jwt.verify(,'privateKey')
         
-        const {action_type, comment_message, postId , doneBy} = req.body;
+        let {actionType, comment_message, postId, tokenData } = req.body;
+        // let td = new mongoose.Schema.ObjectId(tokenData.id)
+        // let pid = new mongoose.Schema.ObjectId(postId)
+        // console.log(tokenData.id,postId,'---VALUES-----------------------');
         
-        if(action_type === 'LIKE'){
-           
-           await PostModel.findOneAndUpdate({id:postId},{$inc:{likeCount:1}})
+        if(actionType === 'LIKE'){
+            postId = new mongoose.Types.ObjectId(postId);
+           await PostModel.findOneAndUpdate({_id:postId},{$inc:{likeCount:1}})
            
             let ans = await ActionsModel.create({
                 actionType: 'LIKE',
-                doneBy:doneBy,
+                doneBy: new mongoose.Types.ObjectId(tokenData.id),
+                postId: new mongoose.Types.ObjectId(postId),
+
            })
-           
+
+           console.log(ans.toJSON(),'----------------------------');
+                       
 
             res.send(ans);
         }else{
@@ -132,9 +104,9 @@ export const Action = async(req:Request, res:Response)=>{
 
         }
 
-
-
     }catch(e){
+        console.log(e,'---------toal-------------------');
+
         res.send(e)
     }
 
