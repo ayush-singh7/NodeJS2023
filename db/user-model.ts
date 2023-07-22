@@ -55,3 +55,11 @@ const actionSchema = new mongoose.Schema({
     commentLikeCount:Number
 })
 export const ActionsModel = mongoose.model('action',actionSchema)
+
+
+const sessionSchema = new mongoose.Schema({
+    userId:mongoose.Schema.ObjectId,
+    activityStatus:String
+})
+
+export const SessionModel = mongoose.model('session',sessionSchema)

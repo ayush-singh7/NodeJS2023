@@ -80,9 +80,8 @@ export const Action = async(req:Request, res:Response)=>{
         // const userData = jwt.verify(,'privateKey')
         
         let {actionType, comment_message, postId, tokenData } = req.body;
-        // let td = new mongoose.Schema.ObjectId(tokenData.id)
-        // let pid = new mongoose.Schema.ObjectId(postId)
-        // console.log(tokenData.id,postId,'---VALUES-----------------------');
+
+        
         
         if(actionType === 'LIKE'){
             postId = new mongoose.Types.ObjectId(postId);
