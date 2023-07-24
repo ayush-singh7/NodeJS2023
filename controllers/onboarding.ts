@@ -2,11 +2,15 @@ import { Request, Response } from "express";
 import { SessionModel, UserModel } from "../db/user-model";
 import jwt from "jsonwebtoken";
 import { RedisClient } from "../db/redis";
-import mongoose from "mongoose";
+import { loginSchema, registerSchema } from "../validation-schemas/onboarding-schema";
 
 export const Signup = async(req:Request, res:Response)=>{
     try{
         const {userName , email,firstName,lastName, password}= req.body;
+       
+        const { error } = await registerSchema.validateAsync(req.body);
+
+        
         let ans =  await UserModel.create({
             email:email,
             firstName:firstName,
@@ -24,6 +28,7 @@ export const Signup = async(req:Request, res:Response)=>{
 export const Login = async(req:Request, res:Response)=>{
     try{
         const {userName, password} = req.body;
+        let {error} = await loginSchema.validateAsync(req.body)
         let user = await UserModel.findOne({userName:userName,password:password})
         if(user){
 
@@ -42,7 +47,7 @@ export const Login = async(req:Request, res:Response)=>{
             
         }
     }catch(e){
-        
+        res.send(e);   
     }
 }
 
