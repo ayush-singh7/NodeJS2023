@@ -4,7 +4,9 @@ import { serverLogger } from "./utility/serverLogger";
 import helmet from "helmet";
 import cors from "cors";
 import { loggerMiddleWare } from "./middlewares/logger";
+import { connectDB } from "./db/connection";
 import { apiRouter } from "./routes/api-routes";
+
 
 export class Application {
 
@@ -15,8 +17,9 @@ export class Application {
   }
 
   constructor() {
-    this.instance.set('port', 3999);
+    this.instance.set('port', 4999);
   }
+
   static init() {
     const app = new Application();
     const server = new Server(app.instance);
@@ -44,10 +47,8 @@ export class Application {
 
   async load() {
     this.initConfig();
-    console.log("HERE");
-    
+    await connectDB()
     this.instance.use('/api', apiRouter);
-    // render app if no route matched
 
   }
 

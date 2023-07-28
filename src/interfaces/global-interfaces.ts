@@ -1,6 +1,5 @@
-import {  Request } from "express";
-
-export interface I_REQUEST {
-    
-    ...Request
+// interface userID
+interface JWTDATA {
+    userId:number,
+    sessionId:number
 }

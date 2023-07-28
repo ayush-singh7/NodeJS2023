@@ -1,0 +1,1784 @@
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"ayush@gmail.com","password":"ayush1234444"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"64","content-type":"application/json","host":"localhost:4999","postman-token":"a4a5cc5c-3b13-44a9-90d9-d20dbc88c14c","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST undefined/api/logind \u001b[33m404\u001b[0m - 18 ms","module":"server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jack@gmail.com","first_name":"Jack","gender":"M","last_name":"Danny","mobile_number":"89324893","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InNhaHV3YXNoZXJlIiwicGFzc3dvcmQiOiJzYWh1MTIzIiwiaWF0IjoxNjg5ODU0MTU4fQ.K306ada99fvs-s4U4QVFRAtnVZ92-dlzBW5RPhXnRq8","cache-control":"no-cache","connection":"keep-alive","content-length":"158","content-type":"application/json","host":"localhost:4999","postman-token":"64c9143c-098c-4dba-bd85-94ba4567ba14","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/signup \u001b[32m201\u001b[0m - 29 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jack@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"58","content-type":"application/json","host":"localhost:4999","postman-token":"869b1db0-9d92-42fd-935b-002c97bfc72e","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 42 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jack@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"58","content-type":"application/json","host":"localhost:4999","postman-token":"5f41836f-9bae-4f15-8c71-7895736bd6d7","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 22 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jack@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"58","content-type":"application/json","host":"localhost:4999","postman-token":"444a1547-3eb0-4e88-af51-64485cd02752","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 26 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jack@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"58","content-type":"application/json","host":"localhost:4999","postman-token":"6991afcc-1f55-47b3-88dc-c06ff01c5932","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 29 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jack@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"58","content-type":"application/json","host":"localhost:4999","postman-token":"546c063d-f99e-4158-a6d9-f2d5b4933290","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 26 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jack@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"58","content-type":"application/json","host":"localhost:4999","postman-token":"fe7a431d-a250-4c57-b2ab-34a87cd3e942","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 17 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jack@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"58","content-type":"application/json","host":"localhost:4999","postman-token":"ac0153f6-3fb3-4115-88d3-7aecae8fd7b1","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 15 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jackie@gmail.com","first_name":"Jack","gender":"M","last_name":"Danny","mobile_number":"89324893","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"160","content-type":"application/json","host":"localhost:4999","postman-token":"97c6caba-b229-491d-ab0b-0b15942ca946","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/signup \u001b[33m400\u001b[0m - 18 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jackie@gmail.com","first_name":"Jack","gender":"M","last_name":"Danny","mobile_number":"89324893","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"160","content-type":"application/json","host":"localhost:4999","postman-token":"2ba0bd09-a12f-4f17-b2cf-a29351c82136","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/signup \u001b[32m201\u001b[0m - 37 ms","module":"server"}
+{"data":{"body":{"email":"jack@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"58","content-type":"application/json","host":"localhost:4999","postman-token":"c02eba23-1f97-4265-878f-01d38eef135b","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST undefined/api/login \u001b[33m404\u001b[0m - 2 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jack@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"58","content-type":"application/json","host":"localhost:4999","postman-token":"13ea8e71-e36b-4986-8ad1-c15fc72dac76","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 24 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jackie@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"8c5a87a6-fdd1-4262-9df4-fb23ef8482cc","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 27 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jackie@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"9e419275-d36a-40ab-8a08-4ec65fc6c5fa","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 34 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jackie@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"b18c7e64-5f55-4ca5-813f-57a938f2fcd8","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 35 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"maxe@gmail.com","first_name":"Max","gender":"M","last_name":"Payne","mobile_number":"89324893","password":"max123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"156","content-type":"application/json","host":"localhost:4999","postman-token":"7d7f4937-3295-4b97-ad5f-699d351af412","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/signup \u001b[32m201\u001b[0m - 28 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jackie@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"81f13a49-b09a-450d-b52c-bdfd1b65c517","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 45 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"createdAt":"2023-07-27T18:26:22.780Z","exp":1690489582,"iat":1690482382,"session_id":4,"updatedAt":"2023-07-27T18:26:22.780Z","user_id":1}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjo0LCJ1c2VyX2lkIjoxLCJ1cGRhdGVkQXQiOiIyMDIzLTA3LTI3VDE4OjI2OjIyLjc4MFoiLCJjcmVhdGVkQXQiOiIyMDIzLTA3LTI3VDE4OjI2OjIyLjc4MFoiLCJpYXQiOjE2OTA0ODIzODIsImV4cCI6MTY5MDQ4OTU4Mn0.O5VqIAeLs3lbHpVjLz_RbPTHCTyxgySJHZydvXO4ge8","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"873f8a36-7202-47ba-b87d-5156d31d7f8d","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[32m200\u001b[0m - 5 ms","module":"server"}
+{"data":{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"48300d7a-90c1-4d85-969c-0c35d5c014e1","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[33m401\u001b[0m - 1 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"createdAt":"2023-07-27T18:26:22.780Z","exp":1690489582,"iat":1690482382,"session_id":4,"updatedAt":"2023-07-27T18:26:22.780Z","user_id":1}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjo0LCJ1c2VyX2lkIjoxLCJ1cGRhdGVkQXQiOiIyMDIzLTA3LTI3VDE4OjI2OjIyLjc4MFoiLCJjcmVhdGVkQXQiOiIyMDIzLTA3LTI3VDE4OjI2OjIyLjc4MFoiLCJpYXQiOjE2OTA0ODIzODIsImV4cCI6MTY5MDQ4OTU4Mn0.O5VqIAeLs3lbHpVjLz_RbPTHCTyxgySJHZydvXO4ge8","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"72b52e8f-1743-42d7-a7fe-dd27d3bf7ab5","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[32m200\u001b[0m - 7 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jackie@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"18b8e7cb-662e-484f-b4ae-0014c337c1a9","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 39 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690489967,"iat":1690482767,"session_id":5,"user_id":1}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjo1LCJ1c2VyX2lkIjoxLCJpYXQiOjE2OTA0ODI3NjcsImV4cCI6MTY5MDQ4OTk2N30.tXbDCZ6M5Qt6JPmivrxDdv_BAp7246Z5zjRD8t6Q5hs","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"1162b67b-da66-4acd-abb0-deaf03ae4dce","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[32m200\u001b[0m - 3 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"jackie@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"e5ecbb31-15c8-4f51-85c2-7130592b31a3","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 55 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690489967,"iat":1690482767,"session_id":5,"user_id":1}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjo1LCJ1c2VyX2lkIjoxLCJpYXQiOjE2OTA0ODI3NjcsImV4cCI6MTY5MDQ4OTk2N30.tXbDCZ6M5Qt6JPmivrxDdv_BAp7246Z5zjRD8t6Q5hs","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"88e95e7d-65d8-4fd2-943c-1a30c4ac6b80","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[32m200\u001b[0m - 16 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690489967,"iat":1690482767,"session_id":5,"user_id":1}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjo1LCJ1c2VyX2lkIjoxLCJpYXQiOjE2OTA0ODI3NjcsImV4cCI6MTY5MDQ4OTk2N30.tXbDCZ6M5Qt6JPmivrxDdv_BAp7246Z5zjRD8t6Q5hs","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"c4cd8e35-40bd-4cdc-ad72-a115948cd63c","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[32m200\u001b[0m - 5 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"ayush@gmail.com","first_name":"Ayush","gender":"M","last_name":"Singh","mobile_number":"89324893","password":"ayush123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"161","content-type":"application/json","host":"localhost:4999","postman-token":"fe4a552a-cbd2-4c65-b84b-89d4df77eda5","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/signup \u001b[32m201\u001b[0m - 24 ms","module":"server"}
+{"data":{"body":{"email":"ayush@gmail.com","password":"ayush123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"acecd62b-e952-4b60-8e88-dd45a01cadf6","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 26 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690492190,"iat":1690484990,"session_id":7,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjo3LCJ1c2VyX2lkIjozLCJpYXQiOjE2OTA0ODQ5OTAsImV4cCI6MTY5MDQ5MjE5MH0.hHe-2UxfmrLTtCmmuUCSNKBVw5A3VCyG7SaGwtqafaM","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"7f6bdc2b-59c7-4590-952e-8a72fcd374b6","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[32m200\u001b[0m - 18 ms","module":"server"}
+{"data":{"body":{"email":"ayush@gmail.com","password":"ayush123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"ff691192-505f-4afa-bf21-7074ed6f0d11","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 18 ms","module":"server"}
+{"data":{"body":{"email":"ayush@gmail.com","password":"ayush123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"10242b6b-b5b2-49b3-9cd2-cae8be266f11","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 18 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690492242,"iat":1690485042,"session_id":9,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjo5LCJ1c2VyX2lkIjozLCJpYXQiOjE2OTA0ODUwNDIsImV4cCI6MTY5MDQ5MjI0Mn0.2lDNaHCZrcwDLavc66NWAtBWNvu0vre437r7EWAX-z8","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"9b4321c3-5c7a-42af-88d9-de63954b8f17","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[32m200\u001b[0m - 15 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690492242,"iat":1690485042,"session_id":9,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjo5LCJ1c2VyX2lkIjozLCJpYXQiOjE2OTA0ODUwNDIsImV4cCI6MTY5MDQ5MjI0Mn0.2lDNaHCZrcwDLavc66NWAtBWNvu0vre437r7EWAX-z8","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"affbb7f0-2751-48fa-ad21-19e9f752d998","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[32m200\u001b[0m - 6 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690492242,"iat":1690485042,"session_id":9,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjo5LCJ1c2VyX2lkIjozLCJpYXQiOjE2OTA0ODUwNDIsImV4cCI6MTY5MDQ5MjI0Mn0.2lDNaHCZrcwDLavc66NWAtBWNvu0vre437r7EWAX-z8","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"3dee2825-92dc-42cc-8d40-84e570e2a76c","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[32m200\u001b[0m - 3 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690492242,"iat":1690485042,"session_id":9,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjo5LCJ1c2VyX2lkIjozLCJpYXQiOjE2OTA0ODUwNDIsImV4cCI6MTY5MDQ5MjI0Mn0.2lDNaHCZrcwDLavc66NWAtBWNvu0vre437r7EWAX-z8","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"ce55c5bf-dba0-48d2-8cae-3682165fa596","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[32m200\u001b[0m - 17 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690492242,"iat":1690485042,"session_id":9,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjo5LCJ1c2VyX2lkIjozLCJpYXQiOjE2OTA0ODUwNDIsImV4cCI6MTY5MDQ5MjI0Mn0.2lDNaHCZrcwDLavc66NWAtBWNvu0vre437r7EWAX-z8","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"8db500a5-c33f-4d61-b177-c048d8a75958","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[33m401\u001b[0m - 12 ms","module":"server"}
+{"data":{"body":{"email":"ayush@gmail.com","password":"ayush123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"5769149a-80de-42a0-9b1f-a08031443655","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 27 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690492711,"iat":1690485511,"session_id":10,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMCwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg1NTExLCJleHAiOjE2OTA0OTI3MTF9.vXCssgRCeFfoJL7oV9c7W-8SOspnkhYhoR1FX1gKy6s","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"5694212a-bc0b-4017-949a-cdbdc76685c4","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[32m200\u001b[0m - 14 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690492711,"iat":1690485511,"session_id":10,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMCwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg1NTExLCJleHAiOjE2OTA0OTI3MTF9.vXCssgRCeFfoJL7oV9c7W-8SOspnkhYhoR1FX1gKy6s","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"7d854ed4-7e77-43c8-b3e4-2c16fb58deac","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/logout \u001b[33m401\u001b[0m - 3 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"ayush@gmail.com","password":"ayush123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"0d7af900-b7ca-4a0b-82b4-7307cab1af3f","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 38 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_id":1003,"category_id":"SHOES","current_price":9999,"description":"good condition air max 95s","product_name":"nike shoes","tokenData":{"exp":1690495864,"iat":1690488664,"session_id":11,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"161","content-type":"application/json","host":"localhost:4999","postman-token":"0e91b100-50a8-455c-aa09-addf7bc4dfa3","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 53 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_id":1003,"category_id":"SHOES","current_price":9999,"description":"good condition air max 95s","product_name":"nike shoes","tokenData":{"exp":1690495864,"iat":1690488664,"session_id":11,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"161","content-type":"application/json","host":"localhost:4999","postman-token":"f1dae9b4-10f1-4b5f-a9af-1f7092ee8339","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 58 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_id":1003,"category_id":"SHOES","current_price":9999,"description":"good condition air max 95s","product_name":"nike shoes","tokenData":{"exp":1690495864,"iat":1690488664,"session_id":11,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"161","content-type":"application/json","host":"localhost:4999","postman-token":"e50241ae-3db0-4696-bf40-d909ce189fc8","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 53 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_id":1003,"category_id":"SHOES","current_price":9999,"description":"good condition air max 95s","product_name":"nike shoes","tokenData":{"exp":1690495864,"iat":1690488664,"session_id":11,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"161","content-type":"application/json","host":"localhost:4999","postman-token":"429acb47-0d05-4b08-a4ff-928c0c46dbca","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 54 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_id":1003,"category_id":"SHOES","current_price":9999,"description":"good condition air max 95s","product_name":"nike shoes","tokenData":{"exp":1690495864,"iat":1690488664,"session_id":11,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"161","content-type":"application/json","host":"localhost:4999","postman-token":"7781822d-0c7c-4225-9992-8c1dcfe4ad62","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 52 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_id":1003,"base_price":9999,"category_id":"SHOES","description":"good condition air max 95s","product_name":"nike shoes","tokenData":{"exp":1690495864,"iat":1690488664,"session_id":11,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"158","content-type":"application/json","host":"localhost:4999","postman-token":"c151db4c-70f6-4bd2-be4a-e91b954e09e8","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 60 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_id":1003,"base_price":9999,"category_id":"SHOES","description":"good condition air max 95s","product_name":"nike shoes","tokenData":{"exp":1690495864,"iat":1690488664,"session_id":11,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"158","content-type":"application/json","host":"localhost:4999","postman-token":"bbe698dc-310c-411b-8b4f-00e6915e8b5c","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 49 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_id":1003,"base_price":9999,"category_id":"SHOES","description":"good condition air max 95s","product_name":"nike shoes","tokenData":{"exp":1690495864,"iat":1690488664,"session_id":11,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"158","content-type":"application/json","host":"localhost:4999","postman-token":"c42e7c66-8367-418b-910a-e7348b3105e4","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 50 ms","module":"server"}
+{"data":{"body":{"address_id":1003,"base_price":9999,"category_id":"SHOES","description":"good condition air max 95s","product_name":"nike shoes","tokenData":{"exp":1690495864,"iat":1690488664,"session_id":11,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"158","content-type":"application/json","host":"localhost:4999","postman-token":"be292260-2d14-446c-8ac2-03c4030e82ca","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 6 ms","module":"server"}
+{"data":{"body":{"product_name":"nike shoes","tokenData":{"exp":1690495864,"iat":1690488664,"session_id":11,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"55","content-type":"application/json","host":"localhost:4999","postman-token":"80e3a1cf-81f3-4210-a233-c40aa8e028b4","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 10 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"product_name":"nike shoes","tokenData":{"exp":1690495864,"iat":1690488664,"session_id":11,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"55","content-type":"application/json","host":"localhost:4999","postman-token":"e6c7967a-3153-4afd-ab0c-47c6ee5152c8","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 59 ms","module":"server"}
+{"data":{"body":{"product_name":"nike shoes","tokenData":{"exp":1690495864,"iat":1690488664,"session_id":11,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"55","content-type":"application/json","host":"localhost:4999","postman-token":"1fdb5e5c-84bc-496b-a7a6-c2333a704d4a","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 9 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"157","content-type":"application/json","host":"localhost:4999","postman-token":"68c37aa4-b09f-474d-bec6-21fe6a15208f","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST undefined/api/add-product \u001b[33m400\u001b[0m - 10 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_id":1003,"base_price":9999,"category_id":"SHOES","description":"good condition air max 95s","product_name":"nike shoes","tokenData":{"exp":1690495864,"iat":1690488664,"session_id":11,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"158","content-type":"application/json","host":"localhost:4999","postman-token":"8b60d7f3-3ed3-49e1-9885-0e48a537fddd","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 49 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_id":1003,"base_price":4999,"category_id":"SHOES","description":"good condition air max 95s","product_name":"rs x"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMSwidXNlcl9pZCI6MywiaWF0IjoxNjkwNDg4NjY0LCJleHAiOjE2OTA0OTU4NjR9.PUofJHLAGMJiU1VkhYnDCHO1NgjqjSAAwgw5nPp4HXU","cache-control":"no-cache","connection":"keep-alive","content-length":"152","content-type":"application/json","host":"localhost:4999","postman-token":"dc1f63fd-8491-4cb0-a073-d99abb241419","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[33m401\u001b[0m - 10 ms","module":"server"}
+{"data":{"body":{"email":"ayush@gmail.com","password":"ayush123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"7c476e0b-618b-4e59-95a9-c50fcf69c104","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 33 ms","module":"server"}
+{"data":{"body":{"address_id":1003,"base_price":4999,"category_id":"SHOES","description":"good condition air max 95s","product_name":"rs x","tokenData":{"exp":1690527985,"iat":1690520785,"session_id":12,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMiwidXNlcl9pZCI6MywiaWF0IjoxNjkwNTIwNzg1LCJleHAiOjE2OTA1Mjc5ODV9.NrTgxFIM8uNqJ0MRHtHqINfQisWpIQEIwlxNGB3-XxE","cache-control":"no-cache","connection":"keep-alive","content-length":"152","content-type":"application/json","host":"localhost:4999","postman-token":"69ed2c8a-b4f8-4f94-a440-676269529e33","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 19 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}

@@ -1,7 +1,8 @@
-import {Application, Request, Response, Router} from 'express';
-import { serverLogger } from '../utility/serverLogger';
-import {validationMiddleware  } from '../middlewares/validation-middlewares';
+import {Request, Response, Router} from 'express';
+import { jwtAuthorisation, sessionManagement, validationMiddleware  } from '../middlewares/validation-middlewares';
 import { loginSchema } from '../constants/validation-schema';
+import { Login, Logout, Signup } from '../controllers/auth/onboarding';
+import { AddAddress, AddProduct } from '../controllers/features/products';
 
 
 const router: Router = Router();
@@ -11,10 +12,27 @@ const router: Router = Router();
 //     serverLogger.info("I M HERE")
 // })
 
-router.post('/login', validationMiddleware(loginSchema) ,(req:Request, res:Response)=>{
+    // Onboarding 
+   
+    router.post('/login', validationMiddleware(loginSchema) ,Login);
+
+    router.post('/signup',Signup );
+
+    router.get('/logout',jwtAuthorisation, sessionManagement, Logout )
+
+
+    // User 
+
+    router.post('/address',jwtAuthorisation,sessionManagement,AddAddress)
 
     
-    
-});
+
+
+
+    // Feature
+
+    router.post('/add-product',jwtAuthorisation,sessionManagement,AddProduct)
+
+
 
 export const apiRouter = router;
