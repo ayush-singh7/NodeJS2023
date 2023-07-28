@@ -55,13 +55,10 @@ export class Application {
   initConfig() {
     //Api Middleware
 
-    if (process.env.NODE_ENV === 'development') {
-      this.instance.use(cors());
-    }
+    this.instance.use(cors());
 
     this.instance.use(loggerMiddleWare);
 
-    // this.instance.use(apiMiddleware);
 
     // //Initialize swagger
     // this.initSwagger();

@@ -44,7 +44,7 @@ export const sessionManagement = async(req:Request, res:Response, next:NextFunct
             where:{session_id:tokenData.session_id, user_id:tokenData.user_id}
         })    
         
-        console.log(tokenData,sessionDetails,"----------------SD-----------");
+        // console.log(tokenData,sessionDetails,"----------------SD-----------");
                 
         if(sessionDetails){
             next()

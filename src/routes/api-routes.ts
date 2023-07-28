@@ -2,7 +2,9 @@ import {Request, Response, Router} from 'express';
 import { jwtAuthorisation, sessionManagement, validationMiddleware  } from '../middlewares/validation-middlewares';
 import { loginSchema } from '../constants/validation-schema';
 import { Login, Logout, Signup } from '../controllers/auth/onboarding';
-import { AddAddress, AddProduct } from '../controllers/features/products';
+import { AddProduct, PlaceBid } from '../controllers/features/products';
+import { AddAddress, EditAddress, EditUserDetails, ProductImage } from '../controllers/features/user';
+import { Multer } from '../utility/multer';
 
 
 const router: Router = Router();
@@ -14,24 +16,27 @@ const router: Router = Router();
 
     // Onboarding 
    
-    router.post('/login', validationMiddleware(loginSchema) ,Login);
+    router.post('/login', validationMiddleware(loginSchema) ,Login); //done
 
-    router.post('/signup',Signup );
+    router.post('/signup',Signup ); //done validation left from here
 
-    router.get('/logout',jwtAuthorisation, sessionManagement, Logout )
-
+    router.get('/logout',jwtAuthorisation, sessionManagement, Logout ) //done
 
     // User 
 
-    router.post('/address',jwtAuthorisation,sessionManagement,AddAddress)
+    router.post('/address',jwtAuthorisation,sessionManagement,AddAddress) //done
 
-    
+    router.patch('/address',jwtAuthorisation,sessionManagement, EditAddress) //done 
 
-
+    router.patch('/user',jwtAuthorisation,sessionManagement, EditUserDetails ) //done
 
     // Feature
 
     router.post('/add-product',jwtAuthorisation,sessionManagement,AddProduct)
+
+    router.post('/product-image/:id',jwtAuthorisation,sessionManagement, Multer.single("image"),ProductImage) //done 
+
+    router.post('/bid',jwtAuthorisation,sessionManagement,PlaceBid)
 
 
 

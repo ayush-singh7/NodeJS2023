@@ -33,11 +33,9 @@ export const Signup = async (req: Request, res: Response) => {
 export const Logout = async (req: Request, res: Response) => {
     try {
         const { tokenData } = req.body;
-        console.log(req.body.tokenData, '-------__TD__----------------');
         let deleted = await SessionModel.destroy({
             where: { user_id: tokenData.user_id, session_id: tokenData.session_id },
         });
-        console.log(deleted, '-----------------------------');
 
         res.status(200).send("LOGGED OUT")
     } catch (e) {

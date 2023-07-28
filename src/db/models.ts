@@ -122,10 +122,24 @@ export const AddressModel = sequelize.define("olx_address", {
         type: DataTypes.STRING
     },
     zipcode: {
-        type: DataTypes.NUMBER
+        type: DataTypes.INTEGER
     },
-    address_status: {
+    address_type: {
         type: DataTypes.STRING,
         defaultValue: true
     },
+})
+
+export const ProductImageModel = sequelize.define("olx_product_image",{
+    image_id:{
+        type:DataTypes.INTEGER,
+        primaryKey:true,
+        autoIncrement:true
+    },
+    image_data:{
+        type:DataTypes.BLOB('long')
+    },
+    product_id:{
+        type:DataTypes.INTEGER
+    }
 })
