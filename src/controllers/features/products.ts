@@ -28,7 +28,17 @@ export const AddProduct = async (req: Request, res: Response) => {
 
 }
 
-export const PlaceBid = async (req: Request, res: Response) => {
+export const ViewProduct = async(req:Request, res:Response)=>{
+    try{
+
+    }catch(e){
+        
+    }
+}
+
+
+
+export const PlaceBid = async (req: Request, res: Response) => { //edge case of same user putting bid needs to be solved
     try {
 
         const { bid_amount, product_id, tokenData } = req.body;
