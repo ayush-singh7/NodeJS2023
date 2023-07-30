@@ -10,7 +10,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       category_id: {
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
       category_name: {
         type: Sequelize.STRING
@@ -18,8 +18,8 @@ module.exports = {
       category_image: {
         type: Sequelize.BLOB
       },
-      product_id: {
-        type: Sequelize.INTEGER
+      parent_id: {
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,

@@ -2688,3 +2688,735 @@
 {"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
 {"level":"info","message":"Listening on port 4999","module":"Server"}
 {"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMywidXNlcl9pZCI6MywiaWF0IjoxNjkwNTI4MjU0LCJleHAiOjE2OTA1MzU0NTR9.261qjaAWbdi_v8Ufouh47Jhw0aP9H_f-TdMVDwz9WIg","cache-control":"no-cache","connection":"keep-alive","content-length":"6","content-type":"application/json","host":"localhost:4999","postman-token":"06e063ac-0b62-48ac-bfc6-e7d3e1576254","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET undefined/api/product-details/2 \u001b[33m400\u001b[0m - 18 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMywidXNlcl9pZCI6MywiaWF0IjoxNjkwNTI4MjU0LCJleHAiOjE2OTA1MzU0NTR9.261qjaAWbdi_v8Ufouh47Jhw0aP9H_f-TdMVDwz9WIg","cache-control":"no-cache","connection":"keep-alive","content-length":"6","content-type":"application/json","host":"localhost:4999","postman-token":"ad0502b4-37b9-4de8-ab7f-c5ab0b925988","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET undefined/api/product-details/2 \u001b[33m400\u001b[0m - 12 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMywidXNlcl9pZCI6MywiaWF0IjoxNjkwNTI4MjU0LCJleHAiOjE2OTA1MzU0NTR9.261qjaAWbdi_v8Ufouh47Jhw0aP9H_f-TdMVDwz9WIg","cache-control":"no-cache","connection":"keep-alive","content-length":"6","content-type":"application/json","host":"localhost:4999","postman-token":"7baad5f2-f0c3-47b8-99bf-59893f21b22c","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET undefined/api/product-details/2 \u001b[33m400\u001b[0m - 12 ms","module":"server"}
+{"data":{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMywidXNlcl9pZCI6MywiaWF0IjoxNjkwNTI4MjU0LCJleHAiOjE2OTA1MzU0NTR9.261qjaAWbdi_v8Ufouh47Jhw0aP9H_f-TdMVDwz9WIg","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"79b4ad90-b876-4420-8ccf-04eff348e1d5","user-agent":"PostmanRuntime/7.32.3"},"params":{"id":"2"},"query":{}},"level":"info","message":"GET /api/product-details/2 \u001b[33m401\u001b[0m - 19 ms","module":"server"}
+{"data":{"body":{"address_id":1003,"base_price":4999,"category_id":"SHOES","description":"good condition air max 95s","product_name":"rs x"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxMiwidXNlcl9pZCI6MywiaWF0IjoxNjkwNTIwNzg1LCJleHAiOjE2OTA1Mjc5ODV9.NrTgxFIM8uNqJ0MRHtHqINfQisWpIQEIwlxNGB3-XxE","cache-control":"no-cache","connection":"keep-alive","content-length":"152","content-type":"application/json","host":"localhost:4999","postman-token":"acef19fa-6c33-4594-b16e-26b51eff9899","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[33m401\u001b[0m - 2 ms","module":"server"}
+{"data":{"body":{"email":"ayush@gmail.com","password":"ayush123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"7ef9b2cc-cab2-4da7-a767-70a761087783","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 34 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690668499,"iat":1690661299,"session_id":17,"user_id":3}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxNywidXNlcl9pZCI6MywiaWF0IjoxNjkwNjYxMjk5LCJleHAiOjE2OTA2Njg0OTl9.npgSXvPSz5U8nCWCG4MkVPKc2enFfM3GTAoa7r-umY0","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"54cf1ef9-c5c7-4be6-a8fe-abaeaecca55f","user-agent":"PostmanRuntime/7.32.3"},"params":{"id":"2"},"query":{}},"level":"info","message":"GET /api/product-details/2 \u001b[32m200\u001b[0m - 13 ms","module":"server"}
+{"data":{"body":{"email":"jackie@gmail.com","password":"jack123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"60","content-type":"application/json","host":"localhost:4999","postman-token":"0f17db60-6485-43d9-ac08-6b04f44d01cd","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 17 ms","module":"server"}
+{"data":{"body":{"bid_amount":700,"product_id":2,"tokenData":{"exp":1690706959,"iat":1690699759,"session_id":18,"user_id":1}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOCwidXNlcl9pZCI6MSwiaWF0IjoxNjkwNjk5NzU5LCJleHAiOjE2OTA3MDY5NTl9.xQhUSyFnzzHWKCZFNsC3jmbLX5vznGqYh7la60cs2Uo","cache-control":"no-cache","connection":"keep-alive","content-length":"44","content-type":"application/json","host":"localhost:4999","postman-token":"57428cd3-47c3-49dd-ae63-04bf4f7e36ed","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/bid \u001b[32m200\u001b[0m - 21 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"email":"walt@gmail.com","first_name":"walt","gender":"M","last_name":"white","mobile_number":"89324893","password":"walt123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"158","content-type":"application/json","host":"localhost:4999","postman-token":"4bea2d37-7489-47a9-9060-0ed6a439e79f","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/signup \u001b[32m201\u001b[0m - 36 ms","module":"server"}
+{"data":{"body":{"email":"walt@gmail.com","password":"walt123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"58","content-type":"application/json","host":"localhost:4999","postman-token":"2053ef3b-51c0-48b8-942f-7bb5d5debe6a","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 25 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_id":1,"base_price":180000,"category_id":"VEHICLES","description":"MANALI KING ALTOOOOOOOO","product_name":"Alto 800","subcategory_id":"4WHEELER","tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"188","content-type":"application/json","host":"localhost:4999","postman-token":"101b109f-f079-4390-817a-e240dffc6470","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 100 ms","module":"server"}
+{"data":{"body":{"address_id":1,"base_price":180000,"category_id":"VEHICLES","description":"MANALI KING ALTOOOOOOOO","product_name":"Alto 800","subcategory_id":"4WHEELER","tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"188","content-type":"application/json","host":"localhost:4999","postman-token":"fb231f07-f127-4ac2-98ed-98a0e8e55d9f","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 15 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_id":1,"base_price":180000,"category_id":"VEHICLES","description":"MANALI KING ALTOOOOOOOO","product_name":"Alto 800","subcategory_id":"4WHEELER","tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"188","content-type":"application/json","host":"localhost:4999","postman-token":"c72ddeea-2a62-44d1-9022-1cae13a463fc","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 42 ms","module":"server"}
+{"data":{"body":{"address_id":1,"base_price":100000,"category_id":"VEHICLES","description":"FAMILY CAR WAGONR 2000 MODEL","product_name":"WagonR","subcategory_id":"4WHEELER","tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"191","content-type":"application/json","host":"localhost:4999","postman-token":"c4807ac2-022a-4fbb-88c1-3808fd6d8acd","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 16 ms","module":"server"}
+{"data":{"body":{"address_id":1,"base_price":100000,"category_id":"VEHICLES","description":"2015 Model","product_name":"MAESTRO","subcategory_id":"2WHEELER","tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"174","content-type":"application/json","host":"localhost:4999","postman-token":"8d0196ec-539f-42c2-9cfd-4835673c7507","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 17 ms","module":"server"}
+{"data":{"body":{"address_id":2,"base_price":15000,"category_id":"FOOT","description":"good condiation with box","product_name":"ADIDAS YEEZIES","subcategory_id":"SHOES","tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"187","content-type":"application/json","host":"localhost:4999","postman-token":"ae44714b-cfa1-4af8-9c26-82908ca02e63","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 17 ms","module":"server"}
+{"data":{"body":{"address_id":2,"base_price":10000,"category_id":"FOOT","description":"good condiation with box","product_name":"NIKES SLIPPERS","subcategory_id":"SANDALS","tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"189","content-type":"application/json","host":"localhost:4999","postman-token":"49e2708f-caee-4180-bd49-ec879cac7b29","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 17 ms","module":"server"}
+{"data":{"body":{"address_id":2,"base_price":15000,"category_id":"FURNITURE","description":"good condiation ","product_name":"IKEA FURNITURE","subcategory_id":"COUCH","tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"184","content-type":"application/json","host":"localhost:4999","postman-token":"38cabacc-e594-4b26-b00f-3111851592a1","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 16 ms","module":"server"}
+{"data":{"body":{"address_id":2,"base_price":150000,"category_id":"FURNITURE","description":"good condiation ","product_name":"WOEEDEN FURNITURE","subcategory_id":"SOFA","tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"187","content-type":"application/json","host":"localhost:4999","postman-token":"70d2babb-6ccf-487d-a249-d4cc44da28b0","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 9 ms","module":"server"}
+{"data":{"body":{"address_id":2,"base_price":1500000,"category_id":"VEHICLES","description":"good condiation ","product_name":"NEXON EV","subcategory_id":"4WHEELER","tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"182","content-type":"application/json","host":"localhost:4999","postman-token":"65e3073c-8512-4488-9c01-23edb1bed737","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 16 ms","module":"server"}
+{"data":{"body":{"address_id":2,"base_price":1000000,"category_id":"VEHICLES","description":"good condiation ","product_name":"TIAGO","subcategory_id":"4WHEELER","tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"179","content-type":"application/json","host":"localhost:4999","postman-token":"036de916-d675-4233-83e0-e1155b2583d7","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 15 ms","module":"server"}
+{"data":{"body":{"address_id":2,"base_price":800000,"category_id":"VEHICLES","description":"good condiation ","product_name":"BALENO","subcategory_id":"4WHEELER","tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"179","content-type":"application/json","host":"localhost:4999","postman-token":"2d8d0a58-84bb-473a-b799-b90f4302f860","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 8 ms","module":"server"}
+{"data":{"body":{"address_id":2,"base_price":1000000,"category_id":"VEHICLES","description":"good condiation ","product_name":"ALTROZ","subcategory_id":"4WHEELER","tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"180","content-type":"application/json","host":"localhost:4999","postman-token":"733786c7-a17a-45f9-877c-0b8868ab9801","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/add-product \u001b[32m200\u001b[0m - 15 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_type":"HOME","area":"kusumkhera","city":"HLD","house_number":22,"landmark":"AB Petrol Pump","state":"UK","street_number":101,"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4},"zipcode":263139},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"195","content-type":"application/json","host":"localhost:4999","postman-token":"2efabe0c-a39e-4c1a-a8e9-a0720ab78057","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 17 ms","module":"server"}
+{"data":{"body":{"address_type":"HOME","area":"kusumkhera","city":"HLD","house_number":22,"landmark":"AB Petrol Pump","state":"UK","street_number":101,"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4},"zipcode":263139},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"195","content-type":"application/json","host":"localhost:4999","postman-token":"e77b4cf2-d48d-401f-8cf2-a3eebb371770","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 7 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_type":"HOME","area":"kusumkhera","city":"HLD","house_number":22,"landmark":"AB Petrol Pump","state":"UK","street_number":101,"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4},"zipcode":263139},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"195","content-type":"application/json","host":"localhost:4999","postman-token":"b734d68e-c80a-47fe-9ea0-2bbabfa27e78","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 14 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_type":"HOME","area":"kusumkhera","city":"HLD","house_number":22,"landmark":"AB Petrol Pump","state":"UK","street_number":101,"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4},"zipcode":263139},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"195","content-type":"application/json","host":"localhost:4999","postman-token":"7286a9c2-15d6-4970-b75b-2ff218f50310","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 18 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_type":"HOME","area":"kusumkhera","city":"HLD","house_number":22,"landmark":"AB Petrol Pump","state":"UK","street_number":101,"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4},"zipcode":263139},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"195","content-type":"application/json","host":"localhost:4999","postman-token":"e37b7185-9c6b-4d82-8aac-6dc27e31d912","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 15 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_type":"HOME","area":"kusumkhera","city":"HLD","house_number":22,"landmark":"AB Petrol Pump","state":"UK","street_number":101,"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4},"zipcode":263139},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"195","content-type":"application/json","host":"localhost:4999","postman-token":"5fdc3afe-55e3-47e8-a178-fb1549af4df8","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 18 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_type":"HOME","area":"kusumkhera","city":"HLD","house_number":22,"landmark":"AB Petrol Pump","state":"UK","street_number":101,"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4},"zipcode":263139},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"195","content-type":"application/json","host":"localhost:4999","postman-token":"cc22b5cd-7358-4e2a-9727-991ed68b5fee","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 25 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_type":"HOME","area":"kusumkhera","city":"HLD","house_number":22,"landmark":"AB Petrol Pump","state":"UK","street_number":101,"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4},"zipcode":263139},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"195","content-type":"application/json","host":"localhost:4999","postman-token":"547a6e8c-34f0-4ce2-80d9-0e81e3c7f2e0","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 65 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_type":"HOME","area":"kusumkhera","city":"HLD","house_number":22,"landmark":"AB Petrol Pump","state":"UK","street_number":101,"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4},"zipcode":263139},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"195","content-type":"application/json","host":"localhost:4999","postman-token":"d0cd8e16-718a-4cce-ab3d-4fb8021a4dd3","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 18 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_type":"HOME","area":"kusumkhera","city":"HLD","house_number":22,"landmark":"AB Petrol Pump","state":"UK","street_number":101,"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4},"zipcode":263139},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"195","content-type":"application/json","host":"localhost:4999","postman-token":"8f88c485-7ae3-461d-8ed7-47dbdf782316","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 19 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"address_type":"HOME","area":"kusumkhera","city":"HLD","house_number":22,"landmark":"AB Petrol Pump","state":"UK","street_number":101,"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4},"zipcode":263139},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"195","content-type":"application/json","host":"localhost:4999","postman-token":"f5de1222-9592-408e-84f1-65737b6f0c06","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 27 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"9","content-type":"application/json","host":"localhost:4999","postman-token":"49086903-8b03-4ad0-825f-b09d80cd1c21","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET undefined/api/product-list \u001b[33m400\u001b[0m - 10 ms","module":"server"}
+{"data":{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"9","content-type":"application/json","host":"localhost:4999","postman-token":"92076f6c-2e22-48c4-b85c-4fcc63cd4b5e","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET undefined/api/product-list \u001b[33m400\u001b[0m - 2 ms","module":"server"}
+{"data":{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","content-length":"9","content-type":"application/json","host":"localhost:4999","postman-token":"f9f4bda1-aa2b-4d97-8a31-5caecaa60184","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET undefined/api/product-list \u001b[33m400\u001b[0m - 2 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"e3f36c6e-ac5b-415e-817b-018b70912ce4","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 14 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"71681e28-664b-4743-bbce-2880b0f957fa","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 13 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"da4af6c9-6245-44a2-a864-ac0db07527aa","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 11 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"839d377a-3797-4b93-acfc-85323b13939f","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 35 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"8283aefd-bbf0-4a19-8efb-3079f7c50ca7","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 9 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"1260270e-8756-483f-8cb0-3373b23a516a","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 3 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"b584d1fd-cb56-4996-82f4-0bbad06b222a","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 21 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"86777ef8-5042-4602-849d-f41eeddbf8a8","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 37 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"d752868b-9530-436a-ab6b-21c9b23eb62e","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 5 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"f48ffd80-ef26-4dbe-8570-70ecfc188f73","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 35 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"c792c75c-a8e7-461d-a8ad-ce5db8ea275d","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 4 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"9ebdc972-a1f9-4d7d-8c0d-80bd6bc775d8","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 3 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"e0364644-8c56-44cb-9083-89f0dd7004e4","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 11 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"d12815bf-b306-4032-84ed-a6df7f6b6ee0","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 10 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"e4961129-e5e7-4cb5-a549-734e07d4c960","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 11 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"f8037166-4ee1-447e-b862-ed0b22b1fbf5","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 15 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"2e9aefc9-59e8-44ec-a187-b0dd7cf7d198","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 11 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"30f80949-4636-415c-a5b2-8980c938b0b7","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 3 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"d8f8a55e-9af9-4065-8edd-5382e979c13f","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 10 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"cf0bfe4d-4c32-44cc-af6e-2e1c4f8da80e","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 14 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"de0ff7f1-f645-48d0-813f-811a2a9b8e5f","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES","subcategory":"2WHEELER"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 21 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"19863ea5-ee73-4805-8ade-79abc3e827d7","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 8 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"a94325eb-e75a-4bb7-8cfc-15f8f1589623","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 15 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"34ca46e8-6bb0-4afe-86ac-83c6632410fd","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 17 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"7ec2f0ca-d31e-4101-a6d2-9b291e08f348","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES","subcategory":"2WHEELER"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 15 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"1533515d-f7a8-4aec-9180-b9480d2ffc51","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES","subcategory":"2WHEELER"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 20 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"dedfbab0-726b-4833-97f6-1064d4241884","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 5 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"63f962e1-c778-416b-85f5-3cb87c34aff6","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 42 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"2ea3db1e-2309-4566-a288-46f66b54d601","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 5 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"ca4ec7a1-d9c4-41fb-be45-f0ae3a1be8c5","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 4 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"12350b93-8847-4242-b7cc-ad1e623c32e4","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES","order":"base_price","subcategory":"2WHEELER"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 16 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"ec043c9d-42b2-4ce1-99ee-2c52d2355e68","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES","order":"base_price"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 4 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"de9898ac-c626-4385-8dca-0d79baa5bb54","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES","order":"base_price"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 34 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"d6db4728-9974-457a-a265-09f5753871c5","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES","order":"base_price"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 38 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"75360688-474f-440c-9e55-f07b24156f3b","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"category":"VEHICLES","order":"base_price"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 16 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690750222,"iat":1690743022,"session_id":19,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"633bf1a1-fa98-4c7d-9bf8-fd4c63a03c60","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"order":"base_price","subcategory":"4WHEELER"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 9 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoxOSwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzQzMDIyLCJleHAiOjE2OTA3NTAyMjJ9.9nHSUSJnHJkWI-qpeNA_Lx4SM_zV2owLbv1V0tL03pA","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"63cc6cd1-0370-4a92-a774-62bf513e43d6","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"order":"base_price","subcategory":"4WHEELER"}},"level":"info","message":"GET /api/product-list \u001b[33m401\u001b[0m - 5 ms","module":"server"}
+{"data":{"body":{"email":"walt@gmail.com","password":"walt123"},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","cache-control":"no-cache","connection":"keep-alive","content-length":"58","content-type":"application/json","host":"localhost:4999","postman-token":"a6a78304-4cb2-4ffa-b516-436ac243e75a","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"POST /api/login \u001b[32m200\u001b[0m - 31 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690757855,"iat":1690750655,"session_id":20,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoyMCwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzUwNjU1LCJleHAiOjE2OTA3NTc4NTV9.er--qWjKXdx6j_aoVUz2J-W-8pa993v1p0-EaIzWCec","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"ac7e5057-1b7c-4fc1-b316-694c51e56f88","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"order":"base_price","subcategory":"4WHEELER"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 11 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690757855,"iat":1690750655,"session_id":20,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoyMCwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzUwNjU1LCJleHAiOjE2OTA3NTc4NTV9.er--qWjKXdx6j_aoVUz2J-W-8pa993v1p0-EaIzWCec","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"52865c20-81ca-4f63-b616-e5f80e17b9ae","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"order":"base_price","subcategory":"4WHEELER"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 15 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690757855,"iat":1690750655,"session_id":20,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoyMCwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzUwNjU1LCJleHAiOjE2OTA3NTc4NTV9.er--qWjKXdx6j_aoVUz2J-W-8pa993v1p0-EaIzWCec","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"376d4490-0be4-4659-b599-0713c959d04d","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 46 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690757855,"iat":1690750655,"session_id":20,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoyMCwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzUwNjU1LCJleHAiOjE2OTA3NTc4NTV9.er--qWjKXdx6j_aoVUz2J-W-8pa993v1p0-EaIzWCec","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"2d407632-e4b7-4299-92af-8d3abecf6abd","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 4 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690757855,"iat":1690750655,"session_id":20,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoyMCwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzUwNjU1LCJleHAiOjE2OTA3NTc4NTV9.er--qWjKXdx6j_aoVUz2J-W-8pa993v1p0-EaIzWCec","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"4bf011bb-d8e4-4c02-b567-ef6d8065f145","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 3 ms","module":"server"}
+{"data":{"body":{"tokenData":{"exp":1690757855,"iat":1690750655,"session_id":20,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoyMCwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzUwNjU1LCJleHAiOjE2OTA3NTc4NTV9.er--qWjKXdx6j_aoVUz2J-W-8pa993v1p0-EaIzWCec","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"dcf1f39c-55f6-4adc-ab42-5ef65409cdc5","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"order":"base_price"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 8 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"data":{"body":{"tokenData":{"exp":1690757855,"iat":1690750655,"session_id":20,"user_id":4}},"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoyMCwidXNlcl9pZCI6NCwiaWF0IjoxNjkwNzUwNjU1LCJleHAiOjE2OTA3NTc4NTV9.er--qWjKXdx6j_aoVUz2J-W-8pa993v1p0-EaIzWCec","cache-control":"no-cache","connection":"keep-alive","host":"localhost:4999","postman-token":"6935b6b6-75ce-480d-85b2-0c3e485ac57f","user-agent":"PostmanRuntime/7.32.3"},"params":{},"query":{"order":"base_price"}},"level":"info","message":"GET /api/product-list \u001b[32m200\u001b[0m - 19 ms","module":"server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}
+{"level":"info","message":"✅ Connection has been established successfully.","module":"Server"}
+{"level":"info","message":"✅ CONNECTION has been synced","module":"Server"}
+{"level":"info","message":"Listening on port 4999","module":"Server"}
+{"level":"info","message":"Swagger URL \"/api-docs/swagger\"","module":"Server"}

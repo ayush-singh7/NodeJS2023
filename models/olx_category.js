@@ -14,10 +14,10 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Olx_Category.init({
-    category_id: DataTypes.INTEGER,
+    category_id: DataTypes.STRING,
     category_name: DataTypes.STRING,
     category_image: DataTypes.BLOB,
-    product_id: DataTypes.INTEGER
+    parent_id: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Olx_Category',

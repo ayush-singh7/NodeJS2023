@@ -2,7 +2,7 @@ import {Request, Response, Router} from 'express';
 import { jwtAuthorisation, sessionManagement, validationMiddleware  } from '../middlewares/validation-middlewares';
 import { loginSchema } from '../constants/validation-schema';
 import { Login, Logout, Signup } from '../controllers/auth/onboarding';
-import { AddProduct, PlaceBid, ViewProduct } from '../controllers/features/products';
+import { AddProduct, PlaceBid, ProductListing, ViewProduct } from '../controllers/features/products';
 import { AddAddress, EditAddress, EditUserDetails, ProductImage } from '../controllers/features/user';
 import { Multer } from '../utility/multer';
 
@@ -34,14 +34,16 @@ const router: Router = Router();
 
     router.post('/add-product',jwtAuthorisation,sessionManagement,AddProduct)
 
-    router.get('product-details/:id',jwtAuthorisation,sessionManagement,ViewProduct); //done view the product through ID
+    router.post('/')
+
+    router.get('/product-details/:id',jwtAuthorisation,sessionManagement,ViewProduct); //done view the product through ID
 
     router.post('/product-image/:id',jwtAuthorisation,sessionManagement, Multer.single("image"),ProductImage) //done 
 
     router.post('/bid',jwtAuthorisation,sessionManagement,PlaceBid) //done
 
-    router.get('/product',jwtAuthorisation,sessionManagement,)
+    router.get('/product-list',jwtAuthorisation,sessionManagement,ProductListing);
 
-
+    
 
 export const apiRouter = router;

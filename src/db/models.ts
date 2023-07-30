@@ -88,6 +88,9 @@ export const ProductModel = sequelize.define("olx_products", {
     category_id: {
         type: DataTypes.STRING
     },
+    subcategory_id:{
+        type:DataTypes.STRING,
+    },
     address_id: {
         type: DataTypes.INTEGER
     }
