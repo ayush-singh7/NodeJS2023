@@ -28,8 +28,9 @@ export const SessionManagement = async(req:Request, res:Response, next:NextFunct
     let keyToCheck = req.body.tokenData.id;
     
     try{
-        let ans = await RedisClient.exists(keyToCheck )
-
+        let ans:Number = await RedisClient.exists(keyToCheck )
+        console.log(ans,typeof(ans),'--------------------------');
+        
         if(ans == 1){
             next();
         }else{

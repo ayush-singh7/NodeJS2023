@@ -30,6 +30,8 @@ export const Login = async(req:Request, res:Response)=>{
         const {userName, password} = req.body;
         let {error} = await loginSchema.validateAsync(req.body)
         let user = await UserModel.findOne({userName:userName,password:password})
+        console.log(req,"hetrrrrrrrrrrrrr");
+        
         if(user){
 
             let id = user._id;
