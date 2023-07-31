@@ -56,6 +56,36 @@ export const EditUserDetails = async(req:Request, res:Response)=>{
     }
 }
 
+export const ProfilePic = async(req:Request, res:Response)=>{
+    try{
+        if(req.file){
+            console.log(req.file,'filedata');
+            const {tokenData} = req.body
+            try{
+                
+                await UserModel.update(
+                    {
+                        profile_pic:req.file.buffer
+                    },
+                    {
+                        where:{user_id:tokenData.user_id}
+                    }
+                )
+                res.send("Profile Updation succesfull")
+
+            } catch(e){
+                res.send("Serveer error")
+
+            }
+        }
+
+
+    }catch(e){
+
+    }
+
+}
+
 export const ProductImage = async(req:Request, res:Response)=>{
 
     const {id} = req.params;
@@ -77,3 +107,4 @@ export const ProductImage = async(req:Request, res:Response)=>{
         }
     }
 }
+

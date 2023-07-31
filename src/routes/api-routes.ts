@@ -1,10 +1,10 @@
 import {Request, Response, Router} from 'express';
 import { jwtAuthorisation, sessionManagement, validationMiddleware  } from '../middlewares/validation-middlewares';
-import { loginSchema } from '../constants/validation-schema';
-import { Login, Logout, Signup } from '../controllers/auth/onboarding';
-import { AddProduct, PlaceBid, ProductListing, ViewProduct } from '../controllers/features/products';
-import { AddAddress, EditAddress, EditUserDetails, ProductImage } from '../controllers/features/user';
-import { Multer } from '../utility/multer';
+import { loginSchema, signupSchema } from '../constants/validation-schema';
+import { ChangePassword, GenerateOTP, Login, Logout, Signup, VerifyOTP } from '../controllers/auth/onboarding';
+import { AddProduct, PlaceBid, ProductListing,  RemoveProduct, ViewProduct } from '../controllers/features/products';
+import { AddAddress, EditAddress, EditUserDetails, ProductImage, ProfilePic } from '../controllers/features/user';
+import { Multer, getBuffer } from '../utility/multer';
 
 
 const router: Router = Router();
@@ -16,11 +16,21 @@ const router: Router = Router();
 
     // Onboarding 
    
-    router.post('/login', validationMiddleware(loginSchema) ,Login); //done
+    router.post('/login', validationMiddleware(loginSchema) ,Login); //done (bug when a new user signs up)
 
-    router.post('/signup',Signup ); //done validation left from here
+    router.post('/signup',validationMiddleware(signupSchema),Signup ); //done 
 
     router.get('/logout',jwtAuthorisation, sessionManagement, Logout ) //done
+
+    router.post('/profile-picture',getBuffer.single('image'),jwtAuthorisation,sessionManagement,ProfilePic) //done
+
+        //re claim credentials / Forgot Password
+
+    router.post('/generate-otp',GenerateOTP) //done
+
+    router.post('/verify-otp',VerifyOTP) //done
+
+    router.post('/change-password',jwtAuthorisation,sessionManagement,ChangePassword)
 
     // User 
 
@@ -32,9 +42,9 @@ const router: Router = Router();
 
     // Feature
 
-    router.post('/add-product',jwtAuthorisation,sessionManagement,AddProduct)
+    router.post('/product',jwtAuthorisation,sessionManagement,AddProduct)  //done
 
-    router.post('/')
+    router.delete('/product',jwtAuthorisation,sessionManagement,RemoveProduct)   //done
 
     router.get('/product-details/:id',jwtAuthorisation,sessionManagement,ViewProduct); //done view the product through ID
 
@@ -42,8 +52,6 @@ const router: Router = Router();
 
     router.post('/bid',jwtAuthorisation,sessionManagement,PlaceBid) //done
 
-    router.get('/product-list',jwtAuthorisation,sessionManagement,ProductListing);
-
-    
+    router.get('/product-list',jwtAuthorisation,sessionManagement,ProductListing);  //done
 
 export const apiRouter = router;

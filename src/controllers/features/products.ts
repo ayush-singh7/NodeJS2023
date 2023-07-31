@@ -119,3 +119,19 @@ export const ProductListing = async (req: Request, res: Response) => {
 
     }
 }
+
+export const RemoveProduct = async(req:Request, res:Response)=>{
+
+    try{
+        let {id} = req.params;
+        await ProductModel.destroy({
+            where: {product_id: id}
+        })
+        res.send('succesfully deleted product')
+
+    }catch(e){
+        res.send('server ereror')
+    }
+
+}
+

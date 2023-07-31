@@ -7,6 +7,10 @@ import { loggerMiddleWare } from "./middlewares/logger";
 import { connectDB } from "./db/connection";
 import { apiRouter } from "./routes/api-routes";
 
+import swaggerUi, { SwaggerOptions } from 'swagger-ui-express';
+import swaggerJSDoc from "swagger-jsdoc";
+import { redisConnect } from "./db/redis-client";
+
 
 export class Application {
 
@@ -48,6 +52,8 @@ export class Application {
   async load() {
     this.initConfig();
     await connectDB()
+    await redisConnect()
+
     this.instance.use('/api', apiRouter);
 
   }
@@ -59,9 +65,8 @@ export class Application {
 
     this.instance.use(loggerMiddleWare);
 
-
     // //Initialize swagger
-    // this.initSwagger();
+    this.initSwagger();
 
     //Set well-known security-related HTTP headers
     this.instance.use(helmet());
@@ -71,23 +76,36 @@ export class Application {
   }
 
   initSwagger() {
-    /** Swagger Implementation Start  */
+  
+    const SWAGGER_OPTIONS: SwaggerOptions = {
+      failOnErrors: true, // Whether or not to throw when parsing errors. Defaults to false.
+      definition: {
+          openapi: '3.0.0', // present supported openapi version
+          info: {
+              title: 'OLX Api',
+              version: '1.0.0',
+          },
+          components: {
+              securitySchemes: {
+                  BasicAuth: {
+                      type: 'http',
+                      scheme: 'basic',
+                  },
+                  BearerAuth: {
+                      type: 'http',
+                      scheme: 'bearer',
+                  },
+              },
+          },
+      },
+      apis: ['./src/swagger/*'], // files containing annotations as above
+    };
+  
+    const socialAppAPISpecs = swaggerJSDoc(SWAGGER_OPTIONS);
 
-    // this.instance.use('/api-docs/swagger', express.static('swagger'));
-    // this.instance.use('/api-docs/swagger/assets', express.static('node_modules/swagger-ui-dist'));
-    // this.instance.use(
-    //   swagger.express({
-    //     definition: {
-    //       info: {
-    //         title: 'My api',
-    //         version: '1.0'
-    //       },
-    //       basePath: '/api/v1',
-    //       schemes: ['http']
-    //     }
-    //   })
-    // );
     
+    this.instance.use(`/api-docs`, swaggerUi.serve, swaggerUi.setup(socialAppAPISpecs));
+
     /** Swagger Implementation Ends  */
   }
 }

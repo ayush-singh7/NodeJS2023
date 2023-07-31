@@ -16,3 +16,12 @@ const storage = multer.diskStorage({
   })
   
 export const Multer = multer({ storage: storage })
+
+
+
+
+
+
+
+const storageBuffer = multer.memoryStorage()
+export const getBuffer= multer({ storage: storageBuffer })
