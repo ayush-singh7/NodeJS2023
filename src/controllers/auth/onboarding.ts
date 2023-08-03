@@ -48,7 +48,7 @@ export const GenerateOTP = async (req: Request, res: Response) => {
             service: 'gmail',
             auth: {
                 user: 'ayush.singh@appinventiv.com',
-                pass: 'wamatrcapmnozzcm'
+                pass: process.env.password
             }
         }
 
