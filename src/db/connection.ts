@@ -12,7 +12,6 @@ async function connectDB() {
     await sequelize.authenticate();
     serverLogger.info("✅ Connection has been established successfully.");
     await sequelize.sync();
-    serverLogger.info("✅ CONNECTION has been synced");
     
   } catch (error) {
     console.error("Unable to connect to the database:", error);

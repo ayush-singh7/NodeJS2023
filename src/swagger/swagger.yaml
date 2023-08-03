@@ -4,11 +4,23 @@ info:
   description: Optional multiline or single-line description in HTML.
   version: 1.0.0
 servers:
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT  # optional, for documentation purposes only
+
 paths:
   /api/login:
     post:
       summary: login api instagram
       description:  Returns TOKEN and stores it in redis server
+      parameters:
+        - in: header
+          name: Authorization
+          schema:
+            type: string
       requestBody: 
         required: true
         content: 
@@ -26,7 +38,9 @@ paths:
   /api/product-list:
     get:
       summary: Product Listing api
-      description: GEt details wrt query params
+      description: Get details wrt query params
       responses:
-       '200':
+        '200':
           description: OK
+        
+        

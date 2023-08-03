@@ -146,3 +146,5 @@ export const ProductImageModel = sequelize.define("olx_product_image",{
         type:DataTypes.INTEGER
     }
 })
+
+

@@ -65,7 +65,7 @@ export class Application {
 
     this.instance.use(loggerMiddleWare);
 
-    // //Initialize swagger
+    // //Initialize swaggerc
     this.initSwagger();
 
     //Set well-known security-related HTTP headers
