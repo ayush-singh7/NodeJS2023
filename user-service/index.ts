@@ -2,6 +2,7 @@ import express, { Application } from "express";
 import * as grpc from '@grpc/grpc-js';
 import * as path from 'path';
 import * as protoLoader from '@grpc/proto-loader';
+import { log } from "console";
 
 const app: Application = express();
 
@@ -14,21 +15,23 @@ const packageDefinition = protoLoader.loadSync(
         oneofs: true,
     });
 
-const grpcObject:any = grpc.loadPackageDefinition(packageDefinition).mypackage;
+const arrayProto:any = grpc.loadPackageDefinition(packageDefinition);
 
+
+// Implement the gRPC service
 const server = new grpc.Server();
 
-const getData =(call:any, callback:any) => {
-    console.log('Received request:', call.request.data);
-    // ............
-    const responseData = `Received: ${call.request.data}`;
-    callback(null, { data: responseData });
-}
+server.addService(arrayProto.ArrayService.service, {
+  ProcessArray: (call:any, callback:any) => {
+    const numbers = call.request.numbers;
+    console.log('Received array:', numbers);
 
-server.addService(grpcObject.MyService.service, {
-    MyRpcMethod: getData,
+    const sum = numbers.reduce((acc:any, curr:any) => acc + curr, 0);
+    const response = { message: `Sum of array elements: ${sum}` };
+
+    callback(null, response);
+  },
 });
-
 
 
 

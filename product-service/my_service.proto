@@ -1,15 +1,13 @@
 syntax = "proto3";
 
-package mypackage;
-
-service MyService {
-  rpc MyRpcMethod(MyRequest) returns (MyResponse);
+service ArrayService {
+  rpc ProcessArray(ArrayRequest) returns (ArrayResponse);
 }
 
-message MyRequest {
-  string data = 1;
+message ArrayRequest {
+  repeated int32 numbers = 1;
 }
 
-message MyResponse {
-  string data = 1;
+message ArrayResponse {
+  string message = 1;
 }
