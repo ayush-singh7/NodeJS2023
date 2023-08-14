@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package userPackage;
+
+service Profile {
+    rpc GetProfile(GetProfilePayload) returns (Response) {}
+    rpc GetProfileWithSession(GetProfileWithSessionPayload) returns (Response) {}
+}
+
+service Kyc {
+    rpc DanKycInfo(DanKycInfoPayload) returns (Response) {}
+}
+
+service Test {
+    rpc TestService(Empty) returns (Response);
+}
+
+message GetProfilePayload{
+    string email = 1;
+}
+
+message GetProfileWithSessionPayload{
+    string email = 1;
+}
+
+message Empty {}
+
+message Response {
+    int32 code = 1;
+    string status = 2;
+    int64 timestamp = 3;
+    string data = 4;
+    string error = 5;
+}
+
+message DanKycInfoPayload {
+    string data = 1;
+}
