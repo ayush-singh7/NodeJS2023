@@ -1,6 +1,5 @@
-import { ConnectOptions,connect, Connection, createConnection } from 'mongoose';
 import { logger } from '../utils/logger';
-
+import * as mongoose from 'mongoose';
 class MongoConnection {
     constructor() {
         this.initiateUserMongoConnection();
@@ -11,7 +10,8 @@ class MongoConnection {
      */
     async initiateUserMongoConnection() {
         try{
-            await connect('mongodb://localhost:27017/bigbasket')
+            mongoose.set('debug',true)
+            await mongoose.connect('mongodb://localhost:27017/bigbasket')
             logger.info('Initiated Mongo User Conection');
 
         }catch(e){

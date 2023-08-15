@@ -2,6 +2,7 @@ import { Server } from '@grpc/grpc-js';
 import { Router } from 'express';
 import { productControllers } from '../controllers/product.controllers';
 import { auth } from '../middlewares/auth';
+import { categoriesControllers } from '../controllers/categories.controllers';
 
 
 class Routes {
@@ -24,10 +25,18 @@ class Routes {
      * @description Load All Routes
      */
     loadAllRoutes() {
+
         this.route.get('/products',
-        auth.basicAuth,
-        productControllers.productListing);
-        
+            auth.basicAuth,
+            productControllers.productListing);
+
+        this.route.get('/categories',
+            auth.basicAuth,
+            categoriesControllers.fetchCategories
+        )
+
+
+
         return this.route;
     }
 }
