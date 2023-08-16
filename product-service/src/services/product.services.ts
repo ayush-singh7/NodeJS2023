@@ -1,5 +1,6 @@
 import { Router, Request, Response } from 'express';
 import { ProductModel, UserModel } from "../database/models"
+import { PipelineStage, UpdateWithAggregationPipeline } from 'mongoose';
 
 class ProductServices {
 
@@ -7,39 +8,46 @@ class ProductServices {
     }
 
     async fetchProducts(queryParams: any) {
-        const { price, brand, rating } = queryParams;
+        const { price, brand, rating,category } = queryParams;
         console.log();
 
         try {
-            let pipeline: any = [];
+            let pipeline:any = [];
 
-            console.log(pipeline, '---A:PT');
+            if (category) {
+                let brandObj:PipelineStage = {
+                    $match: {
+                      "categoryData.categoryId": { $in: [+category] }
+                    }
+                  }
+                pipeline.push(brandObj)
+            }
 
-            if (brand) {
-                pipeline.push({ $match: { brand: brand } });
+            if(rating){
+                let [start,end] = rating.split('-')
+                pipeline.push({ $match: {rating: {$gte:+start, $lt:+end} } })   
             }
 
             if (price) {
-
                 let priceSort = {
                     $sort: {
                         price: +price
                     }
                 }
                 pipeline.push(priceSort);
-
             }
-
+            
             pipeline.push({
-                $project:{_id:0}
+                $match : {
+                    _id: {
+                        $ne : null
+                    }
+                }
             })
 
             let products = await ProductModel.aggregate(pipeline);
-            console.log(products, '-----');
-
             return products;
         } catch (e) {
-            console.log(e, '----');
 
             return e;
         }
