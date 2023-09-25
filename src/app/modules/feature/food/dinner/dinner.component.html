@@ -1,0 +1,40 @@
+<div class="container">
+    <header>
+        <div class="header-top">
+            <h2>
+                Dinner Request
+            </h2>
+            <div class="request-dinner">
+                <button (click)="showDinnnerForm = !showDinnnerForm" >Request Dinner</button>
+            </div>
+
+        </div>
+        <div class="note">
+            <span> Note: You can request/cancel dinner for today before 6:00 PM</span>
+        </div>
+    </header>
+    <section *ngIf="showDinnnerForm">
+        <form [formGroup]="dinnerForm">
+            <div class="left">
+                <div class="input"> 
+                    <mat-label class="fw-600">Date</mat-label>
+                    <app-input-date [date]="dinnerForm.controls.date" [datePickerData]="dateData">
+                    </app-input-date>
+                </div>
+                <div class="input">
+                    <mat-label class="fw-600">Date</mat-label>
+                    <div class="training-select">
+                        <select name="" >
+                            <option value="training">Select All</option>
+                            <option value="training">Training Project</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <angular-editor  [placeholder]="'Enter text here...' " [config]="config" formControlName="reason">
+                </angular-editor>
+            </div>
+        </form>
+    </section>
+</div>

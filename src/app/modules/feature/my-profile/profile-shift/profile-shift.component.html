@@ -1,0 +1,19 @@
+<header>
+  <h2>Shift Timings</h2>
+</header>
+<div class="container">
+ 
+    <app-common-table
+    [tableSource]="tableSource">
+
+    <ng-template appFor="joining_date" let-row="row">
+        <a class="name-link">{{row.joining_date |date }}</a>
+      </ng-template>
+
+    <ng-template appFor="office_shift" let-row="row">
+        <a class="name-link">{{row.office_shift}}</a>
+      </ng-template>
+     
+</app-common-table>
+
+</div>

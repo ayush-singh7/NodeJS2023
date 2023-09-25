@@ -1,0 +1,31 @@
+@import "../../../../../scss/common";
+
+.legend{
+    @include flex(center,flex-start);
+    gap:16px;
+    p{
+        margin-bottom: 0px;
+    }
+    span{
+        font-size: 1.1rem;
+        padding-right: 5px;
+    }
+    .coupon-purchased{
+        color:#a4ffcc;
+        background-color: #a4ffcc;
+    }
+
+    .coupon-available{
+        background-color: #bdc8fa;
+        color:#bdc8fa;
+    }
+    .locked{
+        color:#bfbfbf;
+        background-color: #bfbfbf;
+    }
+    .holiday{
+        color:#ff989e;
+        background-color: #ff989e;
+    }
+   
+}   

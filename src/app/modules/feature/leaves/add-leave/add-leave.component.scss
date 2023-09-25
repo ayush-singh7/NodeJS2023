@@ -1,0 +1,95 @@
+@import "../../../../../scss/common";
+.container{
+    @include input-shadow();
+    header{
+        @include flex(center,space-between);
+        h2{
+            color:$blue;
+            margin-bottom: 0px;
+        }
+        button{
+            border:1px solid #00abff;
+            background-color: $white;
+            color: #00abff;
+            padding: 2px 4px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #00abff;
+            color: white;
+            transform-origin: 0.5s;
+        }
+    }
+    form{
+        display: grid;
+        padding-top: 10px;
+        border-top: 1px solid $lightgray;
+        grid-template-columns: 48% 48%;
+        column-gap: 4%;
+        @media (max-width:900px) {
+            grid-template-columns: 90%;
+            justify-content: center;
+        }
+        .leave-form{
+            .leave-form-top{
+                
+                .left{
+                    display: grid;
+                    grid-template-columns: 100%;
+
+                    padding: 0 2%;
+                    column-gap: 4%;
+                    .leave-type{
+                        width: 50%;
+                    }
+                    .date-wrapper{
+                        display: flex;
+                        gap:10px;
+                        @media (max-width:800px) {
+                            flex-direction:column;
+                        }
+                    }   
+                    .short-leaves{
+                        width: 50%;
+                        display: flex;
+                        gap:10px;
+                        .input{
+                            mat-form-field{
+                                width: 75%;
+                            }
+                        }
+                    }
+                }
+            }
+            .leave-form-middle{
+                padding: 0 2%;
+                .input{
+                    @include flex(null,flex-start);
+                    flex-direction: column;
+                }
+            }
+             
+        }
+        .save-button{
+            padding: 1% 5%;
+            button{
+                color:$white;
+                height: 2.5rem;   
+                width: 4.5rem;
+                border:none;
+                cursor: pointer;
+                font-size: 14px;
+            }
+            .save{
+                background-color: #1da81b;
+                border-radius: 4px;
+                
+            }
+            .cancel{
+                background: #d9534f;
+                border-radius: 4px;
+                margin-right: 10px;
+            }
+        }  
+    }
+}

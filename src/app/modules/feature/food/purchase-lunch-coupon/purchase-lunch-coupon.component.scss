@@ -1,0 +1,43 @@
+@import "../../../../../scss/common";
+
+.container{
+    .top{
+        width: 97%;
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+    .middle{
+        border: 1px solid #DCE2E9;    
+        background-color: $white;
+        width: 97%;
+        margin: auto;
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        align-items: center;
+        padding: 1% 3%;
+        .input{
+            @include flex(stretch,center);
+            flex-direction: column;
+        }
+        .buttons-wrapper{
+            .submit-btn{
+                @include blue-button(2.5rem,7rem);
+            }
+            .cancel-btn{
+                @include grey-button(2.5rem,7rem);
+            }
+        }
+    }
+
+    .bottom{
+        border: 1px solid #DCE2E9;    
+        background-color: $white;
+        width: 97%;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 2rem;
+        padding: 2%;
+       
+    }
+}

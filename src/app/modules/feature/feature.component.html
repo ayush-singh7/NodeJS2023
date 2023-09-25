@@ -1,0 +1,98 @@
+<mat-toolbar>
+    <div class="toolbar-left">
+        <div class="app-logo">
+            <img [src]="isExpanded ? '../../../assets/applogo.png' : '../../../assets/applogoSmall.png'"
+                alt="APPINVENTIV LOGO">
+        </div>
+        <button mat-icon-button class="disappear-1000px" aria-label="Example icon-button with menu icon"
+            (click)="toggleSidenav()">
+            <mat-icon class="mb-3 theme-color-icon pointer" aria-label="menu">menu</mat-icon>
+        </button>
+    </div>
+    <div class="toolbar-right">
+        <div class="menu-button">
+            <mat-icon class="mb-3 theme-color-icon small-phone-menu pointer" (click)="toggleSideNavSmallPhone()"  aria-label="menu">menu</mat-icon>
+        </div>
+        <div class="last-login text-muted disappear-1000px">
+            Last Login Feb-01-2023 11:55 AM from 172.31.76.182
+        </div>
+        <div class="profile-block ">
+            <button class="pointer" [matMenuTriggerFor]="menu">
+                <p>
+                    Ayush Singh
+                </p>
+                <img src="../../../assets/usermale.jpg" alt="USER_IMAGE">
+                <button mat-icon-button > 
+                    <!-- pass local reference of mat-menu to be opened on this click -->
+                    <mat-icon>keyboard_arrow_down</mat-icon>
+                  </button>
+                  <mat-menu #menu="matMenu"> 
+                    <!-- give local reference and tell this is manu by assigning 'matMenu' -->
+                    <button mat-menu-item (click)="myProfile()" >
+                      <mat-icon aria-hidden="false">person</mat-icon>
+                      <span>My Profile</span>
+                    </button>
+                    <button mat-menu-item (click)="changePassword()" >
+                        <mat-icon> vpn_key</mat-icon>
+                      <span>Change Password</span>
+                    </button>
+                    <button mat-menu-item (click)="signout()">
+                        <mat-icon aria-hidden="false">logout</mat-icon>
+                      <span>Signout</span>
+                    </button>
+                  </mat-menu>
+            </button>
+            <div class="help pointer" (click)="openHelpDialog()" >
+                Help
+            </div>
+            <mat-icon class="pointer">
+                notifications
+            </mat-icon>
+        </div>
+    </div>
+</mat-toolbar>
+
+<mat-sidenav-container autosize>
+
+    <mat-sidenav #sidenav class="example-sidenav disappear-1000px" mode="side" opened="true" (mouseenter)="mouseenter()"
+        (mouseleave)="mouseleave()" [@openClose]="isExpanded ? 'open' : 'closed'" id="side-nav-id">
+        <mat-nav-list class="jj">
+            <ng-container *ngFor="let navBarItem of localNavBarData">
+
+                <mat-list-item class="parent" (click)="openSubMenu(navBarItem)"  
+                [routerLink]='navBarItem.link' [routerLinkActive]="navBarItem.link ? 'is_active' : 'null'"
+                [ngClass]="{'parentChecked': parentChecker(navBarItem)}"
+                >
+                <mat-icon mat-list-icon>{{navBarItem.icon}}</mat-icon>
+                    <span class="full-width fw-500" *ngIf="isExpanded">
+                        {{navBarItem.name}}
+                        <img src="../../../assets/chakra.png" *ngIf="navBarItem.chakra" class="chakra">
+                    </span>
+                    <mat-icon class="menu-button" [ngClass]="{'rotated' : navBarItem.subMenuClicked}" *ngIf="navBarItem.subMenu" >
+                        expand_more
+                    </mat-icon>
+                </mat-list-item>
+                <div class="submenu" 
+                [ngClass]="{'expanded' : navBarItem.subMenuClicked}"
+                 *ngIf="navBarItem.subMenuClicked" >
+                    <ng-container *ngFor="let subMenuItem of navBarItem.subMenu">
+                        <a mat-list-item  [routerLink]='subMenuItem.link' [routerLinkActive]="subMenuItem.link ? 'is_active' : 'null'">
+                                <mat-icon class="mb-5">
+                                    {{subMenuItem.icon}}
+                                </mat-icon>
+                            <span>
+                                {{subMenuItem.name}}
+                            </span>
+                        </a>
+                    </ng-container>                                 
+                </div>
+            </ng-container> 
+        </mat-nav-list>
+    </mat-sidenav>
+    
+    <mat-sidenav-content id="marginLeft-error">
+        <div class="sidenav-content" id="sideContent">
+            <router-outlet></router-outlet> 
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

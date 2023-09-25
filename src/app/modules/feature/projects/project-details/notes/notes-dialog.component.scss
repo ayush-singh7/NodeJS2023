@@ -1,0 +1,13 @@
+section
+{
+  .head{
+    color:#3246d3 ;
+    border-bottom: 1px solid rgb(211, 204, 204);
+  }
+  .main{
+    padding: 2%;
+   display: grid;
+   grid-template-columns: 10% 70%;
+   column-gap: 10%;
+  }
+}

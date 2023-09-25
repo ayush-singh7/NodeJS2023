@@ -1,0 +1,9 @@
+<mat-form-field appearance="outline" class="full-width">
+    <input matInput [formControl]="date" [placeholder]='datePickerData.placeholder'  [matDatepicker]="dp3"  
+     readonly  [min]="MINDATE" [max]="MAXDATE" (dateChange)="dateChange($event)" >
+    <mat-datepicker-toggle matSuffix [for]="dp3"></mat-datepicker-toggle>
+    <mat-datepicker #dp3 disabled="false" ></mat-datepicker>
+    <mat-error *ngIf="date.hasError('required')">
+        {{datePickerData.label}} is required
+    </mat-error>
+</mat-form-field>

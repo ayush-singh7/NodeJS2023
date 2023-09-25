@@ -1,0 +1,60 @@
+@import "../../../../../scss/common";
+:host{
+    overflow: auto;
+}
+
+.container {
+    padding: 2%;
+    margin-bottom: 16rem;
+    h1{
+        color: $primary;
+    }
+    .docs-data {
+        table{
+            padding: 2%;
+            border: 1px solid $lightgray;
+            border-radius: 10px;
+            width: 100%;
+            background-color: $white;
+            width: 95%;
+            margin: auto;
+            td,th{
+                text-align: left;
+                border-bottom:1px solid $lightgray ;
+                padding: 1rem;
+               
+            }
+            td{
+                .pdf{
+                    margin-bottom: 5px;
+                    color:$warning;
+                    position: relative;
+                    top:8px
+                }
+                button{
+                    .download{
+                        color:$blue;
+                    }
+                }
+            }
+            th{
+                color:lightgray
+            }
+            .action{
+                button{
+                    @include flex(center,center);
+                    background-color: #fcf7f7;
+                    border-radius: 4px;
+                    border: 1px solid $primary;
+                    color: $primary;
+                    padding: 4px 40px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+}
+.footer{
+    // margin-top: 25rem;
+}

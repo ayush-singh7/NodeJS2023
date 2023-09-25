@@ -1,0 +1,182 @@
+@import "../../../scss/common";
+
+mat-toolbar {
+    background-color: rgb(255, 255, 255);
+    height: 4.8rem;
+    @include flex(center, space-between);
+    .toolbar-left {
+        height: 4.8rem;
+        @include flex(center, flex-start);
+        gap: 5px;
+        .app-logo {
+            height: 50%;
+            width: auto;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .toolbar-right {
+        @include flex(center, center);
+        flex-direction: column;
+        .last-login {
+            font-size: 10px;
+            position: absolute;
+            top: -4px;
+            right: 55px;
+        }
+        .profile-block {
+            @include flex(center, center);
+            gap: 20px;
+            margin-right: 2rem;
+            button {
+                @include flex(center, center);
+                gap: 5px;
+                border: none;
+                font-size: 1rem;
+                background-color: white;
+                p {
+                    margin-bottom: 0px !important;
+                }
+                img {
+                    height: 2rem;
+                    width: 2rem;
+                    border-radius: 50%;
+                }
+            }
+            .help {
+                @include flex(center, center);
+                background-color: #f80f0f;
+                color: white;
+                border-radius: 5px;
+                padding: 5px;
+                height: 25px;
+                font-size: 13px;
+                font-weight: 500;
+                @media (max-width: 1000px) {
+                    display: none;
+                }
+            }
+            mat-icon {
+                font-size: 1.8rem;
+                color: rgb(150, 144, 144);
+            }
+            mat-icon:hover {
+                color: $primary;
+            }
+            @media (max-width: 1000px) {
+                display: none;
+            }
+        }
+        .small-phone-menu {
+            display: none;
+            @media (max-width: 1000px) {
+                display: block;
+            }
+        }
+    }
+}
+
+mat-sidenav-container {
+    height: calc(100vh - 4.8rem);
+    .example-sidenav {
+        user-select: none;
+    }
+    .full-width {
+        font-size: 15px;
+        width: 100%;
+    }
+    .menu-button {
+        transition: 300ms ease-in-out;
+        transform: rotate(0deg);
+    }
+    .menu-button.rotated {
+        transform: rotate(180deg);
+    }
+    .submenu {
+        overflow-y: hidden;
+        transition: transform 300ms ease;
+        transform: scaleY(0);
+        transform-origin: top;
+        padding-left: 30px;
+        
+        a {
+            mat-icon {
+                margin-right: 10px;
+            }
+        }
+    }
+    .submenu.expanded {
+        transform: scaleY(1);
+    }
+    mat-sidenav {
+        @include custom-scroller('y');
+        
+        mat-nav-list{
+            @include custom-scroller('y');
+            mat-list-item{
+                // margin-top: 5px;
+                mat-icon{
+                    font-size: 21px;
+                    margin-top: 10px;
+                }
+                .chakra{
+                    height: 1.4rem;
+                    width: 1.4rem;
+                    position: relative;
+                    top:7px;
+                    animation: rotation 2s infinite linear;
+                }
+                @keyframes rotation {
+                    from {
+                      transform: rotate(0deg);
+                    }
+                    to {
+                      transform: rotate(359deg);
+                    }
+                  }
+            }
+        }
+        .jj{
+            @include custom-scroller('y');
+        }
+        
+        .parentChecked{
+            color:$primary;
+            border-left: 4px solid $primary;
+        }
+        mat-list-item:hover {
+            color: $primary;
+        }
+        .is_active{
+            border-left:4px solid $primary;
+            color:$primary;
+        }
+    }
+
+    mat-sidenav-content {
+        
+        @include custom-scroller('y');
+        min-height: 100%;
+        background-color: $dashboard_bg;
+        .sidenav-content {
+            // min-height: 100vh;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        @media (max-width: 1000px) {
+            // opacity: 0.1;
+            margin-left: 0px !important;
+        }
+        
+    }
+}
+
+.abc{
+    @include custom-scroller('y');
+    
+}

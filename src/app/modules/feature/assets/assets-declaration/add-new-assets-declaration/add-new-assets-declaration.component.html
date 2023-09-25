@@ -1,0 +1,99 @@
+<div class="container">
+    <header>
+        <button mat-raised-button color="primary" (click)="showAssetsForm = !showAssetsForm" > + Add New Asset Declaration</button>
+    </header>
+
+    <section class="assets-details menu" [formGroup]="assetsDeclarationForm" *ngIf="showAssetsForm" [@dropDownMenu]>
+        <div class="form-top menu-item"  >
+
+            <div class="input">
+                <mat-label class="fw-600">Employee ID</mat-label>
+                <mat-form-field class="full-width" appearance="outline">
+                    <input matInput formControlName="employee_id">
+                    <mat-error>
+                        {{assetsDeclarationForm | showError : 'employee_id' : 'Employee ID' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="input">
+                <mat-label class="fw-600">Unique Asset Code</mat-label>
+                <mat-form-field class="full-width" appearance="outline">
+                    <input matInput formControlName="asset_code">
+                    <mat-error>
+                        {{assetsDeclarationForm | showError : 'asset_code' : 'Asset Code' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="input">
+                <mat-label class="fw-600">Serial Number</mat-label>
+                <mat-form-field class="full-width" appearance="outline">
+                    <input matInput formControlName="serial_number" >
+                    <mat-error>
+                        {{assetsDeclarationForm | showError : 'serial_number' : 'Serial Number' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="input">
+                <mat-label class="fw-600" >Model Number</mat-label>
+                <mat-form-field class="full-width" appearance="outline">
+                    <input matInput formControlName="model_number">
+                    <mat-error>
+                        {{assetsDeclarationForm | showError : 'model_number' : 'Model Number' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="input">
+                <mat-label class="fw-600">OS</mat-label>
+                <app-dropdown-search [myControlName]="assetsDeclarationForm.controls.os" [data]="osData" ></app-dropdown-search>
+                
+            </div>
+            <div class="input">
+                <mat-label class="fw-600">OS version</mat-label>
+                <mat-form-field class="full-width" appearance="outline">
+                    <input matInput formControlName="os_version" >
+                    <mat-error>
+                        {{assetsDeclarationForm | showError : 'os_version' : 'OS Version' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="input">
+                <mat-label class="fw-600"> Brand</mat-label>
+                <mat-form-field class="full-width" appearance="outline">
+                    <input matInput formControlName="brand" >
+                    <mat-error>
+                        {{assetsDeclarationForm | showError : 'brand' : 'Brand' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="input">
+                <mat-label class="fw-600">Colour</mat-label>
+                <mat-form-field class="full-width" appearance="outline">
+                    <input matInput formControlName="brand" >
+                    <mat-error>
+                        {{assetsDeclarationForm | showError : 'brand' : 'Brand' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="input">
+                <mat-label class="fw-600">Device is in Working Condition?</mat-label>
+                <app-dropdown-search [myControlName]="assetsDeclarationForm.controls.working_condition" [data]="workingConditionData" ></app-dropdown-search>
+            </div>
+        </div>
+        <div class="form-bottom menu-item">
+
+            <div class="input">
+                <mat-label class="fw-600">Asset Image(Allowed Format: jpg,jpeg,JPEG,JPG,png,PNG,GIF) Upload front and backside image*</mat-label>
+                <mat-form-field class="full-width" appearance="outline">
+                    <input matInput  >
+                    <input type="file">
+                    <mat-error>
+                        {{assetsDeclarationForm | showError : 'working_condition' : 'Working Condition?' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="submit-button">
+            <button (click)="submit()" >Submit</button>
+        </div>
+    </section>
+</div>

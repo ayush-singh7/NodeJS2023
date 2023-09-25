@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="left">
+        <h2>Punch Log</h2>
+        <div class="date">
+            <mat-label class="fw-500">Date</mat-label>
+            <input type="text">
+        </div>
+        <div class="company">
+            <mat-label class="fw-500">Company</mat-label>
+            <input type="text">
+        </div>
+        <div class="buttons">
+            <button>Get</button>
+        </div>
+    </div>
+    <div class="right">
+        <h2 class="mb-10">Punch Log</h2>
+        <app-common-table [tableSource]="tableSource" class="mt-10">
+
+        </app-common-table>
+    </div>
+</div>

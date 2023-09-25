@@ -1,0 +1,106 @@
+<!-- <div class="carousel-container">
+    <img *ngFor="let image of images; let i=index"
+        [src]="image.imageSrc" [alt]="image.imageAlt"
+        [ngClass]="{'image-active': selectedIndex === i}"
+        class="fade"
+    >
+</div>
+
+<div class="carousel-container">
+    <p *ngFor="let image of images; let i=index"
+    
+        [ngClass]="{'image-active': selectedIndex === i}"
+        class="fade"
+    >
+        
+        kilmmMe {{i}}
+    </p>
+</div>
+
+
+<div class="btn-carousel btn-prev">
+    <div class="icon-carousel icon-prev">
+        <button (click)="onPrevClick()" >  Prev</button>
+    </div>
+
+    <div class="icon-carousel icon-next">
+        <button>Next</button>
+    </div>
+
+</div> -->
+
+
+<!-- TS -->
+<!-- selectedIndex = 0;
+  images = [
+    {
+      imageSrc:
+        'https://images.unsplash.com/photo-1460627390041-532a28402358?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+      imageAlt: 'nature1',
+    },
+    {
+      imageSrc:
+        'https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+      imageAlt: 'nature2',
+    },
+    {
+      imageSrc:
+        'https://images.unsplash.com/photo-1640844444545-66e19eb6f549?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80',
+      imageAlt: 'person1',
+    },
+    {
+      imageSrc:
+        'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
+      imageAlt: 'person2',
+    },
+  ]
+
+
+  ngOnInit(): void {
+  }
+
+  onPrevClick(){
+    if(this.selectedIndex == 0){
+      this.selectedIndex = this.images.length - 1
+    }else{
+      this.selectedIndex--;
+    }
+  } -->
+  <!-- .carousel-container{
+    position: relative;
+    margin:auto;
+    text-align: center;
+    width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px #dee1e1;
+}
+.carousel-container img,p{
+    display: none;
+    border-radius: 15px;
+}
+.carousel-container img.image-active, p.image-active{
+    display: block;
+    width: 100%;
+    height: 400px;
+    border:2px solid black
+}
+.fade{
+    animation-name:fade;
+    animation-duration: 1s;
+}
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+} 
+.btn-carousel{
+    position: absolute;
+    top:0;
+    bottom:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} -->

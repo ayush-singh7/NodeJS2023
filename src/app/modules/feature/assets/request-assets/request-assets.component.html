@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="main">
+        <app-add-new-asset-request (newAssetsData)="addNewAsset($event)" ></app-add-new-asset-request>    
+    </div>
+    <div class="assets-inventory">
+        <h2>List All Assets Inventory</h2>
+        <app-table-listing [config]="listingConfig">
+            <app-common-table [tableSource]="tableSource">
+
+                <ng-template appFor="sn" let-row="row">
+                    <a class="name-link">{{row.emp_name}}</a>
+                </ng-template>
+    
+                <ng-template appFor="asset_category" let-row="row">
+                    <a class="name-link">{{row.asset_category}}</a>
+                </ng-template>
+                <ng-template appFor="quantity" let-row="row">
+                    <a class="name-link">{{row.quantity}}</a>
+                </ng-template>
+                <ng-template appFor="priority" let-row="row">
+                    <a class="name-link">{{row.priority}}</a>
+                </ng-template>
+                <ng-template appFor="required_date" let-row="row">
+                    <a class="name-link">{{row.required_date | date}}</a>
+                </ng-template>
+                <ng-template appFor="allocation_type" let-row="row">
+                    <a class="name-link">{{row.allocation_type}}</a>
+                </ng-template>
+                <ng-template appFor="request_reason" let-row="row">
+                    <a class="name-link">{{row.request_reason}}</a>
+                </ng-template>
+    
+                
+        
+            </app-common-table>
+        </app-table-listing>
+    </div>
+</div>
+<app-footer>
+    
+</app-footer>

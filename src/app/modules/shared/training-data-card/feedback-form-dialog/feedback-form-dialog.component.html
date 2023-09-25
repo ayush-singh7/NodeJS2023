@@ -1,0 +1,97 @@
+<div class="container">
+    <header>
+        <h2>Training Feedback Form</h2>
+        <button mat-dialog-close > X </button>
+    </header>
+    <section class="feedback-data" [formGroup]="feedbackForm">
+        <div class="training-name">
+            <p>Title: </p>
+            <p class="fw-600" >{{data.trainingName }}</p>
+        </div>
+        <div class="department">
+            <p>Department: </p>
+            <p class="fw-600">Angular</p>
+        </div>
+        <div class="dates">
+            <p>Start Date</p>
+            <p class="fw-600">{{data.startDate}}</p>
+            <p>End Date</p>
+            <p class="fw-600">{{data.endDate}}</p>
+        </div>
+        <div class="objective mt-10">
+            <p>  Do you feel that the objective/goal of the training has been fulfilled? *    </p>
+            <mat-radio-group aria-label="Select an option" formControlName="objective" >
+                <mat-radio-button value="1">Yes </mat-radio-button>
+                <mat-radio-button value="2">No</mat-radio-button>
+            </mat-radio-group>
+            <mat-error>
+                {{feedbackForm | showError : 'objective' : 'Objective'}}
+            </mat-error>
+        </div>
+        <div class="overall-relevance mt-10">
+            <p>
+                How relevant and helpful do you think it was for your job? *
+            </p>
+            <div class="radio-wrapper">
+                <p>Not Very</p>
+                <mat-radio-group aria-label="Select an option" formControlName="relevance">
+                    <mat-radio-button value='item.value' *ngFor="let item of valuesStatus" >{{item.viewValue}} </mat-radio-button>
+                </mat-radio-group>
+
+                <p class="end">Very</p>
+
+            </div>
+            <mat-error>
+                {{feedbackForm | showError : 'relevance' : 'Relevance'}}
+            </mat-error>
+        </div>
+        <div class="overall-training mt-10">
+            <p>
+                How would you rate the overall training? *
+            </p>
+            <div class="radio-wrapper">
+                <p>Not Very</p>
+                <mat-radio-group aria-label="Select an option" formControlName="training">
+                    <mat-radio-button value='item.value' *ngFor="let item of valuesStatus" >{{item.viewValue}} </mat-radio-button>
+                </mat-radio-group>
+                <p class="end">Very</p>
+            </div>
+            <mat-error>
+                {{feedbackForm | showError : 'training' : 'Training'}}
+            </mat-error>
+
+        </div>
+        <div class="overall-satisfaction mt-10">
+            <p>
+                How satisfied were you with the session content? * <br>
+(Both presented and pre-read material)
+            </p>
+            <div class="radio-wrapper">
+                <p>Poor</p>
+                <mat-radio-group aria-label="Select an option" formControlName="satisfaction">
+                    <mat-radio-button value='item.value' *ngFor="let item of valuesStatus" >{{item.viewValue}} </mat-radio-button>
+                </mat-radio-group>
+                <p class="end">Excellent</p>
+            </div>
+
+            <mat-error>
+                {{feedbackForm | showError : 'satisfaction' : 'Satisfaction'}}
+            </mat-error>
+        </div>
+        <div class="overall-feedback mt-10">
+            <p>Any overall feedback for the training? *</p>
+            <mat-form-field appearance="outline">
+                <textarea matInput formControlName="feedback" ></textarea>
+                <mat-error>
+                    {{feedbackForm | showError : 'feedback' : 'Feedback'}}
+                </mat-error>
+            </mat-form-field>
+
+        </div>
+        <div class="buttons-wrapper">
+            <button class="cancel-button" mat-dialog-close >Cancel</button>
+            <button class="submit-button">Submit</button>
+
+        </div>
+    </section>
+</div>

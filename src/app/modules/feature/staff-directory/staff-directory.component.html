@@ -1,0 +1,40 @@
+
+
+<div class="container">
+    <header> Current Job Openings</header>
+    <div class="inputs">
+        <div class="name">
+            <mat-label>Search By Name</mat-label>
+            <mat-form-field appearance="outline" class="full-width">
+                <input matInput placeholder="Search By Name" [(ngModel)]="selectedName" (keyup)="typingName()">
+                <mat-icon matSuffix>search</mat-icon>
+              </mat-form-field>
+        </div>
+        <div class="department">
+            <mat-label>Search By Department</mat-label>
+            <mat-form-field appearance="outline" class="full-width">
+                <mat-select [(ngModel)]="selectedDepartment" (selectionChange)="departmentSelection($event.value)" >
+                     <mat-option [value]="0">All</mat-option>
+                      <mat-option *ngFor="let department of departmentData" [value]="department.code">
+                        {{department.name}}
+                      </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+        <div class="buttons">
+            <button class="reset mr-5" (click)="reset()" >Reset</button>
+            <button class="ml-5 search" (click)="searchStaff()" >
+                <mat-icon>search</mat-icon>
+                <span>
+                    Search
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="main">
+        <ng-container *ngFor="let staffData of staffDirectory">
+            <app-staff-member [employeeData]="staffData"></app-staff-member>
+        </ng-container>
+        <h2 *ngIf="staffDirectory.length == 0">No Data Found</h2>
+    </div>
+</div>

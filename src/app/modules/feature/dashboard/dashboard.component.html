@@ -1,0 +1,52 @@
+<div class="main">
+    <div class="hello-message">
+        <div class="user-image">
+            <img src="../../../../assets/usermale.jpg" alt="">
+        </div>
+        <div class="message">
+            <h2>Hello!</h2>
+            <h1>Ayush Singh</h1>
+        </div>
+    </div>
+    <div class="row-primary">
+        <div class="left">
+            <div class="job-openings" >
+                <div class="job-openings-heading">
+                    <h2>Latest Job Openings</h2>
+                    <button (click)="toJobOpenings()" >View All</button>
+                </div>
+                <app-new-openings></app-new-openings>
+            </div>
+            <div class="ref-program">
+                <h3>OUR REFERRAL PROGRAM</h3>
+                <div class="ref-program-details">
+                    <ng-container *ngFor="let referral of referralMessages">
+                        <div class="program-block">
+                            <h1>{{referral.amount}}</h1>
+                            <p>{{referral.message}}</p>
+                            <h4 class="text-muted" >{{referral.experience}}</h4>
+                         </div>                    
+                    </ng-container>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <app-new-join></app-new-join>
+        </div>
+    </div>
+     <div class="row-app-latest">
+        <h2 class="app-latest-heading">
+            Latest At Appinventiv
+        </h2>
+        <div class="app-latest-content">
+            <app-app-latest></app-app-latest>
+        </div>
+    </div>
+    <div class="row-app-gallery">
+        
+        <div class="app-gallery-content">
+            <app-app-gallery></app-app-gallery>
+        </div>  
+    </div>
+</div>
+<app-footer class="mt-10"></app-footer>

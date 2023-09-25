@@ -1,0 +1,115 @@
+@import "../../../../../scss/common";
+
+.container{
+    @include flex(flex-start,center);
+    flex-direction: column;
+    padding-bottom: 1rem;
+    @include input-shadow();
+    header{
+        width: 100%;
+        font-size: 24px;
+        color: #3246d3;
+        font-family: 'Segoe UI';
+        border-bottom: 1px solid $border-bottom-color;
+        font-weight: 700;        
+
+        h2{
+            padding: 1% 2%;
+            margin-bottom: 0px;
+        }
+    }
+
+    .mat-select-panel-wrap {
+        flex-basis: 100%;
+        background: red;
+        position: relative;
+        top: 3rem;
+    }
+    :ng-deep {
+        .cdk-overlay-pane {
+            margin-top: 3rem;
+        }
+    }
+
+    .profile{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        column-gap: 5%;
+        width: 100%;
+        padding:1% 3% 0% 3%;
+        @include input-shadow();
+        .input{
+            @include flex(stretch,center);
+            flex-direction: column;
+        }
+        .full-width{
+            width: 100%;
+        }
+        @media (max-width:800px) {
+            grid-template-columns: 45% 45%;
+            // column-gap: 10px;
+        }
+        @media(max-width:500px){
+            grid-template-columns: 90%;
+        }
+
+    }   
+    .experience{
+        display: grid;
+        grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+        column-gap: 2.5%;
+        align-items: center;
+        width: 100%;
+        padding:1% 3% 0% 3%;
+        .input{
+            
+            display: flex;
+            flex-direction: column;
+            :host ::ng-deep {
+                mat-form-field{
+                    width: 100%;
+                }
+            }   
+          
+        }
+        .extra-top{
+            margin-top: 15%;
+            @media(max-width:700px){
+                margin-top: 1%;
+            }
+        }
+        @media (max-width:1100px) {
+            grid-template-columns: 45% 45%;
+        }
+        @media (max-width:500px) {
+            grid-template-columns: 95%;
+        }
+    }
+    .address{
+        width: 100%;
+        padding:1% 3% 0% 3%;
+        .input{
+            width: 100%;
+            .full-width{
+                width: 100%;
+            }
+        }
+    }
+    .buttons{
+        padding:0 3%;
+        button{
+
+            @include blue-button(2rem,6rem);
+        }
+    }
+    :host ::ng-deep .formfield{  //css for full-width of child formfield
+        mat-form-field{
+            width: 100%;
+        }
+    }   
+    :host ::ng-deep {
+        mat-form-field{   //css for full-width of child formfield
+            width: 100%;
+        }
+    }   
+}

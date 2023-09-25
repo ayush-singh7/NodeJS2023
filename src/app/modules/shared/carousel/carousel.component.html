@@ -1,0 +1,25 @@
+<h2>{{parentData.heading}}</h2>
+<div class="all">
+  <div class="heading">
+  
+    <div class="controls">
+      <button (click)="prevPress()">
+        <img src="../../../../assets/next-prev-icons/ic-nav-fill-left.svg" alt="">
+      </button>
+      <button class="control next-slide" (click)="nextPress()">
+        <img src="../../../../assets/next-prev-icons/ic-nav-fill-right.svg" alt="">
+      </button>
+    </div>
+  </div>
+  <div class="carousel">
+    <div class="slides">
+      <ng-container *ngFor="let image of imageList; let i = index" >
+        <img [src]="'../../../../assets/' + image" alt="slide image" class="slide">
+        <!-- couldve used pipe in img_src but didnt bc different folders have different absolute path for img -->
+      </ng-container>
+    </div>
+  </div>
+</div>
+
+
+

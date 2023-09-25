@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="bread">
+        <div *ngFor="let item of breadCrumb; let i= index" class="breadcrumb-item"> 
+          <a [routerLink]="item.link" >
+            {{item.name}}  &nbsp;	
+            <ng-container *ngIf="breadCrumb.length-1 > i" > &gt; </ng-container> 
+            &nbsp;	
+          </a> 
+         </div>
+    </div>
+
+    <header>
+        <h1>Micro FrontEnd Angular</h1>
+        <button class="mr-10" (click)="enrollTraining()">Enroll Training</button>
+    </header>
+    <div class="details">
+        <h2>Training Details</h2>
+        <div class="details-block">
+            <div class="left">
+                <p>Title: </p>
+                <p>trainingName</p>
+                <p>Training Dates: </p>
+                <p>date to date</p>
+                <p>Who can attend:</p>
+                <p>Angular</p>
+            </div>
+            <div class="right">
+                <p>Training Duration: </p>
+                <p>time</p>
+                <p>Training Mode: </p>
+                <p>Online</p>
+                <p>No. of seats: </p>
+                <p>55</p>
+            </div>
+           
+        </div>
+        <div class="description mt-10">
+            <h2>Description</h2>
+            <p>{{obj.description}}</p>  
+        </div>
+        <div class="support-details mt-10">
+            <h2>Support Details</h2>
+            <p>{{obj.support_details}}</p>
+        </div>
+    </div>
+</div>

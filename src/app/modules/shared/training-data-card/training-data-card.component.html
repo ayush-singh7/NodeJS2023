@@ -1,0 +1,50 @@
+<div class="card">
+    <div class="card-image">
+        <img src="../../.../../../../../assets/technology-icons/blockchain.svg" alt="">
+    </div>
+    <div class="training">
+        <p class="training-title">
+            {{trainingCardData.trainingName}}
+        </p>
+        <div class="training-status">
+            <p>
+                {{trainingCardData.trainingStatus}}
+            </p>
+        </div>
+    </div>
+    <hr class="mt-10">
+    <div class="training-date">
+        <div class="start-date">
+            <p>
+                Start Date
+            </p>
+            <h3 class="fw-500">
+                {{trainingCardData.startDate}}
+            </h3>
+        </div>
+        <div class="end-date">
+            <p>
+                End Date
+            </p>
+            <h3 class="fw-500">
+                {{trainingCardData.endDate}}
+            </h3>
+        </div>
+        <div class="mode">
+            <p>Mode</p>
+            <h3 class="fw-500">{{trainingCardData.mode}}</h3>
+        </div>
+    </div>
+    <hr class="mb-10">
+
+    <div class="action-buttons">
+        <div class="view-details">
+            <button (click)="viewDetails(trainingCardData.id)" >
+                    View Details
+            </button>
+        </div>
+        <div class="feedback">
+            <button (click)="openFeedbackDialog()" >Feedback</button>
+        </div>
+    </div>
+</div>

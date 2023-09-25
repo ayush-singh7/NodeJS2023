@@ -1,0 +1,95 @@
+<div class="body">
+
+    <div class="create-ticket">
+        <ng-container [formGroup]="newTicketForm">
+
+            <div class="heading">
+                <h2>Create New Ticket</h2>
+
+                <button (click)="createTicket=!createTicket">
+                    <p>
+                        <span>+</span> Add New
+                    </p>
+                </button>
+
+            </div>
+            
+            <div class="create-ticket-body menu" *ngIf="createTicket" [@dropDownMenu]>
+                <div class="ticket-details menu-item">
+                    <div class="input-field">
+                        <mat-label class="fw-600">Subject</mat-label>
+                        <mat-form-field appearance="outline">
+                            <input matInput placeholder="Subject" formControlName="subject" type="text">
+                            <mat-error>
+                                {{newTicketForm | showError: 'subject': 'Subject'}}
+                            </mat-error>
+                        </mat-form-field>
+                    </div>
+                    <div class="input-field">
+                        <mat-label class="fw-600">Department</mat-label>
+                        <app-dropdown-search [myControlName]="newTicketForm.controls.department"
+                        [data]="departmentsData">
+                        </app-dropdown-search>
+                    </div>
+                    <div class="input-field">
+                        <mat-label class="fw-600">Ticekt Category</mat-label>
+                        <app-dropdown-search [myControlName]="newTicketForm.controls.ticket_category"
+                        [data]="ticketCategoryData">
+                        </app-dropdown-search>
+                    </div>
+                    <div class="input-field">
+                        <mat-label class="fw-600">Priority</mat-label>
+                        <app-dropdown-search [myControlName]="newTicketForm.controls.priority"
+                        [data]="priorityData">
+                        </app-dropdown-search>
+                    </div>
+                   
+                </div>
+                <div class="editor menu-item">
+                    <mat-label class="mb-8 fw-600" >Ticekts Description</mat-label>
+                    <br>
+                    <angular-editor [placeholder]="'Enter text here...' " [config]="config" formControlName="ticket_description" ></angular-editor>
+
+                </div>
+                <div class="input-field">
+                    <button type="submit" (click)="raiseTicket()" >Save</button>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+    <div class="container-table">
+        <h2>List All Tickets</h2>
+        <div class="table-wrapper">
+            <app-table-listing [config]="listingConfig" (changeListEvent)="onTableEventChange($event)">
+                <app-common-table [tableSource]="tableSource">
+
+                    <ng-template appFor="ticket_code" let-row="row">
+                        <a class="name-link">{{row.ticket_code}}</a>
+                    </ng-template>
+
+                    <ng-template appFor="priority" let-row="row">
+                        <a class="name-link">{{row.priority}}</a>
+                    </ng-template>
+
+                    <ng-template appFor="employee_name" let-row="row">
+                        <a class="name-link">{{row.employee_name }} </a>
+                    </ng-template>
+
+                    <ng-template appFor="subject" let-row="row">
+                        <a class="name-link">{{row.subject }} </a>
+                    </ng-template>
+
+                    <ng-template appFor="status" let-row="row">
+                        <a class="name-link">{{row.status }} </a>
+                    </ng-template>
+
+                    <ng-template appFor="date" let-row="row">
+                        <a class="name-link">{{row.date |date }} </a>
+                    </ng-template>
+                </app-common-table>
+            </app-table-listing>
+        </div>
+
+    </div>
+    <app-footer class="footer"></app-footer>
+</div>

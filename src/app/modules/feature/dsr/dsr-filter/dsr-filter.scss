@@ -1,0 +1,19 @@
+@import "../../../../../scss/common";
+.dsr-filter-items{
+    display: grid;
+    grid-template-columns: 45% 25% 25%;
+    column-gap: 10px;
+    @media (max-width:1300px) {
+        grid-template-columns: 45% 45%
+    }
+    .dsr-filter-submit{
+        @include flex(center,center);
+        gap:10px;
+        @media (max-width:800px) {
+            flex-direction: column;
+        }
+        app-dropdown-filter{
+            width: 100%;
+        }
+    }
+}

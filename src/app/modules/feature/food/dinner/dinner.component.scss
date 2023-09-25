@@ -1,0 +1,48 @@
+@import "../../../../../scss/common";
+.container {
+    padding: 1% 2%;
+    margin: 1.5%;
+    background-color: $white;
+    border: 1px solid $lightgray;
+    header {
+        .header-top {
+            @include flex(center, space-between);
+            .request-dinner {
+                button {
+                    @include blue-button(2.4rem, 8rem);
+                }
+            }
+        }
+        .note {
+            span {
+            }
+        }
+    }
+    section {
+        form {
+            display: grid;
+            grid-template-columns: 48% 48%;
+            column-gap: 4%;
+            margin-top: 2rem;
+            .left {
+                display: grid;
+                grid-template-columns: 48% 48%;
+                column-gap: 4%;
+                .input {
+                    .training-select {
+                        select {
+                            height: 50px;
+                            width: 100%;
+                            border: 1px solid lightgray;
+                            border-radius: 5px;
+                            background: white;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+            .right {
+            }
+        }
+    }
+}

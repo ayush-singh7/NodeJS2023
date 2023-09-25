@@ -1,0 +1,357 @@
+/*
+===================
+
+WRITE YOUR CODE FOR THEME COMPONENTS
+
+===================
+
+*/
+
+$primary: #008aff;
+$warning: rgb(248, 15, 15);
+$primary_light: #00abff;
+$dashboard_bg: #f3f7fc;
+$dialog_grey: #f3f3f3;
+$dashboard_yellow: #f7f6ec;
+$white: #fefefe;
+$lightgray: rgb(241, 224, 224);
+$border-bottom-color: #f3f7fc;
+$red: red;
+$blue: blue;
+$midgray: #9d8888;
+$heading_color: #3246d3;
+$skyblue: skyblue;
+$black: black;
+$grey: grey;
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+
+.text-muted {
+  color: #a3a4a6 !important;
+}
+.no_event {
+  pointer-events: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+._disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.hint {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.form-input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.theme-color-icon {
+  color: $primary;
+}
+
+mat-error {
+  font-size: 12px;
+}
+
+/* --- FORM COMPONENT --- */
+
+::ng-deep {
+  .mat-dialog-container {
+    display: block;
+    padding: 24px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+.icons-color {
+  color: #025c95 !important;
+}
+.mat-menu-content {
+  padding: 0;
+}
+
+.red {
+  color: #f6504e !important;
+}
+.green {
+  color: #08b93f !important;
+}
+.orange {
+  color: #e9ab01 !important;
+}
+.blue {
+  color: #025c95 !important;
+}
+.black {
+  color: black !important;
+  font-weight: 500 !important;
+}
+.warning-text {
+  color: $warning !important;
+  font-style: italic;
+}
+
+.main-card {
+  display: block;
+  position: relative;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(96, 97, 112, 0.16), 0 0 2px 0 rgba(40, 41, 61, 0.04);
+  & + .mat-card {
+    margin-top: 20px;
+  }
+  @media (max-width: 767px) {
+    margin-bottom: 15px;
+  }
+}
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #201e1e;
+  margin: 10px 0px 24px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left-head {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .right-head {
+    display: flex;
+    .input-forms {
+      width: 150px;
+      &:first-child {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin flex($a-item, $j-cont) {
+  display: flex;
+  align-items: $a-item;
+  justify-content: $j-cont;
+}
+
+@mixin sizing($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+@mixin form-field-background-color($color) {
+  ::ng-deep {
+    .mat-form-field-appearance-fill .mat-form-field-flex {
+      background-color: $color;
+    }
+    ::ng-deep {
+      //remove extra padding on input fields
+      .mat-form-field-appearance-fill .mat-form-field-flex {
+        padding: 0px !important;
+      }
+    }
+  }
+}
+
+@mixin primary-button($color: null, $bg_color: null, $f_size: null, $height: null, $width: null) {
+  height: $height;
+  width: $width;
+  font-size: $f_size;
+  color: $color;
+  background: $bg_color;
+  border: none;
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@mixin input-shadow {
+  ::ng-deep .mat-form-field-infix {
+    padding: 7px 0 15px 0;
+  }
+  ::ng-deep {
+    .mat-select-arrow-wrapper {
+      transform: translateY(0%);
+    }
+    .mat-select-arrow {
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-top: 7px solid;
+      color: blue;
+    }
+  }
+  ::ng-deep .mat-form-field-outline-start {
+    border-radius: 2px 0 0 2px !important;
+  }
+  ::ng-deep .mat-form-field-outline-end {
+    border-radius: 2px 0 0 2px !important;
+  }
+
+  ::ng-deep .mat-form-field-outline {
+    box-shadow: 0px 10px 16px -15px rgba(214, 214, 214, 1);
+  }
+}
+
+@mixin edgy-boxes {
+  ::ng-deep .mat-form-field-outline-start {
+    border-radius: 0px !important;
+  }
+  ::ng-deep .mat-form-field-outline-end {
+    border-radius: 0px !important;
+  }
+  ::ng-deep .mat-form-field-outline {
+    color: $dashboard_dark !important;
+  }
+
+  ::ng-deep .mat-option-text {
+    display: inline-block;
+    flex-grow: 1;
+    overflow: hidden;
+    color: $dashboard_dark !important;
+    text-overflow: ellipsis;
+  }
+}
+
+.mt-3 {
+  margin-top: 3px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-8 {
+  margin-top: 8px;
+}
+.mb-3 {
+  margin-bottom: 3px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-8 {
+  margin-bottom: 8px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-8 {
+  margin-right: 8px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.disappear-1000px {
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+.end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@mixin blue-button($height, $width) {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), #199cff;
+  background-blend-mode: soft-light, normal;
+  border: 1px solid rgba(150, 165, 184, 0.2);
+  box-shadow: 0px 1px 4px rgb(0 0 0 / 12%), inset 0px 2px 0px rgb(255 255 255 / 24%);
+  border-radius: 4px;
+  color: #ffffff;
+  height: $height;
+  width: $width;
+  cursor: pointer;
+  &:hover {
+    background-color: $primary_light;
+    transition: 0.2s;
+  }
+}
+
+@mixin grey-button($height, $width) {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), #fafbfc;
+  background-blend-mode: soft-light, normal;
+  border: 1px solid rgba(150, 165, 184, 0.2);
+  box-shadow: 0px 1px 4px rgb(0 0 0 / 12%), inset 0px 2px 0px rgb(255 255 255 / 24%);
+  border-radius: 4px;
+  color: $blue;
+  height: $height;
+  width: $width;
+  cursor: pointer;
+}
+
+@mixin custom-scroller($axis, $brodness: 8px) {
+  @if ($axis== "x") {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  @if ($axis== "y") {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  &::-webkit-scrollbar {
+    width: $brodness;
+    height: $brodness;
+  }
+
+  &::-webkit-scrollbar-track {
+    width: $brodness;
+    height: $brodness;
+    border-radius: 20px 20px;
+    background: white;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 20px 20px;
+    background-color: grey;
+    opacity: 0.5;
+    width: $brodness;
+    height: $brodness;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

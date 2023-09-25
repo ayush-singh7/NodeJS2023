@@ -1,0 +1,101 @@
+<div class="container">
+    <header>
+        <h2>Add Leave</h2>
+        <button (click)="showLeave = !showLeave"> + Add New</button>
+    </header>
+    <form [formGroup]="addLeaveForm" class="menu" *ngIf="showLeave" [@dropDownMenu]>
+
+        <div class="leave-form menu-item">
+            <div class="leave-form-top">
+
+                <div class="left">
+                    <div class="input leave-type">
+                        <mat-label class="fw-600">Leave Type</mat-label>
+                        <app-dropdown-search [data]="leavesData" [myControlName]="addLeaveForm.controls.leave_type"
+                            (eventEmitter)="leaveType($event,'short_leave')">
+                        </app-dropdown-search>
+                    </div>
+
+                    <div class="input">
+                        <mat-checkbox class="example-margin" (change)="halfDay($event)">Half Day?</mat-checkbox>
+                    </div>
+                    <div class="mt-10">
+                        <ng-container *ngIf="showHalfDay">
+                            <mat-radio-group aria-label="Select an option">
+                                <mat-radio-button value="1" class="mr-10">First Half</mat-radio-button>
+                                <mat-radio-button value="2">Second Half</mat-radio-button>
+                            </mat-radio-group>
+                        </ng-container>
+                    </div>
+                    <div class="short-leaves mt-10" *ngIf="shortLeaveDuration">
+                        <div class="input">
+                            <mat-label class="fw-600">Start Time</mat-label>
+                            <app-dropdown-search [data]="shortLeaveStart"
+                                [myControlName]="addLeaveForm.controls.shortLeaveStart"
+                                (eventEmitter)="leaveType($event,'set_short_leave')">
+                            </app-dropdown-search>
+                        </div>
+
+                        <div class="input">
+                            <mat-label class="fw-600">End Time</mat-label>
+                            <app-dropdown-search [data]="shortLeavesEnd"
+                                [myControlName]="addLeaveForm.controls.shortLeaveEnd">
+                            </app-dropdown-search>
+                        </div>
+
+                    </div>
+
+                    <div class="date-wrapper">
+                        <div class="input mt-10">
+                            <mat-label class="fw-600">Start Date</mat-label>
+                            <app-input-date [date]="addLeaveForm.controls.start_date" [datePickerData]="startDateData"
+                                (dateData)="setDateValidations($event)">
+                            </app-input-date>
+                        </div>
+                        <div class="input mt-10">
+                            <mat-label class="fw-600">End Date</mat-label>
+                            <app-input-date [date]="addLeaveForm.controls.end_date" [datePickerData]="endDateData"
+                                (dateData)="setDateValidations($event)">
+                            </app-input-date>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="leave-form-middle">
+                <div class="input">
+                    <mat-label class="fw-600">Remarks</mat-label>
+                    <mat-form-field appearance="outline" class="full-width">
+                        <input matInput formControlName="remarks">
+                        <mat-error>
+                            {{addLeaveForm | showError : 'remarks' : 'Remarks' }}
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="input">
+                    <mat-label class="fw-600">Upload Document</mat-label>
+                    <mat-form-field appearance="outline" class="full-width">
+                        <input matInput>
+                        <input type="file">
+                        <mat-error>
+                            {{addLeaveForm | showError : 'remarks' : 'Remarks' }}
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+            </div>
+
+        </div>
+        <div class="reason menu-item">
+            <mat-label class="fw-600">Leave Reason</mat-label>
+            <angular-editor [placeholder]="'Enter text here...' " [config]="config" formControlName="reason">
+            </angular-editor>
+        </div>
+        <div class="save-button">
+            <button class="cancel" (click)="showLeave = !showLeave">Cancel</button>
+            <button class="save" (click)="save()">Save</button>
+        </div>
+
+    </form>
+
+
+</div>

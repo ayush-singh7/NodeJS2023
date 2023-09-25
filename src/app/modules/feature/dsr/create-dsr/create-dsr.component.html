@@ -1,0 +1,40 @@
+<div class="container">
+    <header>
+        <h2>Create New DSR</h2>
+        <button (click)="showCreateDSR=!showCreateDSR" >+ Add </button>
+    </header>
+    <div class="main menu" *ngIf="showCreateDSR" [@dropDownMenu]>
+        <ng-container [formGroup]="createDSR">
+
+            <div class="left menu-item">
+                <mat-label class="fw-600">Create DSR</mat-label>
+                <app-dropdown-search [myControlName]="createDSR.controls.projectName" [data]="projectData">
+                </app-dropdown-search>
+                <div class="dsr-details">
+                    <div class="dsr-date">
+                        <mat-label class="fw-600">Date</mat-label>
+                        <app-input-date [date]="createDSR.controls.date" [datePickerData]="dsrDateData">
+                        </app-input-date>
+                    </div>
+                    <div>
+                        <mat-label class="fw-600">Estimated Hours</mat-label>
+                        <app-input-time [myControl]="createDSR.controls.est_hr"></app-input-time>
+                    </div>
+                    <div>
+                        <mat-checkbox class="example-margin" (change)="noWork($event)" >No Work Done</mat-checkbox>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="right menu-item mt-10">
+                <mat-label class="fw-600">Description</mat-label> <br>
+                <angular-editor [placeholder]="'Enter text here...' " [config]="config" formControlName="description">
+                </angular-editor>
+
+            </div>
+            <div class="save-button" >
+                <button class="pointer"  (click)="saveDSR()">Add</button>
+            </div>
+        </ng-container>
+    </div>
+</div>

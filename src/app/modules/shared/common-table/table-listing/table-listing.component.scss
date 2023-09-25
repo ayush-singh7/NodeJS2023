@@ -1,0 +1,76 @@
+@import "../../../../../scss/common";
+.listing-container{
+    .table-data{
+        position: relative;
+        top:0.8rem;
+        // background-color: $white;
+        padding: 1%;
+        .table-heading{
+            border-bottom: 1px solid $border-bottom-color;
+            color: $blue;
+        }
+        ::ng-deep{
+            .mat-paginator-container{
+                justify-content: space-between;
+                padding: 0% 1%;
+            }
+            .mat-mini-fab{
+                margin:2px;
+                color:$white;
+                max-width: 22px;
+                background-color:$primary_light;
+            }
+        }
+            
+    }
+    ::ng-deep{
+        .mat-paginator-range-actions{
+            position: relative;
+            display: flex;
+            width: 75vw;
+            .mat-paginator-range-label {
+                flex-grow: 1;
+            }
+            .mat-paginator-range-label::after {
+                content:'Entries '
+            }
+            .mat-paginator-range-label::before {
+                content:'Showing '
+            }
+             mat-button{
+                margin-left: 5px;
+                // color: #fefefe;
+                // background-color: $primary_light;
+                height: 30px;
+                box-shadow: none;
+                border-radius: inherit;
+                min-width: 22px;
+                width: 22px;
+                padding: 0;
+                max-width: 22px;
+            }
+            button{
+                position: relative;                
+            }
+           
+        }
+        .mat-paginator-page-size{
+            position: absolute;
+            top:25px;       
+            .mat-paginator-page-size-label{
+                color:$black;
+            }  
+            .mat-form-field-infix {
+                padding: 8px 7px;
+                border: 1px solid $lightgray;
+                border-bottom: 2px solid blue;
+            }
+ 
+        }
+        .mat-paginator-page-size::after{
+            content:'Entries';
+            color:$black;
+        }
+ }  
+}
+

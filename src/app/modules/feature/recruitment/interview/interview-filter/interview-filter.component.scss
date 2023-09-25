@@ -1,0 +1,14 @@
+.interview-filter-submit{
+    display: grid;
+    grid-template-columns: 22% 22%;
+    column-gap: 14px;
+    @media (max-width:800px) {
+        grid-template-columns: 40% 40%;
+    }
+}
+
+:host ::ng-deep{
+    .filter-wrap{
+        border-radius: 1rem;
+    }
+}

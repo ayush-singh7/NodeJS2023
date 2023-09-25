@@ -1,0 +1,32 @@
+@import "../../../../../scss/common";
+header{
+    padding:2% 4% 0% 2%;
+    color:$primary;
+    font-weight: 500;
+    font-size: 1.63rem;
+}
+.container{
+    height: 100vh;
+
+    .main{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        column-gap: 5%;
+        row-gap:5%;
+        padding:2% 4% 2% 2%;
+        margin-bottom: 5rem;
+        @media (max-width:900px) {
+            grid-template-columns: 45% 45%;   
+            margin-bottom: 30rem; 
+        }
+        @media (max-width:700px) {
+            grid-template-columns: 90%;     
+            justify-content: center;
+            margin-bottom: 35rem; 
+            
+        }
+    }
+    .footer{
+        margin-top: 25rem;
+    }
+}

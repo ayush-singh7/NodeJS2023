@@ -1,0 +1,44 @@
+<div class="bottom-header" *ngIf="options.select">
+    <h2>April 2023</h2>
+    <div class="select" >
+        <mat-checkbox (change)="selectAll($event)" class="mr-10" >Select All</mat-checkbox>
+
+        <app-coupon-legend>
+        </app-coupon-legend>
+    </div>
+
+</div>
+<table >
+    <tr>
+        <th *ngFor="let item of week">
+            {{item.viewValue}}
+        </th>
+    </tr>
+    <tr *ngFor="let week of myCalendar | calendarPipe; let i = index">
+        <td *ngFor="let day of week"
+            [ngClass]="{ 
+                'coupon-purchased' : day.couponPurchased == true ,
+                'coupon-available' : day.couponPurchased == false,
+                'weekend' : day.dayInWeek == 'Sat' || day.dayInWeek == 'Sun' ,
+                'locked': isLocked(day) 
+            }"
+        >
+            <div class="table-data-wrapper">
+                <div>
+                    <mat-checkbox class="mr-10" *ngIf="showChecked(day) && options.edit "  (change)="onChangeCheckBox($event,i,day)" [checked] = 'day.booked' ></mat-checkbox>    
+                    <div mat-icon-button [matMenuTriggerFor]="menu" aria-label="Cancel Coupon" *ngIf="day.couponPurchased && options.cancel">
+                        <mat-icon>more_vert</mat-icon>
+                    </div>
+                      <mat-menu #menu="matMenu"  >
+                          <div mat-menu-item (click)="cancelCoupon(i,day)" >
+                              <span>Cancel Coupon</span>
+                            </div>
+                      </mat-menu>
+                </div>
+                <p class="fw-600">
+                    {{day.date}}
+                </p>
+            </div>
+        </td>
+    </tr>
+</table>

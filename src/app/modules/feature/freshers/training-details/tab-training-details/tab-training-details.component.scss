@@ -1,0 +1,62 @@
+@import "../../../../../../scss/common";
+
+.body{
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: 100%;
+    h2{
+        font-size: 1.2rem;
+        margin-bottom: 4px;
+        border-bottom: 1px solid $border-bottom-color;
+    }
+    .training-details{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        .training-title{
+            display: grid;
+            grid-template-columns: 20% auto;
+        }
+        .start-date{
+            display: grid;
+            grid-template-columns: 20% auto;
+        }
+        .end-date{
+            display: grid;
+            grid-template-columns: 20% auto;
+        }
+        .batch{
+            display: grid;
+            grid-template-columns: 20% auto;      
+        }
+        .training-mode{
+            display: grid;
+            grid-template-columns: 20% auto;
+        }
+    }
+    .description{
+        h2{
+            margin-bottom: 10px;
+        }
+        p{
+            background-color: $dashboard_bg;
+            padding: 2% 2%;
+        }
+    }
+    .topics{
+        .table-wrapper{
+            table{
+                width: 100%;
+                
+            }
+            td,th{
+                border-bottom: 1px solid $border-bottom-color;
+                border-collapse: collapse;
+                text-align: start;
+                padding: 1rem;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+

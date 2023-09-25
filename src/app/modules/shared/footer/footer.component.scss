@@ -1,0 +1,19 @@
+.covid-help {
+    height: 60px;
+    font-size: 18px;
+    position: fixed;
+    background-color: white;
+    color: red;
+    bottom: 5%;
+    right: 0;
+    border-radius: 20px 0 0 20px;
+    z-index: 999;
+    box-shadow: 10px 5px 5px rgba(190, 178, 178, 0.904);
+  }
+footer{
+    padding: 1rem 2%;
+    color:rgb(51, 48, 48);
+    font-size: 13px;
+    font-weight: 600;
+    background: white;
+}

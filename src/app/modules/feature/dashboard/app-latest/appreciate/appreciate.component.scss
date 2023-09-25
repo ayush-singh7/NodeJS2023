@@ -1,0 +1,31 @@
+@import "../../../../../../scss/common";
+
+.appreciate-wrapper{
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    @include flex($a-item:null,$j-cont:space-between);
+    flex-direction: column;
+    height: 23rem;
+    background-color: white;
+    padding: 2%;
+    border-radius: 5px;
+    // gap:104.5px;
+    
+    p{
+        font-size: 12px;
+        font-weight: 250;
+    }
+    h2{
+        font-size: 1.2rem;
+        span{
+            font-size: 1.5rem;
+             position: relative;
+             top: 2px;
+             color:$blue;
+            }
+    }
+    button{
+        @include primary-button($color: white, $bg_color: $primary_light, $height: 2rem, $width: 20%);
+        border-radius: 5px;   
+    }
+}

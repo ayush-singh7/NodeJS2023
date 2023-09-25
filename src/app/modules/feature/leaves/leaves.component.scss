@@ -1,0 +1,84 @@
+@import "../../../../scss/common";
+
+
+.container{
+    margin:1.5%;
+    .leaves-list{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        column-gap: 5%;
+        row-gap: 7.5%;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+        @media (max-width:800px) {
+            grid-template-columns: 47.5% 47.5%;
+            column-gap: 5%;
+        }
+        .leave-card{
+            padding: 4%;
+            display: flex;
+            gap:1.8rem;
+            align-items: center;
+            background-color: white;
+            .left{
+                mat-icon{
+                    color:#33cc7b;
+                    font-size: 2.1rem;
+                }
+            }
+            .right{
+                p{
+                    font-size: 12px;
+                    color:rgb(197, 172, 172);
+                    margin-bottom: 2px;
+                }
+            }
+        }
+    }
+    .add-leave{
+        background-color: white;
+        padding:1%;
+    }
+    .leave-table{
+        background-color: white;
+        margin-top: 1%;
+        border-radius: 1rem;
+        h1{
+            font-size: 20px;
+            padding: 1% 2%;
+            color: $blue;
+            margin-bottom: 0px;
+            border-bottom: 1px solid $border-bottom-color;
+        }
+        app-table-listing{
+            button{
+                cursor: pointer;
+                background-color: $white;
+                border: 1px solid lightseagreen;
+                mat-icon{
+                    font-size: 16px;
+                    @include flex(center,center);
+                    padding: 4px;
+                    color:$skyblue;
+                }   
+                .leave-rollback{
+                    color:$warning;
+                }
+                .leave-rollback:hover{
+                    color:$white;
+                    background-color: $warning;
+                }
+            }
+            button:hover{
+                background-color: $skyblue;
+                mat-icon{
+                    color: $white;
+                }
+            }
+            .red-label{
+                color:$warning;
+                font-weight: 600;
+            }
+        }
+    }
+}

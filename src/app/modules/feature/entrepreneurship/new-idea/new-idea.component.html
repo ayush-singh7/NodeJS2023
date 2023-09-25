@@ -1,0 +1,20 @@
+<div class="container">
+    <app-table-listing [config]="listingConfig">
+
+        <app-common-table [tableSource]="tableSource" >
+            
+            <ng-template appFor="industry" let-row="row">
+                <a class="name-link">{{row.industry }} </a>
+            </ng-template>
+            <ng-template appFor="title" let-row="row">
+                <a class="name-link">{{row.title }} </a>
+            </ng-template>
+            <ng-template appFor="category" let-row="row">
+                <a class="name-link">{{row.category }} </a>
+            </ng-template>
+            <ng-template appFor="submitted_on" let-row="row">
+                <a class="name-link">{{row.submitted_on }} </a>
+            </ng-template>
+        </app-common-table>
+    </app-table-listing>
+</div>

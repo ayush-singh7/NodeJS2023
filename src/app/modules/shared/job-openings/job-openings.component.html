@@ -1,0 +1,48 @@
+<div class="card">
+    <div class="card-image">
+        <div class="image">
+            <img [src]="'../../../../assets/technology-icons/' + jobData.job_img"  alt="">
+        </div>
+        <div class="job-details">
+            <div class="location">
+                <p>
+                    <mat-icon> location_on</mat-icon>
+                </p>
+                <p>
+                    {{jobData?.location}}
+                </p>
+            </div>
+            <div class="date-issue">
+                {{jobData?.date}}
+            </div>
+        </div>
+    </div>
+    <div class="card-info">
+        <h2> {{jobData?.job_title}} </h2>
+        <p>{{jobData?.job_description}}</p>
+        <hr>
+        <div class="extra-info">
+            <div class="main-extra">
+                <p class="main-extra-top">No. Of Openings</p>
+                <p class="main-extra-bottom">{{jobData?.openings_count}}</p>
+            </div>
+            <div class="main-extra">
+                <p class="main-extra-top">Experience</p>
+                <p class="main-extra-bottom">{{jobData?.job_experience_required}}</p>
+            </div>
+        </div>
+        <hr>
+        <div class="job-buttons">
+            <div class="job-button-wrapper">
+                <button class="view-details job-button"
+                (click)="toViewDetails(jobData)"
+                >View Details</button>
+            </div>
+            <div class="job-button-wrapper">
+                <button class="refer job-button"
+                (click)="referCandidate(jobData)"
+                >Refer a Candidate</button>
+            </div>
+        </div>
+    </div>
+</div>

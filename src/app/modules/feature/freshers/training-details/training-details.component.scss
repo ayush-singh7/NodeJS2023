@@ -1,0 +1,44 @@
+@import "../../../../../scss/common";
+.container{
+    padding: 1% 2%;
+    .bread{
+      display: flex;
+      margin-bottom: 1rem;
+      .breadcrumb-item{
+          a{
+              text-decoration: none;
+              color:$grey
+          }
+          a:hover{
+              color:black;
+          }
+      }
+  }
+    .body{
+        background-color: $white;
+        padding: 1% 2%;
+        ::ng-deep.mat-tab-labels{
+            background-color: rgba(227, 236, 243, 0.46);
+            width: 30.5rem;
+            padding: 5px;
+            border-radius: 5px;
+            
+        }
+          
+          ::ng-deep.mat-tab-list {
+            padding: 10px;
+          }
+          ::ng-deep.mat-tab-label.mat-tab-label-active {
+            background-color: $primary_light;
+            color: #fefefe;
+            border-radius: 10px;
+          }
+          
+          ::ng-deep.mat-tab-group.mat-primary .mat-ink-bar{
+            background-color: #fefefe;
+          }
+        .toggle-buttons{
+            
+        }
+    }
+}

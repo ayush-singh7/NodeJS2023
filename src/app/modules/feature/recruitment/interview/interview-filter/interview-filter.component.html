@@ -1,0 +1,10 @@
+<app-filter (apply)="onApplyHandler()" (reset)="resetFilter()" [buttonConfig]="buttonConfig" >
+    <form [formGroup]="interviewFilterForm" class="dsr-filter-items" >
+
+        <div class="interview-filter-submit">
+            <app-dropdown-filter [dropdown]="interviewFilterObject.departmentName"  (onDropDownSelect)="dropDownChange($event)" ></app-dropdown-filter>
+            <app-dropdown-filter [dropdown]="interviewFilterObject.interviewStatus" (onDropDownSelect)="dropDownChange($event)"></app-dropdown-filter>
+        </div>
+
+    </form>
+</app-filter>

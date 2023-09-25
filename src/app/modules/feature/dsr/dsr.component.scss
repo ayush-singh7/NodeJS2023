@@ -1,0 +1,64 @@
+@import "../../../../scss/common";
+
+.container{
+    padding:1% 2.5%;
+    margin-bottom: 3rem;
+    app-table-listing{
+        background-color: $white;
+        h2{
+            margin-bottom: 0px;
+            padding: 1% 2%;
+            color:$primary;
+        }
+        .table-wrapper{
+            overflow: auto;
+            app-common-table{
+                .status_pending{
+                    background-color: $white;
+                    padding: 2px 4px;
+                    border: 1px solid green;
+                    color:rgb(201, 149, 53);
+                    font-size: 12px;
+                    cursor: pointer;
+                    font-weight: 400;
+                }
+                .status_pending:hover{
+                    color:orange;
+                    background-color: #00b928;
+                    transition: 0.3s;
+                }
+                .status_due{
+                    background-color: $red;
+                    padding: 2px 14px;
+                    color:$white;
+                    font-size: 12px;
+                    cursor: pointer;
+                    font-weight: 400;
+                }
+                .status_due:hover{
+    
+                }
+    
+                .status_approved{
+                    background-color: green;
+                    color:$white;
+                    padding: 2px 4px;
+                    font-weight: 400;
+                    font-size: 12px;
+                    
+                }
+            }
+        }
+    }
+
+}
+
+
+:host ::ng-deep{
+    .table-data{
+        background-color: $white;
+        .mat-paginator-page-size{
+            top:50px !important;
+        }
+    }
+}

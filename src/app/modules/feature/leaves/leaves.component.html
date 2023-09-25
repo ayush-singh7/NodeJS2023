@@ -1,0 +1,60 @@
+
+
+<div class="container">
+    <div class="leaves-list">
+        <div class="leave-card" *ngFor="let item of remainingLeaves">
+            <div class="left">
+                <mat-icon>calendar_today</mat-icon>
+            </div>
+            <div class="right">
+                <p>{{item.leaveType | titlecase}} Leave: ({{item.leavesUsed}}/{{item.leavesTotal}})</p>
+                <p>{{item.leaveType | titlecase}} Leave Balance: ({{item.leavesTotal - item.leavesUsed}})</p>
+            </div>
+        </div>
+    </div>
+    <div class="add-leave">
+        <app-add-leave (leaveData)="addLeave($event)" ></app-add-leave>
+    </div>
+
+    <div class="leave-table">
+        <h1>List All Leaves</h1>
+        <app-table-listing [config]="listingConfig" (changeListEvent)="onTableEventChange($event)" >
+
+            <app-common-table [tableSource]="tableSource">
+                <ng-template appFor="actions" let-row="row">
+                    <button class="mr-5 " (click)="leaveDetails(row)" > 
+                        <mat-icon  title="View Details" >arrow_circle_right</mat-icon>
+                    </button>
+                    <button class="mr-5 " (click)="leaveRollback()" >
+                        <mat-icon class="leave-rollback"  title="Request For Leave Rollback">360</mat-icon>
+                    </button>
+                    
+                </ng-template>
+                <ng-template appFor="leave_type" let-row="row">
+                    <a class="name-link">{{row.leave_type}}</a>
+                </ng-template>
+                <ng-template appFor="start_date" let-row="row">
+                    <a class="name-link">{{row.start_date | date}}</a>
+                </ng-template>
+                <ng-template appFor="end_date" let-row="row">
+                    <a class="name-link">{{row.end_date | date}}</a>
+                </ng-template>
+                <ng-template appFor="applied_on" let-row="row">
+                    <a class="name-link">{{row.applied_on | date}}</a>                
+                </ng-template>
+                <ng-template appFor="status" let-row="row">
+                    <a class="name-link">{{row.status | titlecase }}</a>
+                </ng-template>
+                <ng-template appFor="level_1" let-row="row">
+                    <a class="name-link red-label">{{row.level_1}}</a>
+                </ng-template>
+                <ng-template appFor="level_2" let-row="row">
+                    <a class="name-link red-label">{{row.level_2}}</a>
+                </ng-template>
+            </app-common-table>
+        </app-table-listing>
+
+    </div>
+
+</div>
+<app-footer></app-footer>

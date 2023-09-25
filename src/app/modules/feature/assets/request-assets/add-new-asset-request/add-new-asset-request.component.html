@@ -1,0 +1,60 @@
+<div class="main">
+    <header>
+        <button mat-raised-button color="primary" (click)="showAssetRequestForm = !showAssetRequestForm"> + Add New
+            Asset Request</button>
+    </header>
+
+    <section class="assets-details menu" *ngIf="showAssetRequestForm" [@dropDownMenu] >
+        <ng-container [formGroup]="assetRequestForm">
+            <div class="form-top menu-item">
+
+                <div class="input">
+                    <mat-label class="fw-600">{{assetCategoryData.label}}</mat-label>
+                    <app-dropdown-search [myControlName]="assetRequestForm.controls.asset_category"
+                        [data]="assetCategoryData">
+                    </app-dropdown-search>
+                </div>
+                <div class="input">
+                    <mat-label class="fw-600">{{quantityData.label}}</mat-label>
+                    <app-dropdown-search [myControlName]="assetRequestForm.controls.quantity" [data]="quantityData">
+                    </app-dropdown-search>
+                </div>
+                <div class="input">
+                    <mat-label class="fw-600">{{priorityData.label}}</mat-label>
+                    <app-dropdown-search [myControlName]="assetRequestForm.controls.priority" [data]="priorityData">
+                    </app-dropdown-search>
+                </div>
+                <div class="input">
+                    <mat-label class="fw-600">{{requiredDateData.label}}</mat-label>
+                    <app-input-date [date]="assetRequestForm.controls.required_date"
+                        [datePickerData]="requiredDateData">
+                    </app-input-date>
+                </div>
+                <div class="input">
+                    <mat-label class="fw-600">{{allocationTypeData.label}}</mat-label>
+                    <app-dropdown-search [myControlName]="assetRequestForm.controls.allocation_type"
+                        [data]="allocationTypeData">
+                    </app-dropdown-search>
+                </div>
+            </div>
+            <div class="form-bottom menu-item">
+                <mat-label class="fw-600">Request Reason</mat-label>
+                <mat-form-field appearance="outline" class="full-width">
+                    <textarea matInput placeholder="Request Reason" formControlName="request_reason"></textarea>
+                    <mat-error>
+                        {{assetRequestForm | showError : 'request_reason' : 'Request Reason'}}
+                    </mat-error>
+                </mat-form-field>
+
+            </div>
+            <div class="submit-button">
+                <button type="submit" (click)="addNewAsset()">Submit</button>
+            </div>
+
+
+
+        </ng-container>
+    </section>
+
+
+</div>

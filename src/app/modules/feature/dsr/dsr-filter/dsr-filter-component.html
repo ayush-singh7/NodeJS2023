@@ -1,0 +1,11 @@
+<app-filter (apply)="onApplyHandler()" (reset)="resetFilter()" [buttonConfig]="buttonConfig" >
+    <form [formGroup]="dsrFilterForm" class="dsr-filter-items" >
+        <app-date-filter [dateObject]="dsrFilterObject.date" (onDateSelect)="dropDownChange($event)" ></app-date-filter>
+        <app-dropdown-filter [dropdown]="dsrFilterObject.loggedHours" (onDropDownSelect)="dropDownChange($event)"  ></app-dropdown-filter>
+        <app-dropdown-filter [dropdown]="dsrFilterObject.dsrStatus" (onDropDownSelect)="dropDownChange($event)"></app-dropdown-filter>
+        <div class="dsr-filter-submit">
+            <app-dropdown-filter [dropdown]="dsrFilterObject.submissionStatus" (onDropDownSelect)="dropDownChange($event)"></app-dropdown-filter>
+            <app-dropdown-filter [dropdown]="dsrFilterObject.project" (onDropDownSelect)="dropDownChange($event)"></app-dropdown-filter>
+        </div>
+    </form>
+</app-filter>

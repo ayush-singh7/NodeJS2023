@@ -1,0 +1,107 @@
+<div class="main_container">
+  <div class="container">
+    <div class="heading">
+      <h2>Add New Qualification </h2>
+    </div>
+    <ng-container [formGroup]="qualificationsForm" >
+
+      <div class="card_body">
+        <div class="card_upper">
+          <div class="input-box">
+            <mat-label>School/University</mat-label>
+            <mat-form-field appearance="outline">
+              <input matInput placeholder="School/University" (keydown)="noSpace($event)" appNoSpecialChar="noSpecialChars" formControlName="institute" />
+              <mat-error>
+                {{qualificationsForm | showError : 'institute' : 'Institute Name' }}
+              </mat-error>
+            </mat-form-field>
+          </div>
+          <div class="input-box">
+            <mat-label>Education Level </mat-label>
+            <app-dropdown-search   [myControlName]="qualificationsForm.controls.education_level" [data]="educationData" >
+            </app-dropdown-search>
+          </div>
+        </div>
+        <div class="card_upper">
+          <div class="input-box">
+            <mat-label>Time Period (from)</mat-label>
+            
+            <app-input-date [date]="qualificationsForm.controls.date_from" [datePickerData]="fromData" 
+            (dateData)="setDateValidations($event)" >
+            </app-input-date>
+
+          </div>
+
+          <div class="input-box">
+            <mat-label>Time Period (to)</mat-label>
+            <app-input-date [date]="qualificationsForm.controls.date_to" [datePickerData]="toData">
+            </app-input-date>
+            
+          </div>
+        </div>
+
+        <div class="card_upper">
+          <div class="input-box">
+            <mat-label>Language </mat-label>
+            <app-dropdown-search [myControlName]="qualificationsForm.controls.language" [data]="languageData" 
+            ></app-dropdown-search>
+          </div>
+          <div class="input-box">
+            <mat-label>Professional Courses (if any)</mat-label>
+            <mat-form-field appearance="outline">
+              <input matInput formControlName="prof_course" (keydown)="noSpace($event)" appNoSpecialChar="noSpecialChars" placeholder="Professional Courses (if any)" />
+              <mat-error>
+                {{qualificationsForm | showError : 'prof_course' : 'Professional Course' }}
+              </mat-error>
+            </mat-form-field>
+          </div>
+        </div>
+
+        <div class="card_bottom">
+          <div class="input-box">
+            <mat-label>Description</mat-label>
+            <mat-form-field appearance="outline">
+              <textarea matInput placeholder="Description" (keydown)="noSpace($event)" appNoSpecialChar="noSpecialChars" formControlName="description" ></textarea>
+              <mat-error>
+                {{qualificationsForm | showError : 'description' : 'Description' }}
+              </mat-error>
+            </mat-form-field>
+
+          </div>
+        </div>
+        <div class="save_button">
+          <button class="mt-10" (click)="save()">Save</button>
+        </div>
+      </div>
+    </ng-container>
+
+  </div>
+  <div class="qualification-list">
+    <h2>List All Qualifications</h2>
+    <app-table-listing [config]="listingConfig" (changeListEvent)="changeList($event)" > 
+      <app-common-table [tableSource]="tableSource">
+
+        <ng-template appFor="actions" let-row="row">
+          <div class="s-flex">
+              <button title="Edit" (click)="editRow(row)" class="edit-btn pointer">Edit</button>
+  
+              <button title="Delete" (click)="deleteRow(row.id)" class="delete-btn pointer" >Delete</button>
+          </div>
+        </ng-template>
+  
+        <ng-template appFor="institute" let-row="row">
+          <a class="name-link">{{row.institute}}</a>
+        </ng-template>
+  
+        <ng-template appFor="time_period" let-row="row">
+          <a class="name-link">{{row.date_from | date }} to {{row.date_to | date}} </a>
+        </ng-template>
+  
+        <ng-template appFor="education_level" let-row="row">
+          <a class="name-link">{{row.education_level | educationLevelPipe }} </a>
+        </ng-template>
+  
+      </app-common-table>
+    </app-table-listing>
+  </div>
+</div>

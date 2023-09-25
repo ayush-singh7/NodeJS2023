@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="bread">
+    <div *ngFor="let item of breadCrumb; let i= index" class="breadcrumb-item"> 
+      <a [routerLink]="item.link" >
+        {{item.name}}  &nbsp;	
+        <ng-container *ngIf="breadCrumb.length-1 > i" > &gt; </ng-container> 
+        &nbsp;	
+      </a> 
+     </div>
+  </div> 
+  <h2>Angular Training Feb 2022</h2>
+
+    <div class="body">
+        <div class="toggle-buttons">
+            <div class="card_upper">
+                <mat-tab-group animationDuration="0ms">
+                  <mat-tab label="Trainings Details">
+                    <app-tab-training-details></app-tab-training-details>
+                  </mat-tab>
+                  <mat-tab label="Sub-Topics">
+                    <app-tab-sub-topics></app-tab-sub-topics>
+                  </mat-tab>
+                  <mat-tab label="Attendance">
+                    <app-tab-attendance></app-tab-attendance>
+                  </mat-tab>
+                </mat-tab-group>
+                
+              </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,55 @@
+<div class="body">
+    <h2>Training Details</h2>
+    <div class="training-details">
+        <div class="training-title">
+            <p>Title:</p>
+            <p>{{trainingDataObj.title}} </p>
+        </div>
+        <div>
+        </div>
+        <div class="start-date">
+            <p>Start Date: </p>
+            <p>{{trainingDataObj.startDate}}</p>
+        </div>
+        <div class="end-date">
+            <p>End Date: </p>
+            <p>{{trainingDataObj.endDate}}</p>
+            
+        </div>
+
+        <div class="batch">
+            <p>Batch: </p>
+            <p>{{trainingDataObj.batch}}</p>
+        </div>
+        <div class="training-mode">
+            <p>Training Mode:</p>
+            <p>{{trainingDataObj.trainingMode}}</p>
+        </div>
+    </div>
+    <div class="description">
+        <h2>Description</h2>
+        <p>{{trainingDataObj.description}}</p>
+    </div>
+    <div class="topics">
+        <h2>Topics</h2>
+        <div class="table-wrapper">
+            <table>
+                <tr>
+                    <th *ngFor="let item of topicsHeading">
+                        {{item}}
+                    </th>
+                </tr>
+                <tr *ngFor="let item of topicData; let i=index">
+                    <td>{{i+1}}</td>
+                    <td>{{item.topic}}</td>
+                    <td>{{item.topic_trainer}}</td>
+                    <td>{{item.trainer_email}}</td>
+                    <td>{{item.start_date}}</td>
+                    <td>{{item.end_date}}</td>
+                    <td>{{item.url}}</td>
+                                        
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

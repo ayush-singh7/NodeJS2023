@@ -1,0 +1,21 @@
+@import "../../../../../../scss/common";
+.container{
+
+    margin-top: 10px;
+    .table-wrapper{
+        overflow: auto;
+        table{
+            // width: 100%;
+            min-width: 150vw;
+        }
+        tr,th,td{
+            border-bottom: 1px solid $border-bottom-color;
+            padding: 1rem;
+            text-align: left;
+        }
+        th{
+            font-weight: 300;
+        }
+        
+    }
+}

@@ -1,0 +1,103 @@
+@import "../../../../scss/common";
+
+
+.container{
+
+    .buy-coupons{
+        display: grid;
+        grid-template-columns: 55% 43%;
+        column-gap: 2%;
+        width: 95%;
+        margin: auto;
+        margin-top: 2rem;
+        .left{
+            background-color: $white;
+            border: 1px solid  #DCE2E9 ;
+            display: grid;
+            border-radius: 5px;
+            padding: 6px 1rem;
+            .amount{
+                @include flex(center,space-between);
+                p{
+                    color:blue;
+                    font-size: 15px;
+                }
+            }
+            h3{
+                color:blue;
+                font-size: 2rem;
+            }
+            .details{
+                p{
+                    margin-bottom: 0px;
+                }
+                button{
+                    height: 2rem;
+                    width: 7rem;
+                    cursor: pointer;
+                    border: 1px solid gray;
+                    background-color: white;
+                    color:blue;
+                    border-radius: 5px;
+                }
+                @include flex(center,space-between);
+            }
+        }
+        .right{
+            display: grid;
+            justify-content: center;
+            background-color: $white;
+            border: 1px solid  #DCE2E9 ;
+            border-radius: 5px;
+            padding: 6px 1rem;
+
+            .purchase{
+                @include flex(center,center);
+            }
+            button{
+                font-size: 15px;
+                @include blue-button(2.5rem,18rem);
+            }
+        }
+    }
+
+    .main{
+        border-radius: 1rem;
+        background-color: $white;
+        width: 95%;
+        margin: auto;   
+        margin-bottom: 2rem;
+        margin-top: 10px;
+        padding: 2%;
+        overflow: auto;
+        .table-heading{
+            @include flex(center,space-between);
+            .legend{
+                @include flex(center,flex-start);
+                gap:16px;
+                span{
+                    font-size: 1.1rem;
+                    padding-right: 5px;
+                }
+                .coupon-purchased{
+                    color:#a4ffcc;
+                    background-color: #a4ffcc;
+                }
+            
+                .coupon-available{
+                    background-color: #bdc8fa;
+                    color:#bdc8fa;
+                }
+                .locked{
+                    color:#bfbfbf;
+                    background-color: #bfbfbf;
+                }
+                .holiday{
+                    color:#ff989e;
+                    background-color: #ff989e;
+                }
+               
+            }       
+        }
+    }
+}

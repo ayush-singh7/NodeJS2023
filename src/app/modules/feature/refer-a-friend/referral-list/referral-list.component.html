@@ -1,0 +1,32 @@
+<div class="main">
+    <div class="container" *ngIf="">
+        <h2 class="message">
+            No referrals yet! Checkout current job openings and refer.
+        </h2>
+        <button (click)="toJobOpenings()">Job Openings</button>
+    </div>
+
+    <div class="table-wrapper">
+        <app-table-listing [config]="listingConfig">
+
+            <app-common-table [tableSource]="tableSource"  >
+                <ng-template appFor="candidate_name" let-row="row">
+                <a class="name-link">{{row.candidate_name }} </a>
+            </ng-template>
+            <ng-template appFor="candidate_status" let-row="row">
+                <a class="name-link">{{row.candidate_status }} </a>
+            </ng-template>
+            <ng-template appFor="department" let-row="row">
+                <a class="name-link">{{row.department }} </a>
+            </ng-template>
+            <ng-template appFor="experience" let-row="row">
+                <a class="name-link">{{row.experience }} </a>
+            </ng-template>
+            <ng-template appFor="position" let-row="row">
+                <a class="name-link">{{row.position }} </a>
+            </ng-template>
+            
+        </app-common-table>
+    </app-table-listing>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="listing-container">
+    <app-dsr-filter *ngIf="config.label == 'DSR'" (filterValues)="filterData($event)" [buttonConfig]="config.options">
+    </app-dsr-filter>
+
+    <app-interview-filter *ngIf="label == 'Interview'" (filterValues)="filterData($event)"
+        [buttonConfig]="config.options">
+
+    </app-interview-filter>
+
+    <div class="table-data">
+        <h2 class="table-heading"  *ngIf="config.heading">{{config.heading}}</h2>
+        <app-search-filter (setSearch)="searchData($event)" [placeholder]="config.options.searchPlaceholder"
+            *ngIf="config.options.search"></app-search-filter>
+
+        <ng-content></ng-content>
+
+        <app-no-data *ngIf="config.total === 0"></app-no-data>
+        <mat-paginator *ngIf="config.total > 0 && config.options.pagination" [length]="config.total" [pageSize]="limit"
+            [pageIndex]="page - 1" [pageSizeOptions]="TOTAL_PAGE_SIZE_OPTIONS" (page)="onPageHandler($event)"
+            showFirstLastButtons appPaginatorStyle>
+        </mat-paginator>
+
+    </div>
+
+</div>

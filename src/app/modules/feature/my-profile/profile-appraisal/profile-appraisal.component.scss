@@ -1,0 +1,29 @@
+@import "../../../../../scss/common";
+
+.container{
+    .head{
+        padding: 1% 2%;
+        width: 100%;
+        font-size: 24px;
+        font-family: 'Segoe UI';
+        border-bottom: 1px solid lightgray;
+        font-weight: 700; 
+    }
+    section{
+        @include flex(center,flex-start);
+        column-gap:20px;
+        padding:2%;
+        .input{
+            @include flex(flex-start,center);
+            flex-direction: column;
+            width: 30%;
+            
+            .full-width{
+
+                width: 100%;
+    
+            }
+    
+        }
+    }
+}

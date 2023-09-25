@@ -1,0 +1,19 @@
+.container{
+    margin: 2%;
+    height: 81vh;
+    h2{
+        color: blue;
+    }
+    .message{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border: 1px solid lightgray;
+        border-radius: 14px;
+        padding: 5%;
+        p{
+            font-size: 2rem;
+        }
+    }
+}

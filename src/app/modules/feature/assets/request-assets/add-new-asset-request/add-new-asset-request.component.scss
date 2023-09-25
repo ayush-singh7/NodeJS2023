@@ -1,0 +1,52 @@
+@import "../../../../../../scss/common";
+.main{
+    header{
+        padding:8px;
+        @include flex(center,flex-end);
+      
+    }
+    .assets-details{
+            border-top: 1px solid $lightgray;
+            @include input-shadow();
+
+            .form-top{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                @media (max-width:1250px) {
+                    grid-template-columns: auto auto auto;
+                }
+                @media (max-width:800px) {
+                    grid-template-columns: auto auto;
+                }
+                @media (max-width:500px) {
+                    grid-template-columns: auto;
+                }
+                padding: 1% 2%;
+                column-gap: 2rem;
+                .input{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            .form-bottom{
+                display: grid;
+                padding: 0 2%;
+                .full-width{
+                    width: 100%;
+                }
+            }
+            .submit-button{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 1rem;
+                button{
+                    @include blue-button(2.5rem,6rem);
+
+                }
+                button:hover{
+
+                }
+            }
+        }
+    
+}

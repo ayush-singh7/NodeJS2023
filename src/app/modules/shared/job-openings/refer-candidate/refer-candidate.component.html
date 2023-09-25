@@ -1,0 +1,150 @@
+ <div class="main">
+    <header>
+        <h1>
+            Refer A Candidate
+        </h1>
+        <div class="close-icon pointer" mat-dialog-close>
+            <img src="../../../../../../assets/next-prev-icons/close.svg" alt="">
+        </div>
+    </header>
+    <ng-container [formGroup]="referCandidateForm">
+
+        <section class="job-details">
+            <h2>&nbsp; &nbsp;----------Job Details---------------------------------------------------------------
+            </h2>
+            <div class="job-details-inputs">
+                <div class="input-field">
+                    <mat-label>Department Name</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput placeholder="Department Name" formControlName="department" readonly >
+                    </mat-form-field>
+                </div>
+                <div class="input-field">
+                    <mat-label>Job Code</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput placeholder="JOB CODE" formControlName="job_code" readonly>
+                    </mat-form-field>
+                </div>
+                <div class="input-field">
+                    <mat-label>Job Location</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput placeholder="Location" formControlName="job_location" readonly>
+                    
+                    </mat-form-field>
+                </div>
+                <div class="input-field">
+                    <mat-label>Experience</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput placeholder="Experience" formControlName="experience_required" readonly>
+                    </mat-form-field>
+                </div>
+            </div>
+        </section>
+        <section class="candidate-details">
+            <h2>&nbsp; &nbsp;----------Candidate Details------------------------------------------------------</h2>
+            <div class="candidate-details-inputs">
+                <div class="input-field">
+                    <mat-label>Your Choice Location</mat-label>
+                    
+                    <mat-form-field appearance="outline">
+                        <mat-select formControlName="location" placeholder="Job Location" >
+                          <mat-option value="Noida">
+                            Noida
+                          </mat-option>
+                          <mat-option value="Chandigarh">
+                            Chandigarh
+                          </mat-option>
+                        </mat-select>
+
+                        
+                        <mat-error>
+                            {{referCandidateForm | showError: 'location': 'Your Location Name'}}
+                        </mat-error>
+
+                        
+                      </mat-form-field>
+                </div>
+                <div class="input-field">
+                    <mat-label>Candidate Name</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput placeholder="Candidate Name" formControlName="candidate_name"
+                        (keydown)="noSpace($event)"  appNoSpecialChar="noSpecialChars">
+                        <mat-error>
+                            {{referCandidateForm | showError: 'candidate_name': 'Candidate Name'}}
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                 <div class="input-field">
+                    <mat-label>Position Title</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput placeholder="Position Title" formControlName="job_title"
+                        (keydown)="noSpace($event)"  appNoSpecialChar="noSpecialChars" readonly >
+                        <mat-error>
+                            {{referCandidateForm | showError: 'job_title': 'Position Title'}}
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+               <div class="input-field">
+                    <mat-label>Experience</mat-label>
+                    <mat-form-field appearance="outline" >
+                        <input matInput  placeholder="Enter Years Of Experience" formControlName="experience"
+                        (keydown)="noSpace($event)"  appNoSpecialChar="noSpecialChars">
+                        <mat-error>
+                            {{referCandidateForm | showError: 'experience': 'Experience'}}
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="input-field">
+                    <mat-label>Email ID</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput placeholder="Enter Email ID" formControlName="email"
+                        (keydown)="noSpace($event)"  >
+                        <mat-error>
+                            {{referCandidateForm | showError: 'email': 'Email ID'}}
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                 <div class="input-field">
+                    <mat-label>Phone No.</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput placeholder="Enter Phone Number" formControlName="phone_number" 
+                        (keydown)="noSpace($event)" appNoSpecialChar="noSpecialChars" >
+                        <mat-error>
+                            {{referCandidateForm | showError: 'phone_number': 'Phone Number'}}
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="input-field">
+                    <mat-label>Upload CV</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput >
+                        <input type="file" #fileInput accept="application/pdf" >
+                        
+                    </mat-form-field>
+                </div> 
+                <div class="input-field">
+                    <mat-label>Skillsets</mat-label>
+                    <mat-form-field appearance="outline">
+                        <textarea matInput  formControlName="skillset"  cols="35" rows="3" 
+                        (keydown)="noSpace($event)"  appNoSpecialChar="noSpecialChars"
+                        placeholder="Enter Skillsets" >
+                        </textarea>
+                        <mat-error>
+                            {{referCandidateForm | showError: 'skillset': 'Skillsets'}}
+                        </mat-error>
+                        
+                    </mat-form-field>
+                    <p> <b>
+                        {{referCandidateForm?.value?.skillset?.length ? referCandidateForm?.value?.skillset?.length : '0'  }} / 200
+                    </b></p>
+
+                </div> 
+            </div>
+        </section>
+        <section class="submit">
+            <button mat-dialog-close class="mr-5 close-btn"  >Close</button>
+            <button type="submit" (click)="submitReferCandidate()">Submit</button>
+        </section>
+    </ng-container>
+
+</div>

@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="left" [formGroup]="manualPunch" >
+        <h2>Employee Detail</h2>
+        <div class="date">
+            <mat-label class="fw-500">Date</mat-label>
+            <app-input-date [date]="manualPunch.controls.date" [datePickerData]="datePickerData"  ></app-input-date>
+            
+        </div>
+        <div class="company">
+            <mat-label class="fw-500">Company</mat-label>
+            <!-- <input type="text"> -->
+            <app-dropdown-search [myControlName]="manualPunch.controls.company" [data]="companyData" ></app-dropdown-search>
+
+        </div>
+        <div class="employee">
+            <mat-label class="fw-500">Employee</mat-label>
+            <mat-form-field appearance="outline">
+                <input matInput formControlName="employee_name">
+            </mat-form-field>
+        </div>
+        <div class="buttons">
+            <button>Get</button>
+        </div>
+    </div>
+    <div class="right">
+        <h2 class="mb-10">Manual Punch Log</h2>
+        <app-common-table [tableSource]="tableSource" class="mt-10">
+
+        </app-common-table>
+    </div>
+</div>

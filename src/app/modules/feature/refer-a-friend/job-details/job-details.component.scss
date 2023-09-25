@@ -1,0 +1,106 @@
+
+@import "../../../../../scss/common";
+
+:host {
+    height: 150vh;
+}
+.container {
+    padding: 2%;
+    .bread{
+        display: flex;
+        margin-bottom: 1rem;
+        .breadcrumb-item{
+            a{
+                text-decoration: none;
+                color:$grey
+            }
+            a:hover{
+                color:black;
+            }
+        }
+    }
+    .highlighted-blue {
+        color: $primary;
+        background-color: $dashboard_bg;
+        padding: 8px;
+        border-radius: 5px;
+    }
+    .main {
+        background-color: white;
+        @include flex(stretch, flex-start);
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 2%;
+        border-radius: 5px;
+        h2 {
+            border-bottom: 1px solid lightgray;
+        }
+        .job-detail {
+            display: grid;
+            grid-template-columns: 52% 46%;
+            column-gap: 2%;
+            @media (max-width:1000px) {
+                grid-template-columns: 90%;
+                justify-content: center;
+            }
+            .job-detail-row {
+                @include flex(center, flex-start);
+                column-gap:4px;
+                .detail-title {
+                    color: rgba(61, 11, 11, 0.83);
+                }
+                .detail-subtitle {
+                    color: black;
+                }
+            }
+        }
+        .technical-skills {
+            @include flex(stretch, flex-start);
+            flex-direction: column;
+            .technical-skills-body {
+                @include flex(center, flex-start);
+                column-gap: 10px;
+            }
+        }
+        .job-introduction {
+            @include flex(stretch, flex-start);
+            flex-direction: column;
+            .job-introduction-body {
+                padding: 1.5rem;
+                border-radius: 5px;
+                background-color: $dashboard_bg;
+            }
+        }
+        .job-description {
+            @include flex(stretch, flex-start);
+            flex-direction: column;
+            .job-description-body {
+                padding: 1.5rem;
+                background-color: $dashboard_bg;
+                h3{
+                    font-weight: 500;
+                }
+                p{
+                    color: rgba(61, 11, 11, 0.83);
+                    font-size: 13px;
+                    margin-bottom: 4px !important;
+                }
+                
+            }
+        }
+        .job-qualification{
+            @include flex(stretch, flex-start);
+            flex-direction: column;
+            .job-qualification-body{
+                padding: 1.5rem;
+                background-color: $dashboard_bg;  
+            }
+            .job-qualification-body-heading{
+                font-weight: 500;   
+                background-color: $dashboard_bg;  
+                
+            }
+        }
+        
+    }
+}

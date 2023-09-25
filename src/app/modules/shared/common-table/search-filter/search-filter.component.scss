@@ -1,0 +1,23 @@
+.search-listing {
+    justify-content: flex-end;
+    margin-right:2%;
+    display: flex;
+    
+    .input-forms {
+        display: flex;
+        align-items: center;
+        max-width: 500px;
+        @media (max-width:700px) {
+            flex-direction: column;
+        }
+        mat-label{
+            margin-right: 10px;
+        }
+        mat-form-field{
+            width: 90%;
+        }
+        @media (max-width:500px) {
+            width: 50%;
+        }
+    }
+}

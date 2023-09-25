@@ -1,0 +1,18 @@
+<ng-container *ngFor="let job of jobOpeningsData">
+    <ng-template #listOfDivs>
+        <div class="job-opening-wrapper">
+            <app-job-openings [singleJobData]="job"
+            ></app-job-openings>
+        </div>
+    </ng-template>
+    
+</ng-container>
+
+
+<ng-container *ngIf="render_child">  
+    <app-custom-carousel [listToShow]="dataSource" [carouselConfigData]="newOpeningsData"
+        [gridConfig]="gridConfigNewOpenings"
+    >
+    </app-custom-carousel>  
+</ng-container>
+

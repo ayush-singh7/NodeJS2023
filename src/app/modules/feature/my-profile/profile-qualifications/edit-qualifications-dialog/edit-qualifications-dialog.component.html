@@ -1,0 +1,78 @@
+<div class="container">
+    <header>
+        <h2>Edit Qualifications</h2>
+        <h2 mat-dialog-close class="pointer">X</h2>
+    </header>
+    <section class="body">
+        <form [formGroup]="qualificationsForm">
+            <div class="input-box">
+                <mat-label>School/ University </mat-label>
+                <mat-form-field appearance="outline">
+                    <input matInput placeholder="School/University" formControlName="institute">
+                    <mat-error>
+                        {{qualificationsForm | showError : 'institute' : 'Institute Name' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="input-box">
+                <mat-label>Education Level </mat-label>
+
+                <app-dropdown-search [myControlName]="qualificationsForm.controls.education_level" [data]="educationLevel"
+                   >
+                 </app-dropdown-search>
+            </div>
+            <div class="time-period">
+
+                <div class="input-box">
+                    <mat-label>Time Period (from)</mat-label>
+                    <app-input-date [date]="qualificationsForm.controls.date_from" [datePickerData]="fromData" 
+                    (dateData)="setDateValidations($event)" >
+                    </app-input-date>
+        
+                    
+                </div>
+                <div class="input-box">
+                    <mat-label>Time Period (to)</mat-label>
+                    <app-input-date [date]="qualificationsForm.controls.date_to" [datePickerData]="toData"
+                    (dateData)="setDateValidations($event)"  >
+                    </app-input-date>
+           
+                </div>
+            </div>
+            <div class="input-box">
+                <mat-label>Language </mat-label>
+                <app-dropdown-search [myControlName]="qualificationsForm.controls.language"
+                 [data]="languageList" [label]="'Language'" >
+                </app-dropdown-search>
+            </div>
+            <div class="input-box">
+                <mat-label>Professional Courses (if any)</mat-label>
+                <mat-form-field appearance="outline">
+                    <input matInput formControlName="prof_course" placeholder="Professional Courses (if any)" />
+                    <mat-error>
+                        {{qualificationsForm | showError : 'prof_course' : 'Professional Course' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="input-box">
+                <mat-label>Description</mat-label>
+                <mat-form-field appearance="outline">
+                    <textarea matInput placeholder="Description" formControlName="description"></textarea>
+                    <mat-error>
+                        {{qualificationsForm | showError : 'description' : 'Description' }}
+                    </mat-error>
+                </mat-form-field>
+
+            </div>
+            <div>
+
+            </div>
+            <div class="buttons">
+                <button mat-dialog-close class="mr-5 close-btn"  >Close</button>
+                <button (click)="updateQualifications()" class="update-btn">Update</button>
+            </div>
+
+
+        </form>
+    </section>
+</div>

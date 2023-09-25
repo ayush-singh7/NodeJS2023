@@ -1,0 +1,118 @@
+@import "../../../../scss/common";
+.login-main {
+    background-color: white;
+    @include flex($a-item: center, $j-cont: center);
+    flex-direction: column;
+    line-height: 3.5rem;
+    
+    .login-main-top {
+        line-height: 6rem;
+        padding: 2.9rem;
+        @include flex($a-item: stretch, $j-cont: center);
+        flex-direction: column;
+        .asset-image {
+            text-align: center;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .google-button {
+            button {
+                padding: 0px !important;
+                @include primary-button($color: white, $bg_color: $primary, $width: 100%);
+                display: grid;
+                grid-template-columns: 16% 84%;
+                align-items: center;
+                margin-top: 0.5rem;
+                p {
+                    font-weight: 600;
+                    font-size: 16px;
+                    margin: 0px !important;
+                }
+                .logo {
+                    background-color: white;
+                    height: 3rem;
+                    width: 3rem;
+                    border: 1px solid $primary;
+                    align-items: center;
+                    img {
+                        height: 60%;
+                        margin-top: 10px;
+                        width: 60%;
+                    }
+                }
+            }
+            button:hover {
+                box-shadow: rgb(195, 195, 230) -1px 0px 2px 2px;
+                transition: 0.4s;
+            }
+        }
+        .text-muted {
+            text-align: center;
+            margin-bottom: 0px !important;
+        }
+        @media (max-width: 650px) {
+            padding: 1.2rem;
+        }
+    }
+    .login-main-bottom {
+        width: 90%;
+        button {
+            @include primary-button($color: white, $bg_color: $primary_light, $height: 35px, $width: 100%);
+            margin-top: 0.5rem;
+            font-weight: 500;
+        }
+        button:hover {
+            box-shadow: rgba(182, 129, 129, 0.597) 0 1px 2px 2px;
+            transition: 0.4s;
+        }
+    }
+    .login-bottom-text {
+        width: 100%;
+        border-top: 1px solid rgb(184, 170, 170);
+        .text-muted {
+            text-align: center;
+            margin-bottom: 0px !important;
+        }
+    }
+    .login-form {
+        line-height: 1.8rem;
+        form {
+            flex-direction: column;
+            line-height: 2.2rem;
+            width: 100%;
+            @include form-field-background-color($color: white);
+            .form-input-field {
+                width: 100%;
+            }
+            .forgot-pass {
+                color: $primary;
+            }
+            .login-button {
+                margin-top: 5px;
+                @include flex($a-item: center, $j-cont: flex-end);
+                button {
+                    @include primary-button(
+                        $color: white,
+                        $bg_color: $primary_light,
+                        $f_size: 1rem,
+                        $height: 2.4rem,
+                        $width: 5.5rem
+                    );
+                    @include flex($a-item: center, $j-cont: space-evenly);
+                    padding: 10px;
+                    border-radius: 2px;
+                }
+                button:hover {
+                    box-shadow: rgba(182, 129, 129, 0.597) 0 1px 2px 2px;
+                    transition: 0.4s;
+                }
+            }
+            ::ng-deep .mat-form-field-underline {
+                // for light grey borders in input box
+                border: 0.1px solid #dfcdcd !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+@import "../../../../../assets/../scss/common";
+.container{
+
+    .heading{
+        background-color: red;
+        color: white;
+        padding: 9px 13px;
+        margin: 10px 0px;
+    }
+    .note{
+        mat-form-field{
+            width: 100%;
+        }
+    }
+    .buttons-wrapper{
+        @include flex(center,center);
+        gap:1rem;
+        .cancel-button{
+            button{
+                @include grey-button(2rem,6rem);
+            }
+        }
+        .submit-button{
+            button{
+                @include blue-button(2rem,6rem);
+            }
+        }
+    }
+}

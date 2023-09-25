@@ -1,0 +1,65 @@
+<section>
+    <div class="btn_group">
+    <div class="submenu-buttons">
+      <mat-button-toggle-group #subMenu="matButtonToggleGroup"  *ngIf="group.value=='grid_view'" >
+        <mat-button-toggle value="project_all" aria-label="Text align left" checked="project_all">
+         ALL
+              </mat-button-toggle>
+  
+        <mat-button-toggle value="project_ongoing" aria-label="Text align center">
+          Ongoing
+              </mat-button-toggle>
+        <mat-button-toggle value="project_hold" aria-label="Text align right">
+          Hold
+        </mat-button-toggle>
+        <mat-button-toggle value="project_finished" aria-label="Text align right">
+          Finished
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+      <!-- <div class="example-selected-value">Selected value: {{group.value}}</div> -->
+    </div>
+    <div class="toogle-buttons">
+      <mat-button-toggle-group #group="matButtonToggleGroup">
+        <mat-button-toggle value="grid_view" aria-label="Text align left">
+          <mat-icon>grid_view</mat-icon>
+              </mat-button-toggle>
+        <mat-button-toggle value="project_list" aria-label="Text align center" checked>
+          <mat-icon>list</mat-icon>
+              </mat-button-toggle>
+        <mat-button-toggle value="right" aria-label="Text align right">
+          <mat-icon>link</mat-icon>
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+      <!-- <div class="example-selected-value">Selected value: {{group.value}}</div> -->
+    </div>
+  </div>
+    <main>
+      <ng-container [ngSwitch]="group.value == 'project_list'?'project_list':subMenu?.value" >
+  
+      <ng-container *ngSwitchCase="'project_list'">
+        <app-project-listing></app-project-listing>
+      </ng-container>
+      <ng-container *ngSwitchCase="'project_all'">
+        <app-all-projects></app-all-projects>
+  
+      </ng-container>
+      <ng-container *ngSwitchCase="'project_ongoing'">
+        Ongoing
+      </ng-container>
+      <ng-container *ngSwitchCase="'project_hold'">
+        hold
+      </ng-container>
+      <ng-container *ngSwitchCase="'project_finished'">
+        finished
+      </ng-container>
+  
+  
+      </ng-container>
+  
+    </main>
+  </section>
+  
+  
+  
+  
+  

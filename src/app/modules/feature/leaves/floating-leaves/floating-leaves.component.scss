@@ -1,0 +1,40 @@
+@import "../../../../../scss/common";
+.container {
+    margin: auto;
+    width: 95%;
+    margin-top: 2rem;
+    h2 {
+        color: blue;
+    }
+    .available-holiday {
+        padding: 1rem 0px 2rem 0rem;
+        background-color: $white;
+        border-radius: 1em;
+        h3 {
+            margin: auto;
+            width: 95%;
+            border-bottom: 1px solid $lightgray;
+            padding-bottom: 10px;
+        }
+        table {
+            margin: auto;
+            width: 95%;
+        }
+        table,
+        th,
+        td {
+            text-align: center;
+            padding: 1rem;
+            border-collapse: collapse;
+            border-bottom: 1px solid lightgray;
+            
+        }
+        td{
+            font-weight: 400;
+        }
+        th{
+            font-weight: 400;
+        }
+        
+    }
+}

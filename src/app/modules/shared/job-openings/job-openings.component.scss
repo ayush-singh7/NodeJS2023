@@ -1,0 +1,118 @@
+@import '../../../../scss/common';
+:host {
+    min-width: 100%;
+}
+.card{
+    // margin:13px;
+    // margin-left: 5px;
+    border: 1px solid lightgray;
+    @include flex($a-item: center, $j-cont: space-between);
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    padding: 2.5%;
+    min-width: 30rem;
+    .card-image{
+        width: 100%;
+        min-height: 11rem;
+        border-radius: 8px;
+        background-color: $dashboard_bg;
+        .image{
+            @include flex($a-item: center, $j-cont: center);
+            margin: 10px;
+            img{
+                width: 23%;
+                height: auto;
+            }
+        }
+        .job-details{
+            margin:0% 8% 0 6%;
+            @include flex($a-item: center, $j-cont: space-between);
+            .location{
+                @include flex($a-item: center, $j-cont: space-between);   
+                padding: 0 8px 0 8px;
+                border-radius: 20px;
+                background-color: white;
+                p{
+                    font-size: 12px;
+                    margin-bottom: 0px !important;
+                    mat-icon{
+                        font-size: 20px;
+                        position: relative;
+                        color:orange;
+                        top:3px
+                    }
+                }
+            }
+        }
+    }
+    .card-info{
+        @include flex($a-item: null, $j-cont: space-between);
+        flex-direction: column;
+        width: 100%;
+        hr{
+            width: 100%;
+            margin: 10px 0;
+        }
+        .extra-info{
+            @include flex($a-item: center, $j-cont: space-between);
+            .main-extra{
+                .main-extra-top{
+                    font-size: 12px;
+                }
+                .main-extra-bottom{
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .job-buttons{
+            display: grid;
+            grid-template-columns: 45% 45%;
+            column-gap: 10%;
+            .job-button-wrapper{
+                width: 100%;
+                .job-button{
+                    border-radius: 5px;
+                    font-size: 1rem;
+                }    
+                .job-button:hover{
+                    transition:0.2s ;
+                    box-shadow: $primary 0 1px 2px 2px;
+                }   
+                .view-details{
+               
+                    @include blue-button(45px,100%);
+                }
+                .refer{
+                    @include primary-button($color: $primary_light, $bg_color:white , $height: 45px, $width: 100%);
+                    border:1px solid $primary;
+                }
+                
+    
+            }
+            @media (max-width:700px) {
+                grid-template-columns: 95%;
+                row-gap:10px;
+                justify-content:center
+            }
+        }
+    }
+    @media (max-width:1800px) {
+        min-width: 27rem;
+    }
+    @media (max-width:1600px) {
+        min-width: 23rem;
+    }
+    @media (max-width:1400px) {
+        min-width: 110%;
+    }
+    @media (max-width:800px) {
+        min-width: 21rem;
+    }
+    @media (max-width:500px){
+        min-width: 100%;
+    }
+}

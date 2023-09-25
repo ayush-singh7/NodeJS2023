@@ -1,0 +1,87 @@
+<section>
+    <div class="main">
+      <div class="head">
+        <h1>Project Note</h1>
+        <mat-icon>
+          add_circle
+        </mat-icon>
+      </div>
+      <div class="content">
+        <div>
+          <h2 (click)="openDialog()">Project Plan</h2>
+          <p>Download:
+            <img
+              src="https://dashboard.appinventiv.com/skin/hrsale_assets/img/download.svg">
+          </p>
+        </div>
+        <div>
+          <p>
+  
+            Time:<b>13, Dec 2020 09:10 AM</b> </p>
+        </div>
+      </div>
+      <div class="content_wrapper">
+        <div>
+          <h2 (click)="openDialog()">SRS</h2>
+          <p>Download:
+            <img
+              src="https://dashboard.appinventiv.com/skin/hrsale_assets/img/download.svg">
+          </p>
+        </div>
+        <div>
+          <p>
+  
+            Time:<b>13, Dec 2020 09:10 AM</b> </p>
+        </div>
+      </div>
+  
+    </div>
+    <div class="panel">
+      <div class="left">
+        <div *ngFor="let item of leftList" class="left_panels">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <div class="caps">
+                  <h1>{{ item.letter }}</h1>
+                </div>
+              </mat-panel-title>
+              <mat-panel-description>
+                <div class="data">
+                  <div class="info">
+                    <h1>{{ item.Info }}</h1>
+                  </div>
+                  <div class="noDoc">No Document</div>
+                </div>
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <!-- <p>This is the primary content of the panel.</p> -->
+          </mat-expansion-panel>
+        </div>
+      </div>
+      <div class="left">
+        <div *ngFor="let item of rightList" class="left_panels">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <div class="caps">
+                  <h1>{{ item.letter }}</h1>
+                </div>
+              </mat-panel-title>
+              <mat-panel-description>
+                <div class="data">
+                  <div class="info">
+                    <h1>{{ item.Info }}</h1>
+                  </div>
+                  <div class="noDoc">No Document</div>
+                </div>
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <!-- <p>This is the primary content of the panel.</p> -->
+          </mat-expansion-panel>
+        </div>
+      </div>
+    </div>
+  
+  </section>
+  

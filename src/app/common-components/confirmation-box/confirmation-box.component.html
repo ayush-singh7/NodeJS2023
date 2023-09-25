@@ -1,0 +1,14 @@
+
+<div class="container">
+    <h1 class="heading">
+        {{message.heading}}
+    </h1>
+    <div class="main">
+        {{message.data}}
+    </div>
+    <div class="buttons">
+        <button class="no-btn mr-5" mat-dialog-close >{{message.NO}}</button>
+        <button class="yes-btn" [mat-dialog-close]="true" >{{message.YES}}</button>
+
+    </div>
+</div>

@@ -1,0 +1,93 @@
+<div class="container" *ngIf="singleJobData">
+    <div class="bread">
+        <div *ngFor="let item of breadCrumb; let i= index" class="breadcrumb-item"> 
+          <a [routerLink]="item.link" >
+            {{item.name}}  
+            <ng-container *ngIf="breadCrumb.length-1 > i" > / </ng-container> 
+            &nbsp;	
+          </a> 
+         </div>
+    </div>
+    <div class="main">
+        <h2>Job Details</h2>
+        <div class="job-detail">
+            <div class="job-detail-row">
+                <p class="detail-title">Job Title: </p>
+                <p class="detail-subtitle">{{singleJobData.job_title}}</p>
+            </div>
+
+            <div class="job-detail-row">
+                <p class="detail-title">Job Type: </p>
+                <p class="detail-subtitle">Permanent</p>
+            </div>
+
+            <div class="job-detail-row">
+                <p class="detail-title">Department: </p>
+                <p class="detail-subtitle">{{singleJobData.department}}</p>
+            </div>
+
+            <div class="job-detail-row">
+                <p class="detail-title">Location:</p>
+                <p class="detail-subtitle">{{singleJobData.location}}</p>
+            </div>
+            
+            <div class="job-detail-row">
+                <p class="detail-title">No. Of Openings: </p>
+                <p class="detail-subtitle">5</p>
+            </div>
+            <div>
+                
+            </div>
+
+            <div class="job-detail-row">
+                <p class="detail-title">Exp. Required: </p>
+                <p class="detail-subtitle">{{singleJobData.job_experience_required}}
+                    <span class="highlighted-blue">Referral bonus will be Rs. 2000 for more information read Terms & Conditions</span>
+
+                </p>
+            </div>
+        </div>
+        <div class="technical-skills">
+            <h2>Technical Skills</h2>
+            <div class="technical-skills-body">
+                <p class="highlighted-blue">Data Analyst</p>
+                <p class="highlighted-blue">Business Analyst</p>
+            </div>
+        </div>
+        <div class="job-introduction">
+            <h2>Job Introduction</h2>
+            <div class="job-introduction-body">
+                    Urgent Requirement For Backend Architect - Node.js.
+            </div>
+        </div>
+        <div class="job-description">
+            <h2>Job Introduction</h2>
+            <div class="job-description-body">
+                <h3>Requirements: </h3>
+                <ng-container *ngFor="let job of jobDescription">
+                    <p>
+                        {{job}}
+                    </p>
+                </ng-container>
+                <br>
+                <h3>Should Have: </h3>
+                <ng-container *ngFor="let have of shouldHaves">
+                    <p>
+                        {{have}}
+                    </p>
+                </ng-container>
+            </div>
+        </div>
+        <div class="job-qualification">
+            <h2>Job Qualification</h2>
+            <div class="job-qualification-body">
+               <p class="job-qualification-body-heading">Education and Experience</p>
+               <p>Bachelor’s degree in Computer Science or a related discipline or an equivalent combination of education and work experience.
+                Overall 7-10 years of solid, diverse work experience in the software industry</p>
+                
+            </div>
+
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,48 @@
+@import "../../../../../../scss/common";
+.container{
+    header{
+        @include flex(center,space-between);
+        background-color: #f3f3f3;
+        padding: 5px;
+        p{
+            margin-bottom: 0px;
+            font-size: 1.5rem;
+            color:$blue;
+            padding: 10px;
+        }
+        button{
+            height: 1.7rem;
+            width: 1.7rem;
+            border-radius: 50%;
+            border: 1px solid black;
+            background: white;
+            cursor: pointer;
+        }
+    }
+    .details{
+        display: grid;
+        grid-template-columns: 95%;
+        justify-content: center;
+        row-gap: 10px;
+        .input{
+            @include flex(stretch,null);
+            flex-direction: column;
+        }
+        .radio-group-training{
+            mat-radio-group{
+                @include flex(stretch,null);
+                flex-direction: column;
+
+            }
+        }
+        .submit-buttons{
+            @include flex(center,flex-end);
+            .cancel{
+                @include grey-button(2.3rem,6rem);
+            }
+            .submit{
+                @include blue-button(2.3rem,6rem);
+            }
+        }
+    }
+}

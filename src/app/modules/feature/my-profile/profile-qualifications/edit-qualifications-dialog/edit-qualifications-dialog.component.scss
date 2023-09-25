@@ -1,0 +1,57 @@
+@import "../../../../../../scss/common";
+.container{
+    header{
+        @include flex(center,space-between);
+    }
+    .body{
+        form{
+            display: grid;
+            grid-template-columns: 48% 48%;
+            column-gap: 4%;
+            .input-box{
+                width: 100%;
+                mat-label{
+                    color: $midgray;
+                }
+                mat-form-field{
+                    width: 100%;
+                }
+            }
+            .time-period{
+                @include flex(center,space-around);
+                mat-form-field{
+                    width: 80%;
+                }   
+                @media (max-width:1000px) {
+                    flex-direction: column;
+                }
+            }
+            @media (max-width:1000px) {
+                grid-template-columns: 98%;
+            }
+        }
+        .buttons{
+            @include flex(center,flex-end);
+            margin-right:40px;
+            .update-btn{
+                @include primary-button($color: white, $bg_color: $primary_light, $height: 45px, $width: 15%);
+                background: linear-gradient(180deg, rgba(255,255,255,1) 0%, $primary_light 5%);    
+                padding: 5px;
+                border-radius: 4px;
+                @media (max-width:1000px) {
+                    width: 30%;
+                }
+            }
+            .close-btn{
+                @include primary-button($color: $primary_light, $bg_color: white, $height: 45px, $width: 15%);
+                padding: 5px;
+                border: 1px solid $primary;
+                border-radius: 4px;
+                @media (max-width:1000px) {
+                    width: 30%;
+                }
+            }
+
+        }
+    }
+}

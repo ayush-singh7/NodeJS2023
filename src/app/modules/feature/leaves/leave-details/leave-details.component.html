@@ -1,0 +1,96 @@
+<div class="container">
+    <header>
+        <p class="leave-head">1. {{leaveData.level_1}}</p>
+        <p class="leave-head">2. {{leaveData.level_2}}</p>
+    </header>
+    <div class="progress">
+        <div class="button-border">
+            <button></button>
+        </div>
+        <mat-progress-bar mode="determinate" value="100"></mat-progress-bar>
+        <div class="button-border">
+            <button></button>
+        </div>
+    </div>
+    <div class="leave-container">
+
+        <div class="leave-details">
+            <h2>Leave Details</h2>
+            <table>
+                <tr>
+                    <th>Employee Name</th>
+                    <td class="right" >
+                        {{obj.emp_name}}
+                    </td>
+                </tr>
+                <tr>
+                    <th>Leave Type</th>
+                    <td class="right" >
+                        {{obj.leave_type}}
+                    </td>
+                </tr>
+                <tr>
+                    <th>Leave Duration</th>
+                    <td class="right" >
+                        {{obj.leave_duration}}
+                    </td>
+                </tr>
+                <tr>
+                    <th>Applied On</th>
+                    <td class="right" >
+                        {{obj.applied_on}}
+                    </td>
+                </tr>
+                <tr>
+                    <th>Leave Duration</th>
+                    <td class="right" >
+                        {{obj.leave_duration}}
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Start Date</th>
+                    <td class="right" >
+                        {{obj.start_date}}
+                    </td>
+                </tr>
+                <tr>
+                    <th>End Date</th>
+                    <td class="right" >
+                        {{obj.end_date}}
+                    </td>
+                </tr>
+                <tr class="action-row">
+                    <th>Action</th>
+                    <td>
+                        <button>
+                            <mat-icon>cloud_download</mat-icon>
+
+                        </button>
+                    </td>
+                </tr>
+            </table>
+            <h3>Reason</h3>
+            <p class="fw-500">
+                {{obj.reason}}
+            </p>
+            <div class="remarks">
+                {{obj.remarks}}
+            </div>
+        </div>
+        <div class="approval-status">
+            <div class="approval-container">
+
+                <h2>Approval Status</h2>
+                <p>
+                    {{leaveData.level_1}} : Pending
+                </p>
+                <p>
+                    {{leaveData.level_2}} : Pending
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+</div>

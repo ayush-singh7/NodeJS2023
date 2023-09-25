@@ -1,0 +1,21 @@
+@import "./../../../../../../scss/common";
+.attendance-container{
+    h2{
+        padding-bottom: 10px;
+        border-bottom: 1px solid $border-bottom-color;
+    }
+    table{
+        width: 100%;
+    }
+    table,th,td,tr{
+        border-bottom: 1px solid $border-bottom-color;
+        border-collapse: collapse;
+        text-align:left;
+        padding:1rem;
+        .attendance{
+            color: green;
+        }
+    }
+ 
+
+}

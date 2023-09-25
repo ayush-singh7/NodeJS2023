@@ -1,0 +1,110 @@
+@import "./../../../../../scss/common";
+.container{
+
+    header{
+        @include flex(center,space-between);
+        background-color: $lightgray;
+        padding: 0 10px;
+        h2{
+            color:$blue;
+            padding: 5px 10px;
+            margin-bottom: 0px;
+        }
+        button{
+            background-color: $white;
+            border-radius: 50%;
+            border: none;
+            height: 2rem;
+            border: 1px solid $black;
+            width: 2rem;
+            cursor: pointer;
+        }
+    }
+    .feedback-data{
+        padding: 0.8rem 1.6rem;
+        display: grid;
+        row-gap: 10px;
+        p{
+            margin-bottom: 0px;
+        }
+        .training-name{
+            display: grid;
+            grid-template-columns: 25% 50%;
+        }
+        .department{
+            display: grid;
+            grid-template-columns: 25% 50%;
+        }
+        .dates{
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            border-bottom: 1px solid $lightgray;
+          
+        }
+        .objective{
+            mat-radio-group{
+                display: flex;
+                gap:0.4rem;
+                flex-direction: column;
+            }
+        }
+        .overall-relevance{
+            .radio-wrapper{
+                display: grid;
+                grid-template-columns: 25% 60% 15%;
+                @media (max-width:600px) {
+                    grid-template-columns: auto;
+                    justify-content: center;
+                }
+                mat-radio-group{
+                    display: flex;
+                    gap:1rem;
+                }
+            }
+        }
+        .overall-training{
+            .radio-wrapper{
+                display: grid;
+                grid-template-columns: 25% 60% 15%;
+                @media (max-width:600px) {
+                    grid-template-columns: auto;
+                    justify-content: center;
+                }
+                mat-radio-group{
+                    display: flex;
+                    gap:1rem;
+                }
+            }
+        }
+        .overall-satisfaction{
+            .radio-wrapper{
+                display: grid;
+                grid-template-columns: 25% 60% 15%;
+                @media (max-width:600px) {
+                    grid-template-columns: auto;
+                    justify-content: center;
+                }
+                mat-radio-group{
+                    display: flex;
+                    gap:1rem;
+                }
+            }
+        }
+        .overall-feedback{
+            mat-form-field{
+                width: 100%;
+            }
+        }
+        .buttons-wrapper{
+            @include flex(center,flex-end);
+            gap:1rem;
+            .cancel-button{
+                @include grey-button(2.5rem,7rem);
+
+            }
+            .submit-button{
+                @include blue-button(2.5rem,7rem);
+            }
+        }
+    }
+}

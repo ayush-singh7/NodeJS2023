@@ -1,0 +1,42 @@
+<section>
+    <div>
+  
+    </div>
+    <div class="projects">
+      <h1> All Projects</h1>
+  
+        <div class="table">
+          <app-common-table [tableSource]="tableSource" >
+  
+            <ng-template appFor="project_name" let-row="row">
+                <a (click)="details()"> {{row.project_name}}</a>
+             </ng-template>
+            <ng-template appFor="billing_type" let-row="row">
+              {{row.billing_type}}
+            </ng-template>
+            <ng-template appFor="resources" let-row="row">
+              {{row.resources}}
+            </ng-template>
+            <ng-template appFor="hrs" let-row="row">
+              {{row.hrs}}
+            </ng-template>
+            <ng-template appFor="total_milestone" let-row="row">
+              {{row.total_milestone}}
+            </ng-template>
+            <ng-template appFor="delivered" let-row="row">
+              {{row.delivered}}
+            </ng-template>
+            <ng-template appFor="pending" let-row="row">
+              {{row.pending}}
+            </ng-template>
+            <ng-template appFor="complete" let-row="row">
+              {{row.complete}}
+            </ng-template>
+
+          </app-common-table>
+  
+         </div>
+      </div>
+  
+  </section>
+  

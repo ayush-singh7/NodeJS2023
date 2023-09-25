@@ -1,0 +1,39 @@
+<div class="container">
+    <h2 class="head">Profile Picture</h2>
+    <section>
+        <p>Browse</p>
+        <div class="file-upload">
+            <input type="file" (change)="fileChangeEvent($event)">
+        </div>
+        <p>Upload files only: gif,png,jpg,jpeg</p>
+        <div class="current-image">
+            <img [src]="defaultImage" alt="">
+        </div>
+
+        <div class="cropper" *ngIf="imageChangedEvent">
+
+            <div>
+                <image-cropper [imageChangedEvent]="imageChangedEvent" [maintainAspectRatio]="true"
+                    [aspectRatio]="4 / 3" format="png" (imageCropped)="imageCropped($event)"
+                    (imageLoaded)="imageLoaded()" (cropperReady)="cropperReady()" (loadImageFailed)="loadImageFailed()">
+                </image-cropper>
+
+            </div>
+            <div class="cropped-preview">
+
+                <img [src]="croppedImage" />
+            </div>
+        </div>
+
+
+        <div class="check-box">
+            <mat-checkbox (change)='onChange($event)' color='primary' [(ngModel)]='isChecked'>Remove Profile Picture
+            </mat-checkbox>
+            <br>
+            <button (click)="saveChanges()" class="mt-8">
+                Save
+            </button>
+        </div>
+    </section>
+
+</div>

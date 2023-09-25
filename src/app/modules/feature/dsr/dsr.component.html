@@ -1,0 +1,56 @@
+<div class="container" *ngIf="listingConfig">
+    <div class="create-dsr">
+        <app-create-dsr (dsrValue)="newDSR($event)"></app-create-dsr>
+    </div>
+
+    <div class="listing-wrapper">
+        
+        <app-table-listing [config]="listingConfig" (changeListEvent)="onTableEventChange($event)">
+            <div class="table-wrapper">
+
+                <app-common-table [tableSource]="tableSource">
+                    <ng-template appFor="sn" let-row="row">
+                        <a class="name-link">{{row.emp_name}}</a>
+                    </ng-template>
+
+                    <ng-template appFor="emp_name" let-row="row">
+                        <a class="name-link">{{row.emp_name}}</a>
+                    </ng-template>
+
+                    <ng-template appFor="emp_id" let-row="row">
+                        <a class="name-link">{{row.emp_id }} </a>
+                    </ng-template>
+
+                    <ng-template appFor="email" let-row="row">
+                        <a class="name-link">{{row.email }} </a>
+                    </ng-template>
+
+                    <ng-template appFor="employment_type" let-row="row">
+                        <a class="name-link">{{row.employment_type }} </a>
+                    </ng-template>
+
+                    <ng-template appFor="date" let-row="row">
+                        <a class="name-link">{{row.date | date }} </a>
+                    </ng-template>
+
+                    <ng-template appFor="logged_hr" let-row="row">
+                        <a class="name-link">{{row.logged_hr }} </a>
+                    </ng-template>
+                    <ng-template appFor="approval_status" let-row="row">
+                        <a class="name-link" (click)="editDSR(row)"
+                            [ngClass]="{'status_pending': row.approval_status == '1', 'status_due': row.approval_status == '2', 'status_approved': row.approval_status == '3' }">
+                            {{row.approval_status
+                            | valueFilterPipe : 'DSR_STATUS' }}
+                        </a>
+                    </ng-template>
+
+                </app-common-table>
+            </div>
+
+
+        </app-table-listing>
+    </div>
+</div>
+<app-footer class="mt-10"></app-footer>
+
+

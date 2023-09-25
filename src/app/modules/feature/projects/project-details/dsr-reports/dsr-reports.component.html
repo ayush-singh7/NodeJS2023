@@ -1,0 +1,76 @@
+<section>
+    <div class="main_container">
+      <h1>Filter</h1>
+      <div class="content">
+        <div class="date">
+          <mat-label>Required by date</mat-label>
+  
+          <mat-form-field appearance="outline">
+            <input matInput [matDatepicker]="picker1" (click)="picker1.open()" readonly="true"   placeholder="MM/DD/YY"/>
+            <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+            <mat-datepicker #picker1></mat-datepicker>
+          </mat-form-field>
+        </div>
+        <div class="date">
+          <mat-label>Required by date</mat-label>
+  
+          <mat-form-field appearance="outline">
+            <input matInput [matDatepicker]="picker2" (click)="picker2.open()" readonly="true"   placeholder="MM/DD/YY"/>
+            <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+            <mat-datepicker #picker2></mat-datepicker>
+  
+          </mat-form-field>
+        </div>
+  
+        <!-- <div>
+          <app-dropdown-search [myControlName]="" [data]="statusData" ></app-dropdown-search>
+        </div>
+        <div>
+          <app-dropdown-search [myControlName]="" [data]="projectResource"></app-dropdown-search>
+        </div> -->
+        <!-- <div>
+          <app-dropdown [dropdown]="submissionStatus"></app-dropdown>
+        </div>
+        <div>
+          <app-dropdown [dropdown]="pmStatus"></app-dropdown>
+        </div>
+        <div>
+          <app-dropdown [dropdown]="amStatus"></app-dropdown>
+        </div>
+        <div>
+          <app-dropdown [dropdown]="rmStatus"></app-dropdown>
+        </div>
+        <div>
+          <app-dropdown [dropdown]="finalStatus"></app-dropdown>
+        </div>
+        <div>
+          <app-dropdown [dropdown]="hours"></app-dropdown> 
+        </div>   -->
+        <div class="buttons-wrapper">
+          <button mat-raised-button color="primary" > Apply</button>
+          <button mat-raised-button color="primary" >Reset</button>
+  
+        </div>
+  
+      </div>
+  
+  
+    </div>
+    <div class="main_data">
+      <div class="list">
+        <h1>DSR List</h1>
+       </div>
+       <div class="info">
+         <h1>DSR Analytics</h1>
+         <div *ngFor="let item of listItems" class="item">
+           <div class="data">{{item.Title}}</div>
+           <div>
+             <button mat-button>200</button>
+           </div>
+  
+         </div>
+        </div>
+    </div>
+  
+  </section>
+  

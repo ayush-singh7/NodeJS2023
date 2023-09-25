@@ -1,0 +1,221 @@
+@import "../../../../scss/common";
+
+.main {
+    @include flex(stretch,center);
+    flex-direction: column;
+    padding: 2%;
+    .bread{
+        display: flex;
+        margin-bottom: 1rem;
+        .breadcrumb-item{
+            a{
+                text-decoration: none;
+                color:$grey
+            }
+            a:hover{
+                color:black;
+            }
+        }
+    }
+    h1{
+        color: blue;
+        font-family: lato;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    .card_upper {
+        padding: 2em;
+        background-color: white;
+        margin-bottom: 20px;
+        .card_upper_body {
+            display: grid;
+            grid-template-columns: 48% 48%;
+            column-gap: 4%;
+            @media (max-width:800px){
+                grid-template-columns: 95%;
+                row-gap: 1rem;
+                
+            }
+            .personal_body {
+                .personal {
+                    display: flex;
+                    margin-bottom: 13px;
+                    img {
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50%;
+                        border: 2px solid #bfff77;
+                    }
+
+                    .personal_detail {
+                        margin-left: 10px;
+                        h3 {
+                            margin: 0;
+                            color: #3a3a3a;
+                            font-size: 18px;
+                            font-weight: 500;
+                        }
+                        p {
+                            margin-top: 1px;
+                            margin-bottom: 4px;
+                            display: block;
+                            color: #727476;
+                            font-size: 14px;
+                        }
+                        span {
+                            background: #f7ffb3;
+                            padding: 5px 0;
+                            border-radius: 3px;
+                            color: #000;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            font-weight: 500;
+                            width: 74px;
+                            display: inline-block;
+                            text-align: center;
+                            line-height: 1.7;
+                        }
+                    }
+                }
+
+                .personal_achievement {
+                    display: grid;
+                    grid-template-columns: 70% 20%;
+                    column-gap: 20px;
+                    h4 {
+                        font-weight: 500;
+                    }
+
+                    .awards {
+                        border-radius: 10px;
+                        padding: 20px;
+                        margin-right: 20px;
+                        background: #fff3cb;
+                    }
+                    .honours {
+                        background-color: #cbe7ff;
+                        border-radius: 10px;
+                        padding: 20px;
+                    }
+                }
+            }
+            .personal_rating {
+                background: #dfffb0;
+                padding: 30px 20px;
+                border-radius: 10px;
+                .ratings {
+                    @include flex("center", space-between);
+                    h2 {
+                        font-size: 50px;
+                    }
+                    p {
+                        padding: 3px;
+                        background-color: white;
+                        width: 43%;
+                        text-align: center;
+                        border-radius: 10px;
+                        span {
+                            font-weight: 500;
+                        }
+                    }
+                }
+                .ratings_breakup {
+                    margin-top: 30px;
+                    display: grid;
+                    grid-template-columns: 25% 25% 25% 25%;
+                    .ratings_breakup_body {
+                        text-align: center;
+                        background: #edffd2;
+                        margin: 0 5px;
+                        padding: 20px 5px;
+                        border-radius: 10px;
+                        p {
+                            // margin-bottom: 4px;
+                            display: block;
+                            color: #727476;
+                            font-size: 12px;
+                        }
+                        span {
+                            font-size: 25px;
+                            font-weight: 500;
+                        }
+                        // min-height: 100px;
+                    }
+                }
+            }
+        }
+    }
+    .calendar{
+        background-color: white;
+
+        .monthly-rating{
+            button{
+                @include primary-button($white,$primary,16px,3rem,12rem);
+                margin: 0.5% 1%;
+            }
+        }
+
+        .calendar-head{
+            @include flex(center,space-between);
+            padding: 0 2%;   
+        }
+        .calendar-body{
+            display: grid;
+            grid-template-columns: 22% 22% 22% 22%;
+            grid-column-gap: 4%;
+            column-gap: 4%;
+            justify-content: center;
+            padding: 0 2%;
+            row-gap: 2%;
+            height: 42rem;
+            @media (max-width:800px) {
+                grid-template-columns: 44% 44%;
+            }
+            .month-card{
+                border: 1px solid lightgray;
+                border-radius: 8px;
+                padding: 8%;
+                @include flex(stretch,space-between);
+                flex-direction: column;
+                row-gap: 15px;
+                height: 11rem;
+                .month-name{
+                    @include flex(center,space-between);
+                    p{
+                        font-size: 15px;
+                        font-weight: 550
+                    }
+                    .rating{
+                        background-color: #bfff77;
+                        font-size: 20px;
+                        padding: 4px 12px;
+                        border-radius: 4px;
+                    }
+                }
+                .monthly-data{
+                    @include flex(center,space-between);
+                    .awards{
+                        color:orange;
+                    }
+                    .honours{
+                        color:$primary;
+                    }
+                }
+            }
+            .dataExist{
+                background-color: $dialog_grey;
+            }
+            .dataExist:hover{
+                background-color:lightgray ;
+                cursor: pointer;
+            }
+
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    .main{
+        margin-bottom: 8rem;
+    }
+}

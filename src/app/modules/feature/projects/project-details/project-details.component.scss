@@ -1,0 +1,45 @@
+section {
+    padding: 1%;
+    .head {
+      display: grid;
+      grid-template-columns: 50% 30%;
+      column-gap: 20%;
+      padding: 2%;
+      @media(max-width){
+        
+      }
+      h1 {
+        font-size: 35px;
+        color: #3246d3;
+        font-weight: bold;
+      }
+      .right_box {
+        background-color: white;
+        padding: 4%;
+        padding-bottom: 12%;
+        .internal {
+          display: grid;
+          grid-template-columns: 50% 10%;
+          column-gap: 40%;
+          border-bottom: 1px solid rgb(223, 220, 220);
+  
+          mat-icon {
+            font-size: 30px;
+            color: #3246d3;
+          }
+        }
+      }
+    }
+    .tab {
+      ::ng-deep.mat-tab-label-container {
+        margin-top: 30px;
+        display: flex;
+        flex-grow: 1;
+        overflow: hidden;
+        z-index: 1;
+        background-color: white;
+      }
+  
+    }
+  }
+  

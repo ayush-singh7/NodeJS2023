@@ -1,0 +1,97 @@
+
+@import "../../../../../scss/common";
+.main{
+    @include flex(stretch,center);
+    flex-direction: column;
+    mat-error{
+        font-size: 11.5px;
+    }
+    header{
+        background-color: $dialog_grey;
+        padding: 12px 20px 4px 20px;
+        @include flex(center,space-between);
+        h1{
+            color:$primary;
+            font-weight: 580;
+            margin-bottom: 5px !important;
+        }
+        .close-icon{
+            border:1.5px solid black;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            position: relative;
+            img{
+                height: 50%;
+                width: 50%;
+                position: absolute;
+                left: 7px;
+                top: 7px;
+            }
+        }
+    }
+    .job-details{
+        mat-label{
+            color:gray;
+        }
+        h2{
+            margin-top: 0.5rem;
+            color:darkgray;
+            font-weight: 450;
+        }
+        .job-details-inputs{
+            display: grid;
+            grid-template-columns: 48% 48%;
+            padding: 1rem;
+            column-gap: 17px;
+            .input-field{
+                @include flex(stretch,center);
+                flex-direction: column;
+            }
+            @media(max-width: 900px){
+                grid-template-columns: 95%;
+            }
+        }
+    }
+
+    .candidate-details{
+        mat-label{
+            color:gray;
+        }
+        h2{
+            margin-top: 0.5rem;
+            color:darkgray;
+            font-weight: 450;
+        }
+        .candidate-details-inputs{
+            display: grid;
+            grid-template-columns: 48% 48%;
+            padding: 1rem;
+            column-gap: 17px;
+            .input-field{
+                @include flex(stretch,center);
+                flex-direction: column;
+            }
+            @media(max-width: 900px){
+                grid-template-columns: 95%;
+            }
+        }
+    }
+    .submit{
+        @include flex(center,flex-end);
+        margin:0 10px 10px 0;
+        button{
+            @include primary-button($color: white, $bg_color: $primary_light, $height: 45px, $width: 15%);
+            border-radius: 4px;
+        }
+        .close-btn{
+            @include primary-button($color: $primary_light, $bg_color: white, $height: 45px, $width: 15%);
+            border: 1px solid $primary;
+            border-radius: 4px;
+        }
+
+    }
+
+
+}
+

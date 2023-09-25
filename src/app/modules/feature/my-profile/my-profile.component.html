@@ -1,0 +1,72 @@
+<div class="container">
+  <div class="top">
+
+    <app-profile-top>
+    </app-profile-top>
+  </div>
+  <div class="bottom">
+    <mat-tab-group>
+      
+      <mat-tab> 
+        <ng-template mat-tab-label>
+          <mat-icon class="tab-icon mr-5">person</mat-icon>
+           Baisc Information
+          </ng-template>
+
+          <app-profile-basic-info></app-profile-basic-info>
+
+      </mat-tab>
+      
+
+      <mat-tab > 
+        <ng-template mat-tab-label>
+          <mat-icon class="tab-icon mr-5">camera_enhance</mat-icon>
+          Profile Picture
+        </ng-template>
+          <app-profile-picture></app-profile-picture>
+      </mat-tab>
+
+      <mat-tab> 
+        <ng-template mat-tab-label>
+          <mat-icon class="tab-icon mr-5">library_books</mat-icon>
+          Qualification
+        </ng-template>
+        <app-profile-qualifications></app-profile-qualifications>
+
+      </mat-tab>
+        
+      <mat-tab > 
+        <ng-template mat-tab-label>
+          <mat-icon class="tab-icon mr-5">timelapse</mat-icon>
+          Shift
+        </ng-template>
+        <app-profile-shift></app-profile-shift>
+      </mat-tab>
+
+      <mat-tab > 
+        <ng-template mat-tab-label>
+          <mat-icon class="tab-icon mr-5">vpn_key</mat-icon>
+          Changed Password
+        </ng-template>
+        <app-profile-change-password></app-profile-change-password>
+      </mat-tab>
+      
+      <mat-tab > 
+        <ng-template mat-tab-label>
+          <mat-icon class="tab-icon mr-5">thumb_up</mat-icon>
+          Appraisal
+        </ng-template>
+        <app-profile-appraisal></app-profile-appraisal>
+      </mat-tab>
+      
+      
+      
+
+
+    </mat-tab-group>
+    
+  </div>
+
+<app-footer>
+</app-footer>
+</div>

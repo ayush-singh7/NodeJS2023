@@ -1,0 +1,12 @@
+
+<div class="container">
+    <h1>Trainings</h1>
+    <div class="cards-container" >
+        <div *ngFor="let item of trainingCardsData">
+            <app-training-data-card [trainingCardData]="item" >
+            </app-training-data-card> 
+        </div>
+    </div>
+</div>
+<app-footer class="footer"></app-footer>
+

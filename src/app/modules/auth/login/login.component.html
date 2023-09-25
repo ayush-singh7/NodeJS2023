@@ -1,0 +1,71 @@
+<div class="login-main" @fadeIn>
+    <div class="login-main-top">
+        <div class="asset-image">
+            <img mat-card-image src="../../../../assets/applogo.png" alt="404 Image Not Found">
+        </div>
+        <ng-container *ngIf="loginWithGoogle">
+            <div class="google-button">
+                <button class="pointer" (click)="googleLoginPopup()" >
+                    <div class="logo">
+                        <img src="../../../../assets/Google__G__Logo.svg.png" alt="">
+                    </div>
+                    <p>
+                        {{GOOGLE_SIGNIN?.message}}
+                    </p>
+                </button>
+            </div>
+            <p class="text-muted">{{GOOGLE_SIGNIN?.subMessage}}</p>
+        </ng-container>
+        <div class="login-form" *ngIf="!loginWithGoogle">
+            <form [formGroup]="loginForm">
+                <div class="form-input-field">
+                    <mat-label>
+                        Email
+                    </mat-label>
+                    <mat-form-field appearance="fill">
+                        <input matInput placeholder="Your Email" formControlName="email" type="text">
+                        <mat-error>
+                            {{loginForm | showError: 'email': 'Email'}}
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="form-input-field">
+                    <mat-label>
+                        Password
+                    </mat-label>
+                    <mat-form-field appearance="fill">
+                        <input matInput placeholder="Your Password" formControlName="password"  [type]="!hide ? 'text' : 'password'" (keydown)="noSpace($event)" >
+                        <button mat-icon-button matSuffix (click)="hide = !hide" 
+                        [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide"
+                        >
+                          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                        </button>
+                        <mat-error>
+                            {{loginForm | showError: 'password': 'Password'}}
+                        </mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="forgot-pass pointer" (click)="forgotPassword()">
+                    Forgot Password?
+                </div>
+                <div class="login-button">
+                    <button class="pointer" (click)="toDashboard()">
+                        <mat-icon>lock</mat-icon>
+                        Login
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="login-main-bottom">
+        <button class="pointer" (click)="loginWithGoogle=!loginWithGoogle">
+            {{loginWithGoogle ? 'LOGIN WITH CREDENTIALS' : 'LOGIN WITH GOOGLE'}}
+        </button>
+
+    </div>
+    <div class="login-bottom-text">
+        <p class="text-muted">
+            2023 © Appinventiv HR System
+        </p>
+    </div>
+</div>

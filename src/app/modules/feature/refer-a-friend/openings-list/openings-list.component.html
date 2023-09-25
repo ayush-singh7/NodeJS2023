@@ -1,0 +1,12 @@
+<header> Current Job Openings</header>
+<div class="container">
+    <div class="main">
+        <ng-container *ngFor="let jobOpening of allJobOpenings">
+            <app-job-openings [singleJobData]="jobOpening">
+            </app-job-openings>
+        </ng-container>
+    </div>
+        <app-footer class="footer"></app-footer>
+</div>
+
+

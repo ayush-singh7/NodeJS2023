@@ -1,0 +1,108 @@
+<div class="row1_wrapper">
+    <h2>Planned Deliveries</h2>
+    <div class="table">
+      <app-common-table [tableSource]="tableSource" >
+  
+        <ng-template appFor="milestones" let-row="row">
+          {{row.milestones}}
+        </ng-template>
+        <ng-template appFor="release" let-row="row">
+          {{row.release}}
+        </ng-template>
+        <ng-template appFor="description" let-row="row">
+          {{row.description}}
+        </ng-template>
+        <ng-template appFor="qa_date" let-row="row">
+          {{row.qa_date}}
+        </ng-template>
+        <ng-template appFor="release_state" let-row="row">
+          {{row.release_state}}
+        </ng-template>
+        <ng-template appFor="delivery_status" let-row="row">
+          {{row.delivery_status}}
+        </ng-template>
+        <ng-template appFor="sign_off" let-row="row">
+          {{row.sign_off}}
+        </ng-template>
+      </app-common-table>
+  
+     </div>
+  </div>
+  
+  <div class="row2_wrapper">
+    <h2>Team Detail (Team Size 4)</h2>
+    <div class="table">
+      <app-common-table [tableSource]="tableSource" >
+  
+        <ng-template appFor="milestones" let-row="row">
+          {{row.milestones}}
+        </ng-template>
+        <ng-template appFor="release" let-row="row">
+          {{row.release}}
+        </ng-template>
+        <ng-template appFor="description" let-row="row">
+          {{row.description}}
+        </ng-template>
+        <ng-template appFor="qa_date" let-row="row">
+          {{row.qa_date}}
+        </ng-template>
+        <ng-template appFor="release_state" let-row="row">
+          {{row.release_state}}
+        </ng-template>
+        <ng-template appFor="delivery_status" let-row="row">
+          {{row.delivery_status}}
+        </ng-template>
+        <ng-template appFor="sign_off" let-row="row">
+          {{row.sign_off}}
+        </ng-template>
+      </app-common-table>
+  
+     </div>
+  </div>
+  <div class="panel">
+    <div class="left">
+      <div *ngFor="let item of leftList" class="left_panels">
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <div class="caps">
+                <h1>{{ item.letter }}</h1>
+              </div>
+            </mat-panel-title>
+            <mat-panel-description>
+              <div class="data">
+                <div class="info">
+                  <h1>{{ item.Info }}</h1>
+                </div>
+                <div class="noDoc">No Document</div>
+              </div>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <!-- <p>This is the primary content of the panel.</p> -->
+        </mat-expansion-panel>
+      </div>
+    </div>
+    <div class="left">
+      <div *ngFor="let item of rightList" class="left_panels">
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <div class="caps">
+                <h1>{{ item.letter }}</h1>
+              </div>
+            </mat-panel-title>
+            <mat-panel-description>
+              <div class="data">
+                <div class="info">
+                  <h1>{{ item.Info }}</h1>
+                </div>
+                <div class="noDoc">No Document</div>
+              </div>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <!-- <p>This is the primary content of the panel.</p> -->
+        </mat-expansion-panel>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,17 @@
+@import "../../../../../scss/common";
+.container{
+    margin: 1% 2%;
+    h1{
+        color:$primary;
+        font-weight: 500;
+    }
+    .interview-table{
+        background-color: $white;
+        border-radius: 1rem;
+        min-height: 40rem;
+        .interview-table-wrapper{
+            overflow: auto;
+        }
+    }
+}
+

@@ -1,0 +1,15 @@
+input{
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 100%;
+}
+::ng-deep{
+    .timepicker-period{
+        display: none !important;
+    }
+    .timepicker-dial__container{
+        justify-content: center !important;
+    }
+
+}

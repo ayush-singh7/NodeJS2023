@@ -1,0 +1,36 @@
+@import "../../../../../scss/common";
+.container{
+    header{
+        border-bottom: 1px solid lightgray;
+        text-align: center;
+        margin: 1%;
+        padding: 1%;
+        font-size: 16px;
+    }
+    .body{
+        @include flex(center,flex-start);
+        gap:1rem;
+        .breakdown{
+            margin: 1.5rem;
+            @include flex(center,flex-start);
+            // gap:1rem;
+            h1{
+                font-size: 2.6rem;
+                padding: 4% 11px;
+                background: lightgreen;
+                height: 85px;
+                margin-bottom: 0;
+            }
+            .rating-category{
+                @include flex(center,center);
+                flex-direction: column;
+                padding: 18px;
+                background: #dfffb0; 
+                p{
+                    margin-bottom: 5px;
+                }
+                
+            }
+        }
+    }
+}

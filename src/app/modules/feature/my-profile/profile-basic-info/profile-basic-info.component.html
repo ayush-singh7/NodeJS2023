@@ -1,0 +1,106 @@
+<div class="container">
+    <header>
+        <h2>
+            Basic Information
+        </h2>
+    </header>
+    <ng-container [formGroup]="profileBasicForm">
+
+        <div class="profile">
+            <div class="input">
+                <mat-label class="fw-600">First Name</mat-label>
+                <mat-form-field appearance="outline" class="full-width">
+                    <input matInput formControlName="first_name" placeholder="First name" (keydown)="noSpace($event)" appNoSpecialChar="noSpecialChars" >
+                    <mat-error>
+                        {{profileBasicForm | showError : 'first_name' : 'First Name' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="input">
+                <mat-label class="fw-600">Last Name</mat-label>
+                <mat-form-field appearance="outline" class="full-width">
+                    <input matInput formControlName="last_name" placeholder="Last Name" (keydown)="noSpace($event)" appNoSpecialChar="noSpecialChars" >
+                    <mat-error>
+                        {{profileBasicForm | showError : 'last_name' : 'Last Name' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+            <div class="input">
+                <mat-label class="fw-600">Date Of Birth</mat-label>
+                
+                <app-input-date [date]="profileBasicForm.controls.dob" [datePickerData]="dobDate">
+                </app-input-date>
+
+            </div>
+            <div class="input">
+                <mat-label class="fw-600">Gender</mat-label>
+            <app-dropdown-search [myControlName]="profileBasicForm.controls.gender"
+                [data]="genderData" 
+            ></app-dropdown-search>
+                  
+            </div>
+            <div class="input">
+                <mat-label class="fw-600">Marital Status</mat-label>
+
+                <app-dropdown-search [myControlName]="profileBasicForm.controls.marital_status"
+                    [data]="maritalStatus" 
+                ></app-dropdown-search>
+
+            </div>
+            <div class="input">
+                <mat-label class="fw-600">Contact Number</mat-label>
+                <mat-form-field appearance="outline" class="full-width">
+                    <input matInput formControlName="contact_number" placeholder="Contact Number" appNoSpecialChar="noSpecialChars">
+                    <mat-error>
+                        {{profileBasicForm | showError : 'contact_number' : 'Contact Number' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="experience">
+
+            <div class="input">
+                <p class="fw-600">Total Working Experiene</p>
+                <mat-label class="fw-600">Years</mat-label>
+                <app-dropdown-search [myControlName]="profileBasicForm.controls.total_exp_years" [data]="exp_years" >
+                </app-dropdown-search>
+
+            </div>
+            <div class="input extra-top">
+                <mat-label class="fw-600">Months</mat-label>
+                <app-dropdown-search [myControlName]="profileBasicForm.controls.total_exp_months" [data]="exp_months" >
+                </app-dropdown-search>
+                
+            </div>
+            <div class="input">
+                <p class="fw-600">Relevent Working Experiene</p>
+                <mat-label class="fw-600">Years</mat-label>
+                <app-dropdown-search [myControlName]="profileBasicForm.controls.relevant_exp_years" [data]="exp_years" >
+                </app-dropdown-search>
+                
+            </div>
+            <div class="input extra-top">
+                <mat-label class="fw-600">Months</mat-label>
+                <app-dropdown-search [myControlName]="profileBasicForm.controls.relevant_exp_months" [data]="exp_months" >
+                </app-dropdown-search>
+            </div>
+
+        </div>
+        <div class="address">
+            <div class="input">
+                <mat-label class="fw-600">Address</mat-label>
+                <mat-form-field appearance="outline" class="full-width">
+                    <textarea matInput placeholder="address" formControlName="address" appNoSpecialChar="noSpecialChars"
+                        (keydown)="noSpace($event)"
+                    ></textarea>
+                    <mat-error>
+                        {{profileBasicForm | showError : 'address' : 'Address' }}
+                    </mat-error>
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="buttons">
+            <button type="submit" (click)="saveChanges()">Save</button>
+        </div>
+    </ng-container>
+</div>

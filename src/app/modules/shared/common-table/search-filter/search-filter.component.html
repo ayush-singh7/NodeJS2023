@@ -1,0 +1,12 @@
+<div class="search-listing">
+    <div class="input-forms">
+        <mat-label>Search: </mat-label>
+        <mat-form-field appearance="outline">
+            <input type="text" matInput [placeholder]="placeholder" (keyup)="searchResult()" [(ngModel)]="search">
+
+            <mat-icon matSuffix *ngIf="search.trim()" class="mouse-pointer" (click)="resetSearch()">close</mat-icon>
+
+            <mat-icon matSuffix *ngIf="!search.trim()" class="mouse-pointer" (click)="searchResult()">search</mat-icon>
+        </mat-form-field>
+    </div>
+</div>

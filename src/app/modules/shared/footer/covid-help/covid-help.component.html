@@ -1,0 +1,64 @@
+<div class="container">
+    <div class="left">
+        <h2>Fight The Virus</h2>
+        <p>Lorem ipsum placeat! Quaerat aspernatur, amet nostrum magnam soluta libero voluptatem voluptatibus, earum
+            harum iure, deserunt quisquam repellat debitis dolore ab dicta cupiditate? Expedita labore sint eaque
+            architecto ea molestias dolore amet dignissimos assumenda officia?</p>
+    </div>
+    <div class="right">
+        <div class="form-wrapper">
+            <h2>Need Help!</h2>
+            <p>
+                Let us know if you are facing any issue because of the lockdown, We will be giving our best to take care
+                of your problems, Please fill the form below and provide the required details, Concerned person will get
+                in touch with you on the earliest.
+            </p>
+            <form [formGroup]="covidHelpForm">
+                <div class="input">
+                    <mat-label>Title</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput placeholder="Title" formControlName="title">
+                        <mat-error>
+                            {{covidHelpForm | showError : 'title' : 'Title' }}
+                        </mat-error>
+                    </mat-form-field>
+
+                </div>
+                <div class="input">
+                    <mat-label>Mobile</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput placeholder="Mobile" formControlName="mobile">
+                        <mat-error>
+                            {{covidHelpForm | showError : 'mobile' : 'Mobile' }}
+                        </mat-error>
+                    </mat-form-field>
+
+                </div>
+                <div class="input">
+                    <mat-label>Address</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput placeholder="Address" formControlName="address">
+                        <mat-error>
+                            {{covidHelpForm | showError : 'address' : 'Address' }}
+                        </mat-error>
+                    </mat-form-field>
+
+                </div>
+                <div class="input">
+                    <mat-label>Description</mat-label>
+                    <mat-form-field appearance="outline">
+                        <input matInput placeholder="Description" formControlName="description">
+                        <mat-error>
+                            {{covidHelpForm | showError : 'description' : 'Description' }}
+                        </mat-error>
+                    </mat-form-field>
+
+                </div>
+            </form>
+            <div class="buttons-wrapper">
+                <button class="cancel" mat-dialog-close>Cancel</button>
+                <button class="submit" (click)="onSubmit()" >Submit</button>
+            </div>
+        </div>
+    </div>
+</div>

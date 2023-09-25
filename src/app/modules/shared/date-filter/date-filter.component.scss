@@ -1,0 +1,18 @@
+@import "../../../../scss/common";
+.date-wrapper{
+    @include flex(center,center);
+    gap:10px;
+    @media (max-width:1200px) {
+        flex-direction: column;
+    }
+    .input-forms{
+        @include flex(flex-start,flex-start);
+        flex-direction: column;
+
+        width: 100%;
+        mat-form-field{
+            width: 100%;
+
+        }
+    }
+}

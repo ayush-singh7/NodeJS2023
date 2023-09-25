@@ -1,0 +1,41 @@
+
+
+table, th, td{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    box-shadow: none;
+}
+
+.table-wrapper{
+    overflow-x: auto;
+}
+
+table{
+    min-width: 60rem;
+    
+    width: 100%;
+    .mat-header-row{
+        height: 42px;
+    }
+    .mat-row{
+        height: 42px;
+    }
+    th{
+        font-size: 1rem;
+        color: black;
+        padding-left: 10px;
+        font-weight: 450;
+
+    }
+    td{
+        padding-left:10px;
+        background-color: #fafafa;
+        font-weight: 300;
+    }
+}
+table tr:nth-child(odd) td{
+    background-color: #fafafa;
+}
+table tr:nth-child(even) td{
+    background-color: #fefefe;
+}

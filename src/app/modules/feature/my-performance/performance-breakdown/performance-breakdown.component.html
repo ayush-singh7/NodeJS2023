@@ -1,0 +1,25 @@
+<div class="container">
+   <header>
+    <div class="project-name">
+        PROJECT NAME: Training Project React JS
+    </div>
+    <div class="reviewer">
+        REVIEWED BY: Rabban Ahmad(Project Manager)
+    </div>
+   </header>
+   <div class="body">
+       <div class="honours">
+            <p>HONOURS</p>
+            <p>N/A</p>
+       </div>
+       <div class="breakdown">
+        <h1>4.3</h1>
+        <ng-container *ngFor="let item of ratingData">
+            <div class="rating-category">
+                <p>{{item.skill}}</p>
+                <p>{{item.rating}}</p>
+            </div>
+        </ng-container>
+       </div>
+   </div>
+</div>

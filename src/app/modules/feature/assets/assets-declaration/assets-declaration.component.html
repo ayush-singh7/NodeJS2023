@@ -1,0 +1,55 @@
+<div class="container">
+    <app-add-new-assets-declaration (assetsDeclarationData)="addNewDeclaration($event)">
+    </app-add-new-assets-declaration>
+    <div class="assets-wrapper">
+
+        <div class="assets-table">
+            <h2>List All Declaration Assets</h2>
+            <app-table-listing [config]="listingConfig" (changeListEvent)="onTableEventChange($event)">
+
+                <app-common-table [tableSource]="tableSource">
+                    <ng-template appFor="sn" let-row="row">
+                        <a class="name-link">{{row.sn}}</a>
+                    </ng-template>
+                    <ng-template appFor="employee_id" let-row="row">
+                        <a class="name-link">{{row.employee_id}}</a>
+                    </ng-template>
+                    <ng-template appFor="serial_number" let-row="row">
+                        <a class="name-link">{{row.serial_number}}</a>
+                    </ng-template>
+                    <ng-template appFor="asset_code" let-row="row">
+                        <a class="name-link">{{row.asset_code}}</a>
+                    </ng-template>
+                    <ng-template appFor="model_number" let-row="row">
+                        <a class="name-link">{{row.model_number}}</a>
+                    </ng-template>
+                    <ng-template appFor="os" let-row="row">
+                        <a class="name-link">{{row.os}}</a>
+                    </ng-template>
+                    <ng-template appFor="os_version" let-row="row">
+                        <a class="name-link">{{row.os_version}}</a>
+                    </ng-template>
+                    <ng-template appFor="brand" let-row="row">
+                        <a class="name-link">{{row.brand}}</a>
+                    </ng-template>
+                    <ng-template appFor="colour" let-row="row">
+                        <a class="name-link">{{row.colour}}</a>
+                    </ng-template>
+                    <ng-template appFor="images" let-row="row">
+                        <a class="name-link">{{row.images}}</a>
+                    </ng-template>
+                    <ng-template appFor="working_condition" let-row="row">
+                        <a class="name-link">{{row.working_condition}}</a>
+                    </ng-template>
+                    <ng-template appFor="added" let-row="row">
+                        <a class="name-link">{{row.added}}</a>
+                    </ng-template>
+
+                </app-common-table>
+
+            </app-table-listing>
+        </div>
+    </div>
+
+</div>
+<app-footer></app-footer>

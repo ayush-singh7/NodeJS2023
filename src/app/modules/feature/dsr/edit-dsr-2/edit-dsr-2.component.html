@@ -1,0 +1,36 @@
+<div class="container" [formGroup]="editForm">
+    <div class="left">
+        <div class="project">
+            <mat-label class="text-muted">Project</mat-label>
+            <app-dropdown-search [data]="projectData" [myControlName]="editForm.controls.project" >
+            </app-dropdown-search>
+        </div>
+        <div class="date-hours">
+            <div class="date">
+                <mat-label class="text-muted">Date</mat-label>
+                
+                <app-input-date [date]="editForm.controls.date" [datePickerData]="dateData">
+                </app-input-date>
+            </div>
+            <div class="est-hours">
+                <mat-label class="text-muted" >Estimated Hours</mat-label>
+
+                <app-input-time [myControl]="editForm.controls.est_hr" >
+                </app-input-time>
+
+            </div>
+        </div>
+    </div>
+    <div class="right">
+
+        <mat-label>Description</mat-label>
+        <div class="mt-10">
+
+            <angular-editor  [placeholder]="'Enter text here...' " [config]="config" formControlName="description">
+            </angular-editor>
+        </div>
+    </div>
+    <div class="button-wrapper">
+        <button (click)="updateDSR()" >Update</button>
+    </div>
+</div>

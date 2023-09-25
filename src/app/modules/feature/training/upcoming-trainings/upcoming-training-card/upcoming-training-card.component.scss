@@ -1,0 +1,54 @@
+@import "../../../../../../scss/common";
+
+.card-container{
+    display: grid;
+    padding:3%;
+    border: 1px solid $lightgray;
+    background-color: $white;
+    row-gap: 10px;
+    border-radius: 10px;
+    width: 25.5rem;
+    h2{
+        border-bottom: 1px solid $lightgray;
+    }
+    h5, h2, p{
+        margin-bottom: 0px;
+    }
+    .card-image{
+        background-color: $dashboard_bg;
+        @include flex(center,center);
+        padding: 8% 8%;
+        border-radius: 14px;
+    }
+    .attendance{
+        
+        
+    }
+    .training-details{
+        .details-heading{
+            @include flex(center,space-between);
+            p{
+                margin-bottom: 0px
+            }
+        }
+        .details-subheading{
+            @include flex(center,space-between);
+            p{
+                font-weight: 600;
+            }
+        }
+    }
+    .buttons{
+        @include flex(center,space-evenly);
+        .view-details{
+            @include grey-button(2.5rem,47.5%);
+        } 
+        .enroll-training{
+            @include blue-button(2.5rem,47.5%);
+        }
+        .cancel-training{
+            @include blue-button(2.5rem,47.5%);
+        }
+        
+    }
+}

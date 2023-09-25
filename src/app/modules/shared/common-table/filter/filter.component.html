@@ -1,0 +1,18 @@
+
+<div class="filter-wrap">
+    
+    
+    <div class="filter-body">
+      <div class="row">
+        <ng-content></ng-content>
+      </div>
+    </div>
+    <div class="filter-actions">
+      <button class="reset-button" mat-stroked-button (click)="reset.emit()" color="primary"
+      >Reset</button>
+      <button class="apply-btn" mat-raised-button (click)="apply.emit()" color="primary"
+      *ngIf="buttonConfig.showApplyButton"
+      >Apply</button>
+    </div>
+    
+  </div>

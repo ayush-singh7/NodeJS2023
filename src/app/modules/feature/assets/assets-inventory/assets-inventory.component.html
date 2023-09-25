@@ -1,0 +1,38 @@
+<div class="container">
+
+    <div class="main">
+        <h2>List All Assets Invetnory </h2>
+        <app-table-listing [config]="listingConfig" (changeListEvent)="onTableEventChange($event)">
+
+            <app-common-table [tableSource]="tableSource">
+                <ng-template appFor="asset_name" let-row="row">
+                    <a class="name-link">{{row.asset_name}}</a>
+                </ng-template>
+                <ng-template appFor="asset_category" let-row="row">
+                    <a class="name-link">{{row.asset_category}}</a>
+                </ng-template>
+                <ng-template appFor="asset_code" let-row="row">
+                    <a class="name-link">{{row.asset_code}}</a>
+                </ng-template>
+                <ng-template appFor="brand" let-row="row">
+                    <a class="name-link">{{row.brand}}</a>
+                </ng-template>
+                
+                <ng-template appFor="serial_no" let-row="row">
+                    <a class="name-link">{{row.serial_no}}</a>
+                </ng-template>
+                <ng-template appFor="model" let-row="row">
+                    <a class="name-link">{{row.model}}</a>
+                </ng-template>
+                <ng-template appFor="is_working" let-row="row">
+                    <a class="name-link">{{row.is_working}}</a>
+                </ng-template>
+                <ng-template appFor="company" let-row="row">
+                    <a class="name-link">{{row.company}}</a>
+                </ng-template>
+
+            </app-common-table>
+        </app-table-listing>
+    </div>
+</div>
+<app-footer></app-footer>

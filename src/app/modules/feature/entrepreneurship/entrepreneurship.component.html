@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="left">
+        <h1>Objective</h1>
+        <p>{{entData.objective}}</p>
+        <h2>Story about our Angel Investor (AI) Saurabh Singh</h2>
+        <ng-container *ngFor="let item of entData.story">
+            <ul>
+                <li>{{item}}</li>
+            </ul>
+        </ng-container>
+        <p>{{entData.message}}</p>
+        <ng-container *ngFor="let item of entData.story_2">
+            <ul>
+                <li>{{item}}</li>
+            </ul>
+        </ng-container>
+
+        <div class="buttons mt-10">
+            <button (click)="shareIdea()">Share Your Idea</button>
+        </div>
+
+    </div>
+    <div class="right">
+        <img src="../../../../assets/ent/start.png" alt="">
+    </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,29 @@
+@import "../../../scss/common";
+
+.container{
+    @include flex(stretch,center);
+    flex-direction: column;
+    row-gap: 30px;
+    .heading{  
+        font-size: 1.8rem;
+        color:$primary;
+        border-bottom: 1px solid lightgray;
+    }
+    .main{
+        font-size: 1.5rem
+    }
+    .buttons{
+        @include flex(center,center);
+        .no-btn{
+            @include primary-button($color: $white, $bg_color: $red, $height: 45px, $width: 23%);
+            font-size: 1.3rem;
+            border-radius: 5px;
+        }
+        .yes-btn{
+            @include primary-button($color: $white, $bg_color: $primary_light, $height: 45px, $width: 23%);
+            font-size: 1.3rem;
+            
+        }
+    }
+
+}

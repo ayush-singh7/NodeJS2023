@@ -1,0 +1,18 @@
+@import "../../../../../scss/common";
+.container{
+    
+    
+    height: 83vh;
+    .main{
+        margin:1.5%;
+        background-color: $white;
+        border-radius: 8px;
+        h2{
+            color: $heading_color;
+            font-weight: 500;
+            font-weight: 500;
+            padding: 1% 1.5%;
+            border-bottom: 1px solid $border-bottom-color;
+        }
+    }
+}

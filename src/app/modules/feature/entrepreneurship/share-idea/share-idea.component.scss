@@ -1,0 +1,129 @@
+@import "../../../../../scss/common";
+.main-container {
+    background-color: #f3f6fc;
+    padding: 30px;
+
+    .main-heading {
+        padding: 0px 0px 20px 0px;
+        display: flex;
+        justify-content: space-between;
+
+        .heading {
+            
+            h1 {
+                font-family: "Lato";
+                font-size: 28px;
+                color: #199CFF;
+                font-weight: 700;
+                line-height: 1.2;
+                margin-bottom: 0;
+            }
+        }
+
+        .buttons {
+            .cancel {
+                @include grey-button(40px,80px);
+            }
+
+            .submit {
+                @include blue-button(40px,80px);                
+            }
+
+        }
+    }
+
+    .container {
+        background-color: #FFFFFF;
+        padding: 30px;
+        overflow-x:hidden;
+        .mydetailsheading {
+            hr{
+                width: 100%;
+                border-top:1px dashed lightgray;
+                bottom:1.8rem;
+                left:10%;
+                position: relative;
+            }
+            h1 {
+                display: inline;            
+                font-family: "Lato";
+                font-size: 28px;
+                color: #606167;
+                font-weight: 700;
+                line-height: 1.5;
+                padding: 4px 0px;
+                z-index: 10;
+            }
+        }
+
+        .input-box {
+            p {
+                font-family: "Lato";
+                font-size: 14px;
+                color: #96A5B8;
+                font-weight: 500;
+                line-height: 1.4;
+                margin-bottom: 4px;
+            }
+            mat-form-field{
+                width:100%
+            }
+        }
+        .details{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            .id{
+                margin-right: 2%;
+            }
+            // .dob{
+
+            // }
+        }
+        .subheading{
+            hr{
+                width: 100%;
+                border-top: 1px dashed lightgray;
+                bottom: 2.6rem;
+                left: 11%;
+                position: relative;
+            }
+            h1{
+                font-family: "Lato";
+                font-size: 28px;
+                color: #606167;
+                font-weight: 700;
+                line-height: 1.5;
+                padding: 4px 0px;
+                z-index: 1;
+
+            }
+        }
+        .no-file-chosen{
+            p{
+                font-family: "Lato";
+                font-size: 14px;
+                color: #96A5B8;
+                font-weight: 500;
+                line-height: 1.4;
+                margin-bottom: 4px;
+            }
+            .file{
+                input{
+                    border:1px solid #dee1e6;
+                    padding: 14px 14px 14px 10px;
+                    width:98%;
+                    border-radius:6px;
+                }
+            }
+        }
+
+    }
+ 
+}
+
+.editor{
+    margin-bottom: 20px;
+    .angular-editor-textarea{
+        min-height: 8rem;
+    }
+}

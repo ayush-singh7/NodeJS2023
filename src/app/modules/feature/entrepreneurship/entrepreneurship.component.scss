@@ -1,0 +1,32 @@
+@import "../../../../scss/common";
+.container{
+    @include flex(stretch,space-between);
+    .left{
+        width: 50%;
+        padding: 6% 7% 4% 8%;
+        display: grid;
+        row-gap: 10px;
+        .buttons{
+            @include flex(center,center);
+            button{
+                @include blue-button($height: 3rem, $width: 25%);
+                border-radius: 4px;
+                font-size: 14px;    
+            }
+        }
+    }
+    .right{
+        
+        background-image: url("../../../../assets/ent/hero-media-illustration-light.svg");
+        background-size: contain;
+        background-repeat:no-repeat;
+        width: 50%;
+        img{
+            margin-top: 20%;
+            margin-left: 5rem;
+            height: 21rem;
+            width: auto;
+            transform: rotate(-15deg);
+        }
+    }
+}

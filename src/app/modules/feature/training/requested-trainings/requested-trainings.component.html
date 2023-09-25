@@ -1,0 +1,30 @@
+<div class="container">
+    <h2>Requested Trainigs</h2>
+    <app-table-listing [config]="listingConfig" (changeListEvent)="onTableEventChange($event)">
+        <app-common-table [tableSource]="tableSource">
+            <ng-template appFor="sn" let-row="row">
+                <a class="name-link">{{row.sn}}</a>
+            </ng-template>
+            <ng-template appFor="training_name" let-row="row">
+                <a class="name-link">{{row.training_name | departmentName}}</a>
+            </ng-template>
+            <ng-template appFor="timeline" let-row="row">
+                <a class="name-link">{{row.timeline}}</a>
+            </ng-template>
+            <ng-template appFor="requested_date" let-row="row">
+                <a class="name-link">{{row.requested_date | date}}</a>
+            </ng-template>
+            <ng-template appFor="status" let-row="row">
+                <a class="name-link">{{row.status}}</a>
+            </ng-template>
+            <ng-template appFor="action" let-row="row">
+                <a class="name-link">
+                    <button (click)="action()" >Action Button</button>
+                </a>
+            </ng-template>
+        </app-common-table>
+    </app-table-listing>
+
+
+</div>
+<app-footer></app-footer>

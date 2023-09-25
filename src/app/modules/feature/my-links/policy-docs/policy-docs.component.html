@@ -1,0 +1,51 @@
+<div class="container">
+    <h1>Policy Documents</h1>
+    <div class="docs-data">
+        <table>
+            <tr>
+                <th> #</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>File Size</th>
+                <th>Last Modified</th>
+                <th>Action</th>
+
+            </tr>
+            <ng-container  *ngFor="let item of policyDocsData; let i = index">
+            <tr>
+                    <td>
+                        {{i+1}}
+                    </td>
+                    <td>
+                        <mat-icon class="pdf">picture_as_pdf</mat-icon>
+                        {{item.name}}
+                    </td>
+                    <td>
+                        {{item.type}}
+
+                    </td>
+                    <td>
+                        {{item.fileSize}}
+                    </td>
+                    <td>
+                        {{item.lastModified}}
+                    </td>
+                    <td class="action">
+                        <button>
+                            <span class="mr-5">
+                                {{item.action}}
+                            </span>
+                            <mat-icon class="download" >cloud_download</mat-icon>
+        
+                        </button>
+                    </td>
+                </tr>
+            </ng-container>
+        </table>
+
+    </div>
+    
+    
+</div>
+<app-footer class="footer" >
+</app-footer>

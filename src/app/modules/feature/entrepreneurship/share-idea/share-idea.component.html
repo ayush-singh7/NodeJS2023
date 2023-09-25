@@ -1,0 +1,94 @@
+<div class="main-container" [formGroup]="pitchForm">
+    <div class="main-heading">
+        <div class="heading">
+            <h1>Add Pitch</h1>
+        </div>
+        <div class="buttons">
+            <button class="cancel pointer mr-10" (click)="cancelPitch()" >Cancel</button>
+            <button (click)="submit()"class="submit pointer">Submit</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="mydetailsheading">
+            <h1>My Details</h1>
+            <hr>
+
+        </div>
+        <div class="input-box">
+            <p>Name</p>
+            <mat-form-field appearance="outline">
+                <input matInput placeholder="Enter your name" formControlName="name"/>
+                <mat-error>{{pitchForm | showError :'name' :'Name'}}</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="details">
+            <div class="id">
+                <div class="input-box">
+                    <p>Employee Id</p>
+                    <mat-form-field appearance="outline">
+                        <input matInput formControlName="empId"/>
+                        <mat-error>{{pitchForm | showError :'empId' :'Employee Id'}}</mat-error>
+
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="dob">
+                <div class="input-box">
+                    <p>Date of birth</p>
+                    <mat-form-field appearance="outline">
+                        <input matInput placeholder="1999-07-24" formControlName="dob"/>                      
+                          <mat-error>{{pitchForm | showError :'dob' :'DOB'}}</mat-error>
+                    </mat-form-field>
+                </div>
+            </div>
+        </div>
+        <div class="subheading">
+            <h1>Pitch Details</h1>
+            <hr>
+        </div>
+        <div class="input-box">
+            <p>Pitch Title</p>
+            <mat-form-field appearance="outline">
+                <input matInput placeholder="Title" formControlName="pitchName"/>
+                <mat-error>{{pitchForm | showError :'pitchName' :'Pitch Name'}}</mat-error>
+
+            </mat-form-field>
+        </div>
+        <div class="input-box">
+            <p>Industry</p>
+            <mat-form-field appearance="outline">
+                <mat-select placeholder="Select Industry"formControlName="professional">
+                    <mat-option value="Pharmacy">Pharmacy</mat-option>
+                    <mat-option value="Entertainment">Entertainment</mat-option>
+                    <mat-option value="Gaming">Gaming</mat-option>
+                </mat-select>
+                <mat-error>{{pitchForm | showError :'professional' :'Pitch Name'}}</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="input-box">
+            <p>Type</p>
+            <mat-form-field appearance="outline">
+                <mat-select placeholder="Technical"formControlName="empTitle">
+                    <mat-option value="Technical">Technical</mat-option>
+                    <mat-option value="Non Technical">Non Technical</mat-option>
+                    
+                </mat-select>
+                <mat-error>{{pitchForm | showError :'empTitle' :'Employee Title'}}</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="input-box">
+            <div class="editor">
+                <p>Idea - (Share your idea in brief)
+                </p>
+                <angular-editor [config]="config" [placeholder]="'Enter text here...'"></angular-editor>
+            </div>
+        </div>
+        <div class="no-file-chosen">
+            <p>Presentation - (Share your detailed presentaion on the idea) (ppt , pdf)</p>
+            <div class="file">
+                <input type="file" />
+            </div>
+            
+        </div>
+    </div>
+</div>

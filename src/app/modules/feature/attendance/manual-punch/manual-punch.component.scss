@@ -1,0 +1,61 @@
+@import "../../../../../scss/common";
+.container{
+    margin:1.5%;
+    display:grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+    .left{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        row-gap: 1rem;
+        padding: 2% 4% 2% 3%;
+        background-color: white;
+        border-radius: 1rem;
+        h2{
+            padding: 2%;
+            border-bottom:1px solid $border-bottom-color;    
+            margin-bottom: 0px;
+            color:$blue;
+        }
+        .date{
+            @include flex(stretch,null);
+            flex-direction: column;
+            padding: 1% 1%;
+            input{
+                height: 2.5rem;
+            }
+        }
+        .company{
+            @include flex(stretch,null);
+            flex-direction: column;
+            padding: 1% 1%;
+
+            input{
+                height: 2.5rem;
+            }
+        }
+        .employee{
+            @include flex(stretch,null);
+            flex-direction: column;
+        }
+        .buttons{
+            padding: 1% 4%;
+            button{
+                @include blue-button(2rem,6rem);
+            }
+        }
+    }   
+    .right{
+        background-color: $white;
+        border-radius: 1rem;
+        padding: 1% 0px 6% 1%;
+
+        h2{
+            color:$blue;
+            padding: 2%;
+            margin-bottom: 0px;
+            border-bottom: 1px solid $border-bottom-color;
+        }
+    }
+}

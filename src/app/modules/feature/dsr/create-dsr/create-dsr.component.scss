@@ -1,0 +1,68 @@
+@import "../../../../../scss/common";
+.container{
+    background-color: $white;    
+    padding: 1% 1.5%;
+    header{
+        @include flex(center,space-between);
+            color:blue;
+            h2{
+                margin-bottom: 4px;
+            }
+        button{
+            
+            border:1px solid blue;
+            cursor: pointer;
+            color: blue;
+            padding: 4px 4px;
+            background-color: $white;
+        }   
+        button:hover{
+            background-color: $primary_light;
+            color:$white;
+            border: none;
+            transition: 0.3s;
+        }
+    }
+    .main{
+        display: grid;
+        column-gap: 8px;
+        grid-template-columns: 48% 48%;
+        border-top: 1px solid $lightgray;
+        padding-top: 1.2rem;
+        @media (max-width:1000px) {
+            grid-template-columns: 95%;
+            justify-content: center;
+        }
+        .left{
+            grid-template-columns: 95%;
+            .dsr-details{
+                display: grid;
+                grid-template-columns: 30% 30% 30%;
+                align-items: center;
+                justify-content: center;
+                column-gap: 5%;
+                @media (max-width:1000px) {
+                    grid-template-columns: 95%;
+                    justify-content: center;
+                }
+                .dsr-date{
+                    margin-top: 24px;
+                }
+                
+            }
+           
+        }
+        .right{        
+        }
+        .save-button{
+            margin-top: 4rem;
+            button{
+                @include primary-button(white,#00b928,14px,2rem,4.5rem)
+            }
+            button:hover{
+                background-color: rgb(60, 68, 47);
+            }
+        }
+    }
+}
+

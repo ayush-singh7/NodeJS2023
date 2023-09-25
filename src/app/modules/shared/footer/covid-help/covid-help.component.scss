@@ -1,0 +1,43 @@
+@import "../../../../../scss/common";
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    .left {
+        @include flex(center, center);
+        flex-direction: column;
+    }
+    .right {
+        .form-wrapper {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            padding: 2.5% 5%;
+            background-color: #fafafa;
+            margin: 2.5% 5%;
+            h2 {
+                font-size: 2rem;
+                color: $blue;
+            }
+            form {
+                .input {
+                    display: flex;
+                    flex-direction: column;
+                    mat-form-field {
+                        width: 100%;
+                    }
+                }
+            }
+            .buttons-wrapper{
+                @include flex(center,flex-start);
+                gap:1rem;
+                .submit{
+                    @include blue-button(2.5rem,6rem);
+                }
+                .cancel{
+                    @include grey-button(2.5rem,6rem);
+
+                }
+            }
+        }
+    }
+}

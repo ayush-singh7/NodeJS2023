@@ -1,0 +1,74 @@
+<div class="container">
+    <header>
+        <p>
+            Request For Training
+        </p>
+
+        <button mat-dialog-close class="mr-10" >
+            X
+        </button>
+    </header>
+    <div class="details mt-10" [formGroup]="requestTrainingForm">
+        <div class="input">
+            <mat-label>Training Name</mat-label>
+            <app-dropdown-search [myControlName]="requestTrainingForm.controls.team_name" [data]="teamNameData" ></app-dropdown-search>
+        </div>
+        <div class="input">
+            <mat-label>Team Name</mat-label>
+            <app-dropdown-search [myControlName]="requestTrainingForm.controls.training_name" [data]="trainingNameData" ></app-dropdown-search>
+        </div>
+        <div class="input">
+            <mat-label>
+                Please mention the training/learning area’s you feel can be beneficial for your skill enhancement and job performance
+            </mat-label>
+            <mat-form-field appearance="outline" >
+                <textarea matInput placeholder="Type Your Answer Here" formControlName="request_reason"></textarea>
+                <mat-error>
+                    {{ requestTrainingForm | showError: 'request_reason' : 'Request Reason' }}
+                </mat-error>
+            </mat-form-field>
+
+        </div>
+        <div class="input">
+            <mat-label>
+                Why do you feel these skills are needed and how they will benefit your personal and organizational needs *
+            </mat-label>
+            <mat-form-field appearance="outline" >
+                <textarea matInput placeholder="Type Your Answer Here" formControlName="request_reason_more"></textarea>
+                <mat-error>
+                    {{ requestTrainingForm | showError: 'request_reason_more' : 'More Request Reason ' }}
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div class="input mt-10">
+            <mat-label>
+                Are you interested to give the Trainings? *
+            </mat-label>      
+            <mat-radio-group aria-label="Select an option" formControlName="give_training" >
+                <mat-radio-button value="1" class="mr-10">Yes</mat-radio-button>
+                <mat-radio-button value="2">No</mat-radio-button>
+                <mat-error>
+                    {{ requestTrainingForm | showError: 'give_training' : 'Give Training' }}
+                </mat-error>
+            </mat-radio-group>   
+        </div>
+
+        <div class="input mt-10 radio-group-training">
+            <mat-label>
+                What should be the timeline to conduct this training? *
+            </mat-label>      
+            <mat-radio-group aria-label="Select an option" formControlName="timeline" >
+                <mat-radio-button value="InterMediate" class="mt-10">InterMediate</mat-radio-button>
+                <mat-radio-button value="3-6 months" class="mt-10">3-6 Months</mat-radio-button>
+                <mat-radio-button value="More than 6 Months" class="mt-10" >More Than 6 Months</mat-radio-button>
+                <mat-error>
+                    {{ requestTrainingForm | showError: 'timeline' : 'Timeline' }}
+                </mat-error>
+            </mat-radio-group>   
+        </div>
+        <div class="submit-buttons mt-10 mr-10 mb-8">
+            <button class="cancel mr-10" mat-dialog-close >Cancel</button>
+            <button class="submit" (click)="submitForm()" >Submit</button>
+        </div>
+    </div>
+</div>

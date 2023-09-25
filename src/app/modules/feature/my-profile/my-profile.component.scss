@@ -1,0 +1,90 @@
+@import "../../../../../src/scss/common";
+
+.container{
+    // height: 120vh;
+    .top{
+        margin: 2% 1% 2% 1%;
+        border-radius: 4px;
+    }
+    .bottom{
+        min-height: calc(100vh - 25.4rem );
+        margin-bottom: 2rem;
+        .tab-icon{
+
+        }
+       .input{
+           @include flex(center,flex-start);
+           flex-direction:column;
+       }
+       .mat-tab-header-pagination {
+            overflow: hidden;
+            display: flex;
+        }
+        ::ng-deep .mat-tab-header{
+            width: 22.5% !important;
+            margin: 0 3% 0 0%;
+            background-color: white;
+            height: 18rem;
+
+            @media (max-width:1200px) {
+                width: 100% !important;
+            }
+          }
+        ::ng-deep .mat-tab-labels{
+              flex-direction: column;
+            .mat-tab-label{
+                justify-content: flex-start;
+            border-bottom: 1px solid lightgray;
+
+                }
+        }
+        .mat-tab-group{
+            flex-direction: row;
+            padding: 0 2%;
+            background-color: $dashboard_bg;
+            mat-tab{
+                color:blue
+            }
+
+            @media(max-width:1200px){
+                flex-direction: column;
+            } 
+        }
+
+        ::ng-deep .mat-tab-body-wrapper{
+            width: 100%;
+            @media (max-width:1200px) {
+                margin-top:1rem;
+            }
+        }
+        ::ng-deep .mat-tab-label-content{
+            font-weight: 400;
+        }
+        ::ng-deep .mat-tab-label-active {
+            background-color: #00abff !important;
+            color: #fff !important;
+            opacity: 1;
+        }
+        ::ng-deep .mat-tab-body-content {
+            background-color: white;
+            // height: 40vw;
+            border-radius: 1%;
+        }
+        ::ng-deep .mat-tab-label-container{
+            border-radius: 1%;
+        }
+        ::ng-deep  .mat-ink-bar{
+         
+            width: 0px !important;
+        }
+        ::ng-deep .mat-tab-header-pagination {
+            display: none;
+        }
+        ::ng-deep .mat-tab-header {
+            border-radius: 8px;
+        }
+    }
+    app-footer{
+        margin-top: 2%;
+    }
+}

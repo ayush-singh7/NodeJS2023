@@ -1,0 +1,47 @@
+section{
+    padding: 2%;
+    .content_container{
+      width: 30%;
+      background-color: white;
+      padding: 2%;
+  .row1{
+    display: grid;
+    grid-template-columns: 60% 10%;
+    column-gap: 30%;
+  }
+  span{
+    margin-bottom: 20px;
+  }
+  .person{
+    display: flex;
+    color: grey;
+    p{
+      margin-top: 5px;
+    }
+  }
+  .in_progress{
+    color: red;
+    background-color: rgb(230, 170, 170);
+    width: 90px;
+    text-align: center;
+  }
+  .main{
+     display: grid;
+        color: grey;
+        grid-template-columns: auto auto;
+  
+     .info{
+      display: flex;
+      p{
+        color: grey;
+      }
+     }
+  }
+  .imgList{
+    img{
+      width: 10%;
+    }
+  }
+    }
+  }
+  

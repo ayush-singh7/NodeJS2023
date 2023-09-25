@@ -1,0 +1,74 @@
+@import "../../../../scss/common";
+.container{
+    header{
+        padding:2% 4% 0% 2%;
+        color:$primary;
+        font-weight: 500;
+        font-size: 1.63rem;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        column-gap: 5%;
+        row-gap:5%;
+        padding:2% 4% 2% 2%;     
+        margin-bottom: 24rem;
+        @media (max-width:1000px) {
+            grid-template-columns: 45% 45%;
+            column-gap: 8%;
+        }
+
+    }
+    .inputs{
+        @include input-shadow();
+        padding:2% 4% 0% 2%;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 30% 30% 30%;
+        column-gap: 5%;
+        ::ng-deep .mat-form-field-outline{
+            background-color: white;
+        }
+        @media (max-width:800px) {
+            grid-template-columns: 40% 40%;
+
+        }
+
+        .name{
+            @include flex(null,flex-start);
+            flex-direction: column;
+            .full-width{
+                width: 100%;
+            }
+        }
+        .department{
+            @include flex(null,flex-start);
+            flex-direction: column;
+            .full-width{
+                width: 100%;
+            }
+        }
+        .buttons{
+            @include flex(null,flex-start);
+            
+            .reset{
+                @include primary-button($color:grey,$bg_color:white,$f_size:null,$height:45px,$width:20%);
+                border-radius: 6px;
+                border:1px solid lightgray;
+                @media (max-width:800px) {
+                    width: 40%;
+                }
+            }
+            .search{
+                @include primary-button($color: white, $bg_color: $primary_light, $height: 45px, $width: 20%);
+                background: linear-gradient(180deg, rgba(255,255,255,1) 0%, $primary_light 5%);
+                border-radius: 6px;
+                @include flex(center,flex-start);
+                @media (max-width:800px) {
+                    width: 40%;
+                }
+            }
+            
+        }
+    }
+}

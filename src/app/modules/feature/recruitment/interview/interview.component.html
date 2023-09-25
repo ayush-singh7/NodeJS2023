@@ -1,0 +1,55 @@
+<div class="container">
+    <h1>List All Candidates</h1>
+    <div class="interview-table">
+
+
+
+    <app-table-listing [config]="listingConfig" (changeListEvent)="onTableEventChange($event)">
+        <div class="interview-table-wrapper">
+
+        <app-common-table [tableSource]="tableSource"  >
+            <ng-template appFor="sn" let-row="row">
+                <a class="name-link">{{row.emp_name}}</a>
+            </ng-template>
+            
+            <ng-template appFor="department" let-row="row">
+                <a class="name-link">{{row.department | departmentName}}</a>
+            </ng-template>
+
+            <ng-template appFor="name" let-row="row">
+                <a class="name-link">{{row.name}}</a>
+            </ng-template>            
+
+            <ng-template appFor="email" let-row="row">
+                <a class="name-link">{{row.email}}</a>
+            </ng-template>            
+
+            <ng-template appFor="mobile_number" let-row="row">
+                <a class="name-link">{{row.mobile_number}}</a>
+            </ng-template>            
+
+            <ng-template appFor="round_type" let-row="row">
+                <a class="name-link">{{row.round_type}}</a>
+            </ng-template>            
+
+            <ng-template appFor="interview_date" let-row="row">
+                <a class="name-link">{{row.interview_date}}</a>
+            </ng-template>            
+
+            <ng-template appFor="interview_time" let-row="row">
+                <a class="name-link">{{row.interview_time}}</a>
+            </ng-template>            
+
+            <ng-template appFor="final_status" let-row="row">
+                <a class="name-link">{{row.final_status | interviewStatus}}</a>
+            </ng-template>            
+
+            </app-common-table>
+        </div>
+
+    </app-table-listing>
+
+    </div>
+
+
+</div>

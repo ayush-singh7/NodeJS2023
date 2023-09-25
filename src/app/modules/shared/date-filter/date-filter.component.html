@@ -1,0 +1,22 @@
+<div class="date-wrapper">
+        <div class="input-forms">
+            <mat-label class="fw-600">{{dateObject.label_from}}</mat-label>
+            <mat-form-field appearance="outline">
+                <input matInput [matDatepicker]="picker1" [max]="dateObject.maxFromDate"
+                    [formControl]="dateObject.from_date" (click)="picker1.open()" (dateChange)="dateChange($event)"
+                    placeholder="From Date" readonly>
+                <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                <mat-datepicker #picker1></mat-datepicker>
+            </mat-form-field>
+        </div>
+        <div class="input-forms">
+            <mat-label class="fw-600">{{dateObject.label_to}}</mat-label>
+            <mat-form-field appearance="outline">
+                <input #to_date matInput [formControl]="dateObject.to_date" (dateChange)="setToDate($event)"
+                    [min]="minDate" [matDatepicker]="picker2" (click)="picker2.open()" [max]="dateObject.maxToDate"
+                    placeholder="To Date" readonly>
+                <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+                <mat-datepicker #picker2></mat-datepicker>
+            </mat-form-field>
+        </div>
+</div>

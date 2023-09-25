@@ -1,0 +1,30 @@
+@import "../../../../../scss/common";
+.container{
+    @include flex(center,flex-start);
+    gap:20px;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1.5% 1.5%;
+    box-shadow: 4px 6px 6px 0px rgba(228, 210, 210, 0.75);
+    .left{
+        width: 8rem;
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            // box-shadow: 10px 10px 5px 0px rgba(214,186,214,1);
+        }
+        margin-left: 2rem
+    }
+    .right{
+        @include flex(null,flex-start);
+        flex-direction: column;
+        h1{
+            font-weight: 500;
+        }
+        p{
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+    }
+}

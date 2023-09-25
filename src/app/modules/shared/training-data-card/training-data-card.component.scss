@@ -1,0 +1,93 @@
+@import "../../../../scss/common";
+
+.card{
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 12px 4.5%;
+    background-color: $white;
+    @include flex(stretch,center);
+    flex-direction: column;
+    height: 26.5rem;
+    row-gap: 2px;
+    @media (max-width:1000px) {
+        height: 30rem;
+    }
+    @media (max-width:500px) {
+        height: 32rem;
+    }
+    hr{
+        width: 100%;
+        color: $lightgray;
+    }
+    .card-image{
+        height: 11rem;
+        background: $dialog_grey;
+        text-align: center;
+        img{
+            margin-top: 34px;
+            height: 60%;
+            width: 80%;
+            border-radius: 50%;
+        }
+    }
+    .training{
+        @include flex(center,space-between);
+        margin-top: 1rem;
+        .training-title{
+            margin-bottom: 0px;
+            font-size: 19px;
+            font-weight: 550;
+        }
+        .training-status{
+            display: flex;
+            justify-content: flex-end;
+            background-color: #63a163;
+            padding: 2px 4px;
+            color: #fefefe;
+            font-size: 13px;
+            height: 24px;
+            width: 72px;
+        }
+
+    }
+    .training-date{
+        @include flex(center,space-between);
+        p{
+            font-size: 11px;
+        }
+    }
+    .action-buttons{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        column-gap: 4%;
+
+        @media (max-width:1000px) {
+            grid-template-columns: 95%;
+            row-gap: 10%;
+        }
+        .view-details{
+            button{
+                
+                @include grey-button(40px,100%);
+            }
+            button:hover{
+                box-shadow: $lightgray 0 1px 2px 2px;
+                transition:0.4s ;
+                color:black;
+            }
+
+        }
+        .feedback{
+            button{
+                @include blue-button(40px,100%);
+            }
+            button:hover{
+                transition:0.4s ;
+                background-color: $primary_light;
+            }
+        }
+    }   
+}
+app-footer{
+    width: 100%;
+}

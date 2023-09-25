@@ -1,0 +1,42 @@
+@import "../../../../../scss/common";
+:host{
+    display: inline-block;
+}
+.card{
+    background-color: $dashboard_yellow;
+    @include flex(center,center);
+    flex-direction: column;
+    row-gap: 7px;
+    padding: 5%;
+    height: 22rem;
+    .person-image{
+        height: 7rem;
+        width: 7rem;
+
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+    .person-name{
+        h1{
+            margin-bottom: 2px;
+        }
+    }
+    .person-info{
+        font-size: 1.2rem;
+        font-weight: 500;        
+    }
+    .email{
+        font-weight: 500;
+        width: 100%;
+    }
+    .birthday{
+        font-weight: 500;
+        width: 100%;
+    }
+    &:hover{
+    
+    }
+}
